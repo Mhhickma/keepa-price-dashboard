@@ -4,7 +4,78 @@ const dealCountEl = document.getElementById("dealCount");
 const updatedAtEl = document.getElementById("updatedAt");
 const searchInput = document.getElementById("searchInput");
 
+const HIDDEN_DEALS_KEY = "keepa-dashboard-hidden-asins";
+const REMOVE_QUEUE_KEY = "keepa-dashboard-remove-queue-asins";
+
 let allDeals = [];
+
+function readSet(key) {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(key) || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function writeSet(key, values) {
+  localStorage.setItem(key, JSON.stringify([...values]));
+}
+
+function hiddenAsins() {
+  return readSet(HIDDEN_DEALS_KEY);
+}
+
+function removeQueueAsins() {
+  return readSet(REMOVE_QUEUE_KEY);
+}
+
+function hideDeal(asin) {
+  const hidden = hiddenAsins();
+  hidden.add(asin);
+  writeSet(HIDDEN_DEALS_KEY, hidden);
+  applySearch();
+}
+
+function queueRemoveDeal(asin) {
+  const removeQueue = removeQueueAsins();
+  removeQueue.add(asin);
+  writeSet(REMOVE_QUEUE_KEY, removeQueue);
+
+  const hidden = hiddenAsins();
+  hidden.add(asin);
+  writeSet(HIDDEN_DEALS_KEY, hidden);
+
+  applySearch();
+}
+
+function resetHiddenDeals() {
+  localStorage.removeItem(HIDDEN_DEALS_KEY);
+  applySearch();
+}
+
+function clearRemoveQueue() {
+  localStorage.removeItem(REMOVE_QUEUE_KEY);
+  applySearch();
+}
+
+async function copyRemoveQueue() {
+  const removeQueue = [...removeQueueAsins()].sort();
+  if (removeQueue.length === 0) return;
+
+  const text = removeQueue.join("\n");
+  try {
+    await navigator.clipboard.writeText(text);
+    alert(`Copied ${removeQueue.length} ASIN${removeQueue.length === 1 ? "" : "s"} to remove.`);
+  } catch {
+    prompt("Copy these ASINs and remove them from asins.csv:", text);
+  }
+}
+
+function visibleDeals() {
+  const hidden = hiddenAsins();
+  const removeQueue = removeQueueAsins();
+  return allDeals.filter((deal) => !hidden.has(deal.asin) && !removeQueue.has(deal.asin));
+}
 
 function money(value) {
   if (value === null || value === undefined) return "N/A";
@@ -68,9 +139,31 @@ function tryNextImage(img) {
   img.remove();
 }
 
+function updateCounts(renderedCount) {
+  const hiddenCount = hiddenAsins().size;
+  const removeCount = removeQueueAsins().size;
+  const totalCount = allDeals.length;
+
+  dealCountEl.innerHTML = `${renderedCount} visible price drop${renderedCount === 1 ? "" : "s"} found`;
+
+  if (totalCount !== renderedCount) {
+    dealCountEl.innerHTML += ` <span class="count-note">${totalCount} total</span>`;
+  }
+
+  if (hiddenCount > 0) {
+    dealCountEl.innerHTML += ` <button class="reset-hidden" type="button" onclick="resetHiddenDeals()">Show hidden (${hiddenCount})</button>`;
+  }
+
+  if (removeCount > 0) {
+    dealCountEl.innerHTML += ` <button class="copy-remove" type="button" onclick="copyRemoveQueue()">Copy removals (${removeCount})</button>`;
+    dealCountEl.innerHTML += ` <button class="clear-remove" type="button" onclick="clearRemoveQueue()">Clear removals</button>`;
+  }
+}
+
 function renderDeals(deals) {
   cardsEl.innerHTML = "";
   emptyStateEl.hidden = deals.length !== 0;
+  updateCounts(deals.length);
 
   deals.forEach((deal) => {
     const card = document.createElement("article");
@@ -85,7 +178,13 @@ function renderDeals(deals) {
         </div>
       </a>
       <div class="card-body">
-        <span class="badge">${deal.drop_percent}% below 7-day average</span>
+        <div class="card-top-row">
+          <span class="badge">${deal.drop_percent}% below 7-day average</span>
+          <div class="card-actions">
+            <button class="hide-card" type="button" onclick="hideDeal('${deal.asin}')">Hide</button>
+            <button class="remove-card" type="button" onclick="queueRemoveDeal('${deal.asin}')">Remove ASIN</button>
+          </div>
+        </div>
         <h2>${deal.title}</h2>
         <div class="asin">ASIN: ${deal.asin}</div>
         <div class="price-row">
@@ -112,12 +211,14 @@ function renderDeals(deals) {
 
 function applySearch() {
   const term = searchInput.value.trim().toLowerCase();
+  const baseDeals = visibleDeals();
+
   if (!term) {
-    renderDeals(allDeals);
+    renderDeals(baseDeals);
     return;
   }
 
-  const filtered = allDeals.filter((deal) => {
+  const filtered = baseDeals.filter((deal) => {
     return (
       deal.title.toLowerCase().includes(term) ||
       deal.asin.toLowerCase().includes(term)
@@ -134,9 +235,8 @@ async function loadDeals() {
 
     const data = await response.json();
     allDeals = data.deals || [];
-    dealCountEl.textContent = `${allDeals.length} 7-day price drop${allDeals.length === 1 ? "" : "s"} found`;
     updatedAtEl.textContent = `Last updated: ${formatDate(data.updated_at)}`;
-    renderDeals(allDeals);
+    applySearch();
   } catch (error) {
     dealCountEl.textContent = "Could not load deal data";
     updatedAtEl.textContent = error.message;
