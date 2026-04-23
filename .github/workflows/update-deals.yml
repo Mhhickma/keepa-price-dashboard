@@ -2,6 +2,9 @@ name: Update Keepa Deals
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "0 */6 * * *"
 
@@ -28,7 +31,7 @@ jobs:
         env:
           KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
-          MIN_DROP_PERCENT: "10"
+          MIN_DROP_PERCENT: "5"
           KEEPA_DOMAIN_ID: "1"
         run: python fetch_keepa.py
 
