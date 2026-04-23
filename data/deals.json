@@ -1,8 +1,9 @@
 {
-  "updated_at": "2026-04-23T22:19:31.728729+00:00",
+  "updated_at": "2026-04-23T22:27:39.505638+00:00",
   "comparison_window": "7-day average",
   "deal_count": 1,
   "skipped_count": 0,
+  "missing_image_count": 1,
   "deals": [
     {
       "asin": "B00002257X",
@@ -12,8 +13,8 @@
       "min_7_price": 24.46,
       "drop_percent": 10.2,
       "image": null,
-      "amazon_url": "https://www.amazon.com/dp/B00002257X?tag=",
-      "checked_at": "2026-04-23T22:19:31.728388+00:00"
+      "amazon_url": "https://www.amazon.com/dp/B00002257X?tag=simplewoodsho-20",
+      "checked_at": "2026-04-23T22:27:39.505171+00:00"
     }
   ]
 }
