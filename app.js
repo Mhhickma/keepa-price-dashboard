@@ -19,13 +19,53 @@ function formatDate(value) {
   return new Date(value).toLocaleString();
 }
 
-function amazonImageFallback(asin) {
-  if (!asin) return "";
-  return `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=${asin}&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_`;
+function imageCandidatesForDeal(deal) {
+  const asin = deal.asin;
+  const candidates = [];
+
+  if (deal.image) candidates.push(deal.image);
+
+  if (asin) {
+    candidates.push(`https://images-na.ssl-images-amazon.com/images/P/${asin}.01._SL500_.jpg`);
+    candidates.push(`https://m.media-amazon.com/images/P/${asin}.01._SL500_.jpg`);
+    candidates.push(`https://images-na.ssl-images-amazon.com/images/P/${asin}.01.LZZZZZZZ.jpg`);
+    candidates.push(`https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=${asin}&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_`);
+  }
+
+  return [...new Set(candidates.filter(Boolean))];
 }
 
-function imageUrlForDeal(deal) {
-  return deal.image || amazonImageFallback(deal.asin);
+function buildImageMarkup(deal) {
+  const candidates = imageCandidatesForDeal(deal);
+  const encodedCandidates = encodeURIComponent(JSON.stringify(candidates));
+  const firstImage = candidates[0] || "";
+
+  if (!firstImage) return "";
+
+  return `<img
+    src="${firstImage}"
+    alt="${deal.title}"
+    loading="lazy"
+    data-image-index="0"
+    data-image-candidates="${encodedCandidates}"
+    onerror="tryNextImage(this)"
+  >`;
+}
+
+function tryNextImage(img) {
+  const wrap = img.closest(".image-wrap");
+  const candidates = JSON.parse(decodeURIComponent(img.dataset.imageCandidates || "%5B%5D"));
+  const currentIndex = Number(img.dataset.imageIndex || 0);
+  const nextIndex = currentIndex + 1;
+
+  if (nextIndex < candidates.length) {
+    img.dataset.imageIndex = String(nextIndex);
+    img.src = candidates[nextIndex];
+    return;
+  }
+
+  wrap.classList.add("image-missing");
+  img.remove();
 }
 
 function renderDeals(deals) {
@@ -36,11 +76,9 @@ function renderDeals(deals) {
     const card = document.createElement("article");
     card.className = "card";
 
-    const imageUrl = imageUrlForDeal(deal);
-
     card.innerHTML = `
       <a class="image-wrap" href="${deal.amazon_url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${deal.title} on Amazon">
-        ${imageUrl ? `<img src="${imageUrl}" alt="${deal.title}" loading="lazy" onerror="this.closest('.image-wrap').classList.add('image-missing'); this.remove();">` : ""}
+        ${buildImageMarkup(deal)}
         <div class="image-placeholder">
           <span>No image available</span>
           <small>${deal.asin}</small>
