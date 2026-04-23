@@ -19,6 +19,15 @@ function formatDate(value) {
   return new Date(value).toLocaleString();
 }
 
+function amazonImageFallback(asin) {
+  if (!asin) return "";
+  return `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=${asin}&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL500_`;
+}
+
+function imageUrlForDeal(deal) {
+  return deal.image || amazonImageFallback(deal.asin);
+}
+
 function renderDeals(deals) {
   cardsEl.innerHTML = "";
   emptyStateEl.hidden = deals.length !== 0;
@@ -27,10 +36,16 @@ function renderDeals(deals) {
     const card = document.createElement("article");
     card.className = "card";
 
+    const imageUrl = imageUrlForDeal(deal);
+
     card.innerHTML = `
-      <div class="image-wrap">
-        ${deal.image ? `<img src="${deal.image}" alt="${deal.title}" loading="lazy">` : `<strong>No Image</strong>`}
-      </div>
+      <a class="image-wrap" href="${deal.amazon_url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${deal.title} on Amazon">
+        ${imageUrl ? `<img src="${imageUrl}" alt="${deal.title}" loading="lazy" onerror="this.closest('.image-wrap').classList.add('image-missing'); this.remove();">` : ""}
+        <div class="image-placeholder">
+          <span>No image available</span>
+          <small>${deal.asin}</small>
+        </div>
+      </a>
       <div class="card-body">
         <span class="badge">${deal.drop_percent}% below 7-day average</span>
         <h2>${deal.title}</h2>
