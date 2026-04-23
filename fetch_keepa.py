@@ -11,9 +11,9 @@ KEEPA_API_KEY = os.getenv("KEEPA_API_KEY")
 AMAZON_TAG = os.getenv("AMAZON_TAG") or "simplewoodsho-20"
 DOMAIN_ID = int(os.getenv("KEEPA_DOMAIN_ID", "1"))  # 1 = Amazon US
 MIN_DROP_PERCENT = float(os.getenv("MIN_DROP_PERCENT", "5"))
-BATCH_SIZE = int(os.getenv("KEEPA_BATCH_SIZE", "10"))
-REQUEST_DELAY_SECONDS = int(os.getenv("KEEPA_REQUEST_DELAY_SECONDS", "20"))
-MAX_RETRIES = int(os.getenv("KEEPA_MAX_RETRIES", "4"))
+BATCH_SIZE = int(os.getenv("KEEPA_BATCH_SIZE", "5"))
+REQUEST_DELAY_SECONDS = int(os.getenv("KEEPA_REQUEST_DELAY_SECONDS", "70"))
+MAX_RETRIES = int(os.getenv("KEEPA_MAX_RETRIES", "5"))
 ASIN_FILE = Path("asins.csv")
 OUTPUT_FILE = Path("data/deals.json")
 
@@ -183,6 +183,7 @@ def main():
     print(f"Loaded {len(asins)} ASINs")
     print(f"Batch size: {BATCH_SIZE}")
     print(f"Delay between batches: {REQUEST_DELAY_SECONDS} seconds")
+    print("Keepa plan note: 5 tokens/minute means about 5 ASINs per 60 seconds.")
 
     products = fetch_keepa_products(asins)
     print(f"Fetched {len(products)} products from Keepa")
