@@ -11,6 +11,9 @@ KEEPA_API_KEY = os.getenv("KEEPA_API_KEY")
 AMAZON_TAG = os.getenv("AMAZON_TAG") or "simplewoodsho-20"
 DOMAIN_ID = int(os.getenv("KEEPA_DOMAIN_ID", "1"))  # 1 = Amazon US
 MIN_DROP_PERCENT = float(os.getenv("MIN_DROP_PERCENT", "5"))
+BATCH_SIZE = int(os.getenv("KEEPA_BATCH_SIZE", "10"))
+REQUEST_DELAY_SECONDS = int(os.getenv("KEEPA_REQUEST_DELAY_SECONDS", "20"))
+MAX_RETRIES = int(os.getenv("KEEPA_MAX_RETRIES", "4"))
 ASIN_FILE = Path("asins.csv")
 OUTPUT_FILE = Path("data/deals.json")
 
@@ -75,6 +78,28 @@ def read_asins():
     return asins
 
 
+def fetch_keepa_batch(url, params, batch_number):
+    for attempt in range(1, MAX_RETRIES + 1):
+        response = requests.get(url, params=params, timeout=60)
+
+        if response.status_code == 429:
+            wait_seconds = REQUEST_DELAY_SECONDS * attempt
+            print(
+                f"Keepa rate limit on batch {batch_number}. "
+                f"Waiting {wait_seconds} seconds before retry {attempt}/{MAX_RETRIES}..."
+            )
+            time.sleep(wait_seconds)
+            continue
+
+        if response.status_code >= 400:
+            print(f"Keepa error {response.status_code} on batch {batch_number}: {response.text[:500]}")
+
+        response.raise_for_status()
+        return response.json()
+
+    raise RuntimeError(f"Keepa rate limit did not clear after {MAX_RETRIES} retries on batch {batch_number}")
+
+
 def fetch_keepa_products(asins):
     if not KEEPA_API_KEY:
         raise RuntimeError("Missing KEEPA_API_KEY environment variable")
@@ -82,9 +107,11 @@ def fetch_keepa_products(asins):
     url = "https://api.keepa.com/product"
     all_products = []
 
-    batch_size = 20
-    for i in range(0, len(asins), batch_size):
-        batch = asins[i : i + batch_size]
+    for i in range(0, len(asins), BATCH_SIZE):
+        batch = asins[i : i + BATCH_SIZE]
+        batch_number = (i // BATCH_SIZE) + 1
+        print(f"Fetching batch {batch_number}: {len(batch)} ASINs")
+
         params = {
             "key": KEEPA_API_KEY,
             "domain": DOMAIN_ID,
@@ -92,11 +119,20 @@ def fetch_keepa_products(asins):
             "stats": 7,
             "history": 1,
         }
-        response = requests.get(url, params=params, timeout=45)
-        response.raise_for_status()
-        payload = response.json()
+
+        payload = fetch_keepa_batch(url, params, batch_number)
         all_products.extend(payload.get("products", []))
-        time.sleep(1)
+
+        tokens_left = payload.get("tokensLeft")
+        refill_in = payload.get("refillIn")
+        if tokens_left is not None:
+            print(f"Keepa tokens left after batch {batch_number}: {tokens_left}")
+        if refill_in is not None:
+            print(f"Keepa refill in: {refill_in} ms")
+
+        if i + BATCH_SIZE < len(asins):
+            print(f"Waiting {REQUEST_DELAY_SECONDS} seconds before next batch...")
+            time.sleep(REQUEST_DELAY_SECONDS)
 
     return all_products
 
@@ -145,6 +181,8 @@ def main():
     print("Starting Keepa 7-day price scan...")
     asins = read_asins()
     print(f"Loaded {len(asins)} ASINs")
+    print(f"Batch size: {BATCH_SIZE}")
+    print(f"Delay between batches: {REQUEST_DELAY_SECONDS} seconds")
 
     products = fetch_keepa_products(asins)
     print(f"Fetched {len(products)} products from Keepa")
@@ -176,6 +214,11 @@ def main():
                 "deal_count": len(deals),
                 "skipped_count": skipped,
                 "missing_image_count": missing_images,
+                "settings": {
+                    "min_drop_percent": MIN_DROP_PERCENT,
+                    "batch_size": BATCH_SIZE,
+                    "request_delay_seconds": REQUEST_DELAY_SECONDS,
+                },
                 "deals": deals,
             },
             f,
