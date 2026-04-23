@@ -37,20 +37,28 @@ def keepa_to_dollars(value):
     return round(value / 100, 2)
 
 
-def get_product_image(product):
-    """Build an Amazon image URL from Keepa's imagesCSV field when available."""
+def amazon_image_fallback(asin):
+    """Amazon Associates image endpoint fallback by ASIN."""
+    if not asin:
+        return None
+    return (
+        "https://ws-na.amazon-adsystem.com/widgets/q?"
+        f"_encoding=UTF8&ASIN={asin}&Format=_SL500_&ID=AsinImage"
+        "&MarketPlace=US&ServiceVersion=20070822"
+    )
+
+
+def get_product_image(product, asin):
+    """Build an image URL from Keepa's imagesCSV field, then fall back to ASIN image."""
     images_csv = product.get("imagesCSV") or ""
-    if not images_csv:
-        return None
+    if images_csv:
+        first_image = images_csv.split(",")[0].strip()
+        if first_image:
+            if first_image.startswith("http"):
+                return first_image
+            return f"https://images-na.ssl-images-amazon.com/images/I/{first_image}"
 
-    first_image = images_csv.split(",")[0].strip()
-    if not first_image:
-        return None
-
-    if first_image.startswith("http"):
-        return first_image
-
-    return f"https://images-na.ssl-images-amazon.com/images/I/{first_image}"
+    return amazon_image_fallback(asin)
 
 
 def read_asins():
@@ -82,7 +90,6 @@ def fetch_keepa_products(asins):
             "domain": DOMAIN_ID,
             "asin": ",".join(batch),
             "stats": 7,
-            # history=1 returns fuller product data and usually includes imagesCSV.
             "history": 1,
         }
         response = requests.get(url, params=params, timeout=45)
@@ -118,7 +125,7 @@ def build_deal(product):
     if drop_percent < MIN_DROP_PERCENT:
         return None
 
-    image = get_product_image(product)
+    image = get_product_image(product, asin)
     amazon_url = f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
 
     return {
@@ -179,7 +186,7 @@ def main():
     if skipped:
         print(f"Skipped {skipped} products because their Keepa data format was incomplete or unexpected")
     if missing_images:
-        print(f"{missing_images} deals did not include an image from Keepa")
+        print(f"{missing_images} deals did not include an image from Keepa or Amazon fallback")
 
 
 if __name__ == "__main__":
