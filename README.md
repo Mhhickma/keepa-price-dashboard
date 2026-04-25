@@ -43,3 +43,5 @@ Then open `index.html` in your browser.
 ## Last scan trigger
 
 A harmless README update can be used to trigger the GitHub Action when testing the scanner.
+
+Latest low-token test scan trigger: requested from ChatGPT.
