@@ -197,6 +197,16 @@ function renderDeals(deals) {
             <strong>${money(deal.avg_7_price)}</strong>
           </div>
         </div>
+        <div class="price-row">
+          <div class="price-box">
+            <span>30-Day Avg.</span>
+            <strong>${money(deal.avg_30_price)}</strong>
+          </div>
+          <div class="price-box">
+            <span>30-Day Drop</span>
+            <strong>${deal.drop_30_percent === null || deal.drop_30_percent === undefined ? "N/A" : `${deal.drop_30_percent}%`}</strong>
+          </div>
+        </div>
         <div class="price-box">
           <span>7-Day Low</span>
           <strong>${money(deal.min_7_price)}</strong>
