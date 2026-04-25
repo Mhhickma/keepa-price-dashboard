@@ -36,6 +36,7 @@ jobs:
           SCAN_LIMIT: "10"
           KEEPA_BATCH_SIZE: "5"
           KEEPA_REQUEST_DELAY_SECONDS: "70"
+          ASIN_CSV_URL: "https://docs.google.com/spreadsheets/d/1_cYo7h2MqZpMb_By1ml6SQKSOwNFfhyQsE1T69UgA84/export?format=csv&gid=1348353739"
         run: python fetch_keepa.py
 
       - name: Commit updated deals
