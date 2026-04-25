@@ -40,6 +40,13 @@ def keepa_to_dollars(value):
     return round(value / 100, 2)
 
 
+def price_from_stats_array(stats, key, price_index=0):
+    values = stats.get(key) or []
+    if len(values) <= price_index:
+        return None
+    return keepa_to_dollars(values[price_index])
+
+
 def amazon_image_fallback(asin):
     """Amazon Associates image endpoint fallback by ASIN."""
     if not asin:
@@ -116,7 +123,9 @@ def fetch_keepa_products(asins):
             "key": KEEPA_API_KEY,
             "domain": DOMAIN_ID,
             "asin": ",".join(batch),
-            "stats": 7,
+            # 30 keeps the interval stats broad enough for a 30-day average.
+            # If Keepa also returns avg7, the script uses that for the deal check.
+            "stats": 30,
             "history": 1,
         }
 
@@ -142,17 +151,17 @@ def build_deal(product):
     title = product.get("title") or asin
     stats = product.get("stats") or {}
 
-    current = stats.get("current") or []
-    avg7 = stats.get("avg") or []
-    min7 = stats.get("min") or []
+    current_price = price_from_stats_array(stats, "current")
 
-    current_raw = current[0] if len(current) > 0 else None
-    avg_7_raw = avg7[0] if len(avg7) > 0 else None
-    min_7_raw = min7[0] if len(min7) > 0 else None
+    # Keepa commonly returns avg as the requested stats interval average.
+    # With stats=30, avg is treated as the 30-day average.
+    avg_30_price = price_from_stats_array(stats, "avg") or price_from_stats_array(stats, "avg30")
+    min_30_price = price_from_stats_array(stats, "min") or price_from_stats_array(stats, "min30")
 
-    current_price = keepa_to_dollars(current_raw)
-    avg_7_price = keepa_to_dollars(avg_7_raw)
-    min_7_price = keepa_to_dollars(min_7_raw)
+    # Use avg7 if Keepa provides it; otherwise keep the dashboard from crashing
+    # by falling back to the 30-day average for the drop check.
+    avg_7_price = price_from_stats_array(stats, "avg7") or avg_30_price
+    min_7_price = price_from_stats_array(stats, "min7") or min_30_price
 
     if not current_price or not avg_7_price or current_price >= avg_7_price:
         return None
@@ -160,6 +169,10 @@ def build_deal(product):
     drop_percent = round(((avg_7_price - current_price) / avg_7_price) * 100, 1)
     if drop_percent < MIN_DROP_PERCENT:
         return None
+
+    drop_30_percent = None
+    if avg_30_price and current_price < avg_30_price:
+        drop_30_percent = round(((avg_30_price - current_price) / avg_30_price) * 100, 1)
 
     image = get_product_image(product, asin)
     amazon_url = f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
@@ -170,7 +183,10 @@ def build_deal(product):
         "current_price": current_price,
         "avg_7_price": avg_7_price,
         "min_7_price": min_7_price,
+        "avg_30_price": avg_30_price,
+        "min_30_price": min_30_price,
         "drop_percent": drop_percent,
+        "drop_30_percent": drop_30_percent,
         "image": image,
         "amazon_url": amazon_url,
         "checked_at": datetime.now(timezone.utc).isoformat(),
@@ -178,7 +194,7 @@ def build_deal(product):
 
 
 def main():
-    print("Starting Keepa 7-day price scan...")
+    print("Starting Keepa price scan with 30-day average...")
     asins = read_asins()
     print(f"Loaded {len(asins)} ASINs")
     print(f"Batch size: {BATCH_SIZE}")
@@ -211,7 +227,7 @@ def main():
         json.dump(
             {
                 "updated_at": datetime.now(timezone.utc).isoformat(),
-                "comparison_window": "7-day average",
+                "comparison_window": "7-day/30-day averages",
                 "deal_count": len(deals),
                 "skipped_count": skipped,
                 "missing_image_count": missing_images,
@@ -226,7 +242,7 @@ def main():
             indent=2,
         )
 
-    print(f"Saved {len(deals)} 7-day price drops to {OUTPUT_FILE}")
+    print(f"Saved {len(deals)} price drops to {OUTPUT_FILE}")
     if skipped:
         print(f"Skipped {skipped} products because their Keepa data format was incomplete or unexpected")
     if missing_images:
