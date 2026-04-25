@@ -39,3 +39,7 @@ python fetch_keepa.py
 ```
 
 Then open `index.html` in your browser.
+
+## Last scan trigger
+
+A harmless README update can be used to trigger the GitHub Action when testing the scanner.
