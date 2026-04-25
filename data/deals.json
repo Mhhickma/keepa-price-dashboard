@@ -1,47 +1,14 @@
 {
-  "updated_at": "2026-04-25T14:54:39.256060+00:00",
-  "comparison_window": "7-day average",
-  "deal_count": 3,
+  "updated_at": "2026-04-25T20:26:30.966771+00:00",
+  "comparison_window": "7-day/30-day averages",
+  "deal_count": 0,
   "skipped_count": 0,
   "missing_image_count": 0,
   "settings": {
     "min_drop_percent": 5.0,
     "batch_size": 5,
-    "request_delay_seconds": 70
+    "request_delay_seconds": 70,
+    "scan_limit": 10
   },
-  "deals": [
-    {
-      "asin": "B0BFJJV95V",
-      "title": "DEWALT 20V MAX* XR Brushless Drywall Cut-Out Tool (Tool Only) (DCE555B)",
-      "current_price": 107.84,
-      "avg_7_price": 132.17,
-      "min_7_price": 100.0,
-      "drop_percent": 18.4,
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BFJJV95V&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0BFJJV95V?tag=simplewoodsho-20",
-      "checked_at": "2026-04-25T14:54:39.255661+00:00"
-    },
-    {
-      "asin": "B0001LQW82",
-      "title": "Bora Centipede 2 ft. L x 4 ft. W x 2.5 ft. H Folding Work Table Steel 1500 lb. capacity Gray/Yellow",
-      "current_price": 69.51,
-      "avg_7_price": 79.19,
-      "min_7_price": 49.99,
-      "drop_percent": 12.2,
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0001LQW82&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0001LQW82?tag=simplewoodsho-20",
-      "checked_at": "2026-04-25T14:54:39.255489+00:00"
-    },
-    {
-      "asin": "B00002257X",
-      "title": "Stabila 25100 10-Inch Die-Cast Rare Earth Magnetic Level , Yellow",
-      "current_price": 56.25,
-      "avg_7_price": 60.47,
-      "min_7_price": 24.46,
-      "drop_percent": 7.0,
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00002257X&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B00002257X?tag=simplewoodsho-20",
-      "checked_at": "2026-04-25T14:54:39.255750+00:00"
-    }
-  ]
+  "deals": []
 }
