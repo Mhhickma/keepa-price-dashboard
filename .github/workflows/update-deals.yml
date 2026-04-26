@@ -29,7 +29,7 @@ jobs:
         run: pip install requests
 
       - name: Run Keepa scanner
-        timeout-minutes: 2
+        timeout-minutes: 10
         env:
           KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
@@ -37,7 +37,7 @@ jobs:
           KEEPA_DOMAIN_ID: "1"
           SCAN_LIMIT: "225"
           KEEPA_BATCH_SIZE: "50"
-          KEEPA_REQUEST_DELAY_SECONDS: "1"
+          KEEPA_REQUEST_DELAY_SECONDS: "2"
           KEEPA_RATE_LIMIT_WAIT_SECONDS: "70"
           ASIN_CSV_URL: ${{ secrets.ASIN_CSV_URL }}
         run: python fetch_keepa.py
