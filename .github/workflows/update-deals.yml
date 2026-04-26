@@ -3,7 +3,7 @@ name: Update Keepa Deals
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "23 * * * *"
 
 permissions:
   contents: write
@@ -38,7 +38,7 @@ jobs:
           KEEPA_BATCH_SIZE: "50"
           KEEPA_REQUEST_DELAY_SECONDS: "2"
           KEEPA_RATE_LIMIT_WAIT_SECONDS: "70"
-          ASIN_CSV_URL: "https://docs.google.com/spreadsheets/d/1_cYo7h2MqZpMb_By1ml6SQKSOwNFfhyQsE1T69UgA84/export?format=csv&gid=1348353739"
+          ASIN_CSV_URL: ${{ secrets.ASIN_CSV_URL }}
         run: python fetch_keepa.py
 
       - name: Commit updated deals
