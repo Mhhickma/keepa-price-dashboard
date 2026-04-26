@@ -1,33 +1,8 @@
 {
-  "updated_at": "2026-04-26T17:00:32.636631+00:00",
-  "asin_source": "Google Sheet CSV",
-  "comparison_window": "7-day/30-day averages",
+  "updated_at": "2026-04-26T17:00:32.636889+00:00",
   "deal_ttl_hours": 24,
-  "deal_count": 2,
-  "new_scan_deal_count": 2,
-  "new_deals_added": 2,
-  "existing_deals_updated": 0,
-  "expired_deals_removed": 0,
-  "skipped_count": 0,
-  "missing_image_count": 0,
-  "scan_window": {
-    "total_asins": 4404,
-    "start_index": 650,
-    "start_sheet_row": 652,
-    "next_start_index": 750,
-    "next_start_sheet_row": 752,
-    "scan_count": 100
-  },
-  "settings": {
-    "min_drop_percent": 5.0,
-    "batch_size": 25,
-    "request_delay_seconds": 2,
-    "rate_limit_wait_seconds": 70,
-    "scan_limit": 100,
-    "deal_ttl_hours": 24
-  },
-  "deals": [
-    {
+  "deals": {
+    "B0DC6KYHX6": {
       "asin": "B0DC6KYHX6",
       "title": "POWERTEC 70136-P3V 4 Inch Hose to 2-1/2 Inch Hose Cone Reducer, Dust Collection Fittings for Dust Collection Hose, Dryer Vent Hose & Shop Vacuum Hose Connection, 3 Pack",
       "current_price": 13.5,
@@ -45,7 +20,7 @@
       "first_seen_at": "2026-04-26T17:00:32.636295+00:00",
       "expires_at": "2026-04-27T17:00:32.636298+00:00"
     },
-    {
+    "B0002I5XHK": {
       "asin": "B0002I5XHK",
       "title": "Akro-Mils 12-Inch ProBox Plastic Toolbox for Tools, Hobby or Craft Storage Toolbox, Model 09912, (12-Inch x 5-1/2-Inch x 4-Inch), Red",
       "current_price": 11.39,
@@ -63,5 +38,5 @@
       "first_seen_at": "2026-04-26T17:00:32.636295+00:00",
       "expires_at": "2026-04-27T17:00:32.636298+00:00"
     }
-  ]
+  }
 }
