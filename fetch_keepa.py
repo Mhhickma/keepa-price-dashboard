@@ -3,7 +3,7 @@ import io
 import json
 import os
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 import requests
@@ -17,10 +17,29 @@ REQUEST_DELAY_SECONDS = int(os.getenv("KEEPA_REQUEST_DELAY_SECONDS", "2"))
 RATE_LIMIT_WAIT_SECONDS = int(os.getenv("KEEPA_RATE_LIMIT_WAIT_SECONDS", "70"))
 MAX_RETRIES = int(os.getenv("KEEPA_MAX_RETRIES", "5"))
 SCAN_LIMIT = int(os.getenv("SCAN_LIMIT", "0"))
+DEAL_TTL_HOURS = int(os.getenv("DEAL_TTL_HOURS", "24"))
 ASIN_CSV_URL = os.getenv("ASIN_CSV_URL", "").strip()
 ASIN_FILE = Path("asins.csv")
 OUTPUT_FILE = Path("data/deals.json")
 STATE_FILE = Path("data/scan_state.json")
+MEMORY_FILE = Path("data/deals_memory.json")
+
+
+def utc_now():
+    return datetime.now(timezone.utc)
+
+
+def iso_now():
+    return utc_now().isoformat()
+
+
+def parse_iso_datetime(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except Exception:
+        return None
 
 
 def keepa_to_dollars(value):
@@ -151,6 +170,88 @@ def save_scan_state(state):
         json.dump(state, f, indent=2)
 
 
+def load_deal_memory():
+    if not MEMORY_FILE.exists():
+        return {}
+
+    try:
+        with MEMORY_FILE.open("r", encoding="utf-8") as f:
+            payload = json.load(f)
+        if isinstance(payload, dict) and isinstance(payload.get("deals"), dict):
+            return payload["deals"]
+        if isinstance(payload, dict):
+            return payload
+    except Exception as exc:
+        print(f"Could not read deal memory; starting new memory. Error: {exc}")
+
+    return {}
+
+
+def save_deal_memory(memory):
+    MEMORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with MEMORY_FILE.open("w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "updated_at": iso_now(),
+                "deal_ttl_hours": DEAL_TTL_HOURS,
+                "deals": memory,
+            },
+            f,
+            indent=2,
+        )
+
+
+def purge_expired_deals(memory):
+    cutoff = utc_now() - timedelta(hours=DEAL_TTL_HOURS)
+    kept = {}
+    expired_count = 0
+
+    for asin, deal in memory.items():
+        posted_at = parse_iso_datetime(deal.get("posted_at") or deal.get("first_seen_at") or deal.get("checked_at"))
+        if posted_at and posted_at > cutoff:
+            kept[asin] = deal
+        else:
+            expired_count += 1
+
+    if expired_count:
+        print(f"Purged {expired_count} expired deals older than {DEAL_TTL_HOURS} hours")
+
+    return kept, expired_count
+
+
+def merge_deals_with_memory(memory, new_deals):
+    now_iso = iso_now()
+    expires_at = (utc_now() + timedelta(hours=DEAL_TTL_HOURS)).isoformat()
+    added_count = 0
+    updated_count = 0
+
+    for deal in new_deals:
+        asin = deal.get("asin")
+        if not asin:
+            continue
+
+        previous = memory.get(asin, {})
+        posted_at = previous.get("posted_at") or previous.get("first_seen_at") or now_iso
+
+        merged = {
+            **previous,
+            **deal,
+            "posted_at": posted_at,
+            "first_seen_at": posted_at,
+            "last_checked_at": now_iso,
+            "expires_at": expires_at,
+        }
+
+        if asin in memory:
+            updated_count += 1
+        else:
+            added_count += 1
+
+        memory[asin] = merged
+
+    return memory, added_count, updated_count
+
+
 def select_asins_for_run(all_asins):
     total = len(all_asins)
     if total == 0:
@@ -181,7 +282,7 @@ def select_asins_for_run(all_asins):
         "last_scan_limit": limit,
         "last_total_asins": total,
         "last_wrapped": wrapped,
-        "last_scan_at": datetime.now(timezone.utc).isoformat(),
+        "last_scan_at": iso_now(),
     }
 
     print(
@@ -277,6 +378,7 @@ def build_deal(product):
 
     image = get_product_image(product, asin)
     amazon_url = f"https://www.amazon.com/dp/{asin}?tag={AMAZON_TAG}"
+    checked_at = iso_now()
 
     return {
         "asin": asin,
@@ -290,12 +392,13 @@ def build_deal(product):
         "drop_30_percent": drop_30_percent,
         "image": image,
         "amazon_url": amazon_url,
-        "checked_at": datetime.now(timezone.utc).isoformat(),
+        "checked_at": checked_at,
+        "last_checked_at": checked_at,
     }
 
 
 def main():
-    print("Starting Keepa price scan with rotating 225-ASIN window...")
+    print("Starting Keepa price scan with rotating ASIN window and 24-hour deal memory...")
     all_asins = read_all_asins()
     asins, new_state, start_index, next_start_index = select_asins_for_run(all_asins)
 
@@ -305,12 +408,16 @@ def main():
     print(f"Normal delay between batches: {REQUEST_DELAY_SECONDS} seconds")
     print(f"Rate-limit retry wait: {RATE_LIMIT_WAIT_SECONDS} seconds")
     print(f"Scan limit: {SCAN_LIMIT if SCAN_LIMIT > 0 else 'off'}")
+    print(f"Deal TTL: {DEAL_TTL_HOURS} hours")
     print(f"ASIN source: {'Google Sheet CSV' if ASIN_CSV_URL else 'local asins.csv'}")
+
+    memory = load_deal_memory()
+    memory, expired_count = purge_expired_deals(memory)
 
     products = fetch_keepa_products(asins)
     print(f"Fetched {len(products)} products from Keepa")
 
-    deals = []
+    scan_deals = []
     skipped = 0
     missing_images = 0
     for product in products:
@@ -324,18 +431,26 @@ def main():
             if not deal.get("image"):
                 missing_images += 1
                 print(f"No image found for {deal.get('asin')}")
-            deals.append(deal)
+            scan_deals.append(deal)
 
-    deals.sort(key=lambda item: item["drop_percent"], reverse=True)
+    memory, added_count, updated_count = merge_deals_with_memory(memory, scan_deals)
+
+    all_deals = list(memory.values())
+    all_deals.sort(key=lambda item: item.get("posted_at") or item.get("checked_at") or "", reverse=True)
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     with OUTPUT_FILE.open("w", encoding="utf-8") as f:
         json.dump(
             {
-                "updated_at": datetime.now(timezone.utc).isoformat(),
+                "updated_at": iso_now(),
                 "asin_source": "Google Sheet CSV" if ASIN_CSV_URL else "local asins.csv",
                 "comparison_window": "7-day/30-day averages",
-                "deal_count": len(deals),
+                "deal_ttl_hours": DEAL_TTL_HOURS,
+                "deal_count": len(all_deals),
+                "new_scan_deal_count": len(scan_deals),
+                "new_deals_added": added_count,
+                "existing_deals_updated": updated_count,
+                "expired_deals_removed": expired_count,
                 "skipped_count": skipped,
                 "missing_image_count": missing_images,
                 "scan_window": {
@@ -352,16 +467,21 @@ def main():
                     "request_delay_seconds": REQUEST_DELAY_SECONDS,
                     "rate_limit_wait_seconds": RATE_LIMIT_WAIT_SECONDS,
                     "scan_limit": SCAN_LIMIT,
+                    "deal_ttl_hours": DEAL_TTL_HOURS,
                 },
-                "deals": deals,
+                "deals": all_deals,
             },
             f,
             indent=2,
         )
 
+    save_deal_memory(memory)
     save_scan_state(new_state)
 
-    print(f"Saved {len(deals)} price drops to {OUTPUT_FILE}")
+    print(f"Found {len(scan_deals)} price drops in this scan")
+    print(f"Added {added_count} new deals and updated {updated_count} existing deals")
+    print(f"Saved {len(all_deals)} active 24-hour deals to {OUTPUT_FILE}")
+    print(f"Saved deal memory to {MEMORY_FILE}")
     print(f"Saved next scan start index {new_state['next_start_index']} to {STATE_FILE}")
     if skipped:
         print(f"Skipped {skipped} products because their Keepa data format was incomplete or unexpected")
