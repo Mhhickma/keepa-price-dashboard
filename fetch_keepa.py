@@ -43,12 +43,6 @@ def parse_iso_datetime(value):
 
 
 def keepa_to_dollars(value):
-    """Convert Keepa cents to dollars.
-
-    Keepa sometimes returns a single integer price, and sometimes returns
-    a small list such as [timestamp, price]. This keeps the script from
-    crashing when Keepa returns the list format.
-    """
     if value is None:
         return None
 
@@ -72,7 +66,6 @@ def price_from_stats_array(stats, key, price_index=0):
 
 
 def amazon_image_fallback(asin):
-    """Amazon Associates image endpoint fallback by ASIN."""
     if not asin:
         return None
     return (
@@ -83,7 +76,6 @@ def amazon_image_fallback(asin):
 
 
 def get_product_image(product, asin):
-    """Build an image URL from Keepa's imagesCSV field, then fall back to ASIN image."""
     images_csv = product.get("imagesCSV") or ""
     if images_csv:
         first_image = images_csv.split(",")[0].strip()
@@ -333,7 +325,7 @@ def fetch_keepa_products(asins):
             "key": KEEPA_API_KEY,
             "domain": DOMAIN_ID,
             "asin": ",".join(batch),
-            "stats": 30,
+            "stats": 7,
             "history": 1,
         }
 
@@ -360,12 +352,15 @@ def build_deal(product):
     stats = product.get("stats") or {}
 
     current_price = price_from_stats_array(stats, "current")
-    avg_30_price = price_from_stats_array(stats, "avg") or price_from_stats_array(stats, "avg30")
-    min_30_price = price_from_stats_array(stats, "min") or price_from_stats_array(stats, "min30")
-    avg_7_price = price_from_stats_array(stats, "avg7") or avg_30_price
-    min_7_price = price_from_stats_array(stats, "min7") or min_30_price
+    avg_7_price = price_from_stats_array(stats, "avg")
+    min_7_price = price_from_stats_array(stats, "minInInterval")
+    avg_30_price = price_from_stats_array(stats, "avg30")
+    min_30_price = None
 
-    if not current_price or not avg_7_price or current_price >= avg_7_price:
+    if not current_price or not avg_7_price or not min_7_price:
+        return None
+
+    if current_price >= avg_7_price:
         return None
 
     drop_percent = round(((avg_7_price - current_price) / avg_7_price) * 100, 1)
@@ -390,6 +385,7 @@ def build_deal(product):
         "min_30_price": min_30_price,
         "drop_percent": drop_percent,
         "drop_30_percent": drop_30_percent,
+        "price_stats_source": "keepa_stats_7_days",
         "image": image,
         "amazon_url": amazon_url,
         "checked_at": checked_at,
@@ -409,6 +405,7 @@ def main():
     print(f"Rate-limit retry wait: {RATE_LIMIT_WAIT_SECONDS} seconds")
     print(f"Scan limit: {SCAN_LIMIT if SCAN_LIMIT > 0 else 'off'}")
     print(f"Deal TTL: {DEAL_TTL_HOURS} hours")
+    print("Keepa stats=7 is used: avg = 7-day average, minInInterval = 7-day low")
     print(f"ASIN source: {'Google Sheet CSV' if ASIN_CSV_URL else 'local asins.csv'}")
 
     memory = load_deal_memory()
@@ -444,7 +441,7 @@ def main():
             {
                 "updated_at": iso_now(),
                 "asin_source": "Google Sheet CSV" if ASIN_CSV_URL else "local asins.csv",
-                "comparison_window": "7-day/30-day averages",
+                "comparison_window": "Keepa stats=7 for 7-day average and 7-day low",
                 "deal_ttl_hours": DEAL_TTL_HOURS,
                 "deal_count": len(all_deals),
                 "new_scan_deal_count": len(scan_deals),
@@ -468,6 +465,7 @@ def main():
                     "rate_limit_wait_seconds": RATE_LIMIT_WAIT_SECONDS,
                     "scan_limit": SCAN_LIMIT,
                     "deal_ttl_hours": DEAL_TTL_HOURS,
+                    "keepa_stats_days": 7,
                 },
                 "deals": all_deals,
             },
