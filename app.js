@@ -90,6 +90,23 @@ function formatDate(value) {
   return new Date(value).toLocaleString();
 }
 
+function formatShortDate(value) {
+  if (!value) return "N/A";
+  return new Date(value).toLocaleString([], {
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+}
+
+function hoursUntil(value) {
+  if (!value) return null;
+  const diffMs = new Date(value).getTime() - Date.now();
+  if (!Number.isFinite(diffMs)) return null;
+  return Math.max(0, diffMs / (1000 * 60 * 60));
+}
+
 function imageCandidatesForDeal(deal) {
   const asin = deal.asin;
   const candidates = [];
@@ -144,10 +161,10 @@ function updateCounts(renderedCount) {
   const removeCount = removeQueueAsins().size;
   const totalCount = allDeals.length;
 
-  dealCountEl.innerHTML = `${renderedCount} visible price drop${renderedCount === 1 ? "" : "s"} found`;
+  dealCountEl.innerHTML = `${renderedCount} visible active deal${renderedCount === 1 ? "" : "s"}`;
 
   if (totalCount !== renderedCount) {
-    dealCountEl.innerHTML += ` <span class="count-note">${totalCount} total</span>`;
+    dealCountEl.innerHTML += ` <span class="count-note">${totalCount} total active</span>`;
   }
 
   if (hiddenCount > 0) {
@@ -168,6 +185,10 @@ function renderDeals(deals) {
   deals.forEach((deal) => {
     const card = document.createElement("article");
     card.className = "card";
+    const postedAt = deal.posted_at || deal.first_seen_at || deal.checked_at;
+    const expiresAt = deal.expires_at;
+    const hoursLeft = hoursUntil(expiresAt);
+    const expiresText = hoursLeft === null ? "N/A" : `${hoursLeft.toFixed(1)} hrs left`;
 
     card.innerHTML = `
       <a class="image-wrap" href="${deal.amazon_url}" target="_blank" rel="noopener noreferrer" aria-label="Open ${deal.title} on Amazon">
@@ -184,6 +205,10 @@ function renderDeals(deals) {
             <button class="hide-card" type="button" onclick="hideDeal('${deal.asin}')">Hide</button>
             <button class="remove-card" type="button" onclick="queueRemoveDeal('${deal.asin}')">Remove ASIN</button>
           </div>
+        </div>
+        <div class="deal-time">
+          <span>Posted: ${formatShortDate(postedAt)}</span>
+          <span>${expiresText}</span>
         </div>
         <h2>${deal.title}</h2>
         <div class="asin">ASIN: ${deal.asin}</div>
@@ -245,7 +270,7 @@ async function loadDeals() {
 
     const data = await response.json();
     allDeals = data.deals || [];
-    updatedAtEl.textContent = `Last updated: ${formatDate(data.updated_at)}`;
+    updatedAtEl.textContent = `Last updated: ${formatDate(data.updated_at)} · Deals kept for ${data.deal_ttl_hours || 24} hours`;
     applySearch();
   } catch (error) {
     dealCountEl.textContent = "Could not load deal data";
