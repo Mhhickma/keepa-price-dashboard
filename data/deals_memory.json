@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-26T18:30:46.166161+00:00",
+  "updated_at": "2026-04-26T19:00:37.195214+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -91,6 +91,42 @@
       "posted_at": "2026-04-26T18:30:46.165469+00:00",
       "first_seen_at": "2026-04-26T18:30:46.165469+00:00",
       "expires_at": "2026-04-27T18:30:46.165472+00:00"
+    },
+    "B08L43DNNK": {
+      "asin": "B08L43DNNK",
+      "title": "Worx 20V Cordless Sliding Miter Saw (Tool Only)",
+      "current_price": 239.0,
+      "avg_7_price": 255.62,
+      "min_7_price": 199.99,
+      "avg_30_price": 255.62,
+      "min_30_price": 199.99,
+      "drop_percent": 6.5,
+      "drop_30_percent": 6.5,
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08L43DNNK&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B08L43DNNK?tag=simplewoodsho-20",
+      "checked_at": "2026-04-26T19:00:37.194160+00:00",
+      "last_checked_at": "2026-04-26T19:00:37.194525+00:00",
+      "posted_at": "2026-04-26T19:00:37.194525+00:00",
+      "first_seen_at": "2026-04-26T19:00:37.194525+00:00",
+      "expires_at": "2026-04-27T19:00:37.194527+00:00"
+    },
+    "B0007SXH64": {
+      "asin": "B0007SXH64",
+      "title": "Makita 164095-8 Rip Fence for Circular Saws, Black",
+      "current_price": 9.99,
+      "avg_7_price": 10.81,
+      "min_7_price": 7.65,
+      "avg_30_price": 10.81,
+      "min_30_price": 7.65,
+      "drop_percent": 7.6,
+      "drop_30_percent": 7.6,
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0007SXH64&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0007SXH64?tag=simplewoodsho-20",
+      "checked_at": "2026-04-26T19:00:37.194469+00:00",
+      "last_checked_at": "2026-04-26T19:00:37.194525+00:00",
+      "posted_at": "2026-04-26T19:00:37.194525+00:00",
+      "first_seen_at": "2026-04-26T19:00:37.194525+00:00",
+      "expires_at": "2026-04-27T19:00:37.194527+00:00"
     }
   }
 }
