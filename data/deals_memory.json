@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T07:00:36.676518+00:00",
+  "updated_at": "2026-04-27T07:30:37.067458+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -958,6 +958,25 @@
       "posted_at": "2026-04-27T06:30:31.845972+00:00",
       "first_seen_at": "2026-04-27T06:30:31.845972+00:00",
       "expires_at": "2026-04-28T06:30:31.845974+00:00"
+    },
+    "B005W0ZT86": {
+      "asin": "B005W0ZT86",
+      "title": "Steelex D3655 Forstner Bit Set in Case, 7-Piece",
+      "current_price": 9.36,
+      "avg_7_price": 17.99,
+      "min_7_price": 9.36,
+      "avg_30_price": 17.99,
+      "min_30_price": null,
+      "drop_percent": 48.0,
+      "drop_30_percent": 48.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B005W0ZT86&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B005W0ZT86?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T07:30:37.065386+00:00",
+      "last_checked_at": "2026-04-27T07:30:37.065574+00:00",
+      "posted_at": "2026-04-27T07:30:37.065574+00:00",
+      "first_seen_at": "2026-04-27T07:30:37.065574+00:00",
+      "expires_at": "2026-04-28T07:30:37.065578+00:00"
     }
   }
 }
