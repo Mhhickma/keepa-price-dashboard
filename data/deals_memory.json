@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-04-27T18:00:37.891866+00:00",
+  "updated_at": "2026-04-27T18:31:19.158466+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0D45QYG31": {
-      "asin": "B0D45QYG31",
-      "title": "DEWALT 7-1/4 in. 24T Circular Saw Blade, Smooth Cutting, Superior Tracking and Durability (DWA271424)",
-      "current_price": 9.98,
-      "avg_7_price": 11.95,
-      "min_7_price": 5.98,
-      "avg_30_price": 11.95,
-      "min_30_price": 5.98,
-      "drop_percent": 16.5,
-      "drop_30_percent": 16.5,
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D45QYG31&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0D45QYG31?tag=simplewoodsho-20",
-      "checked_at": "2026-04-26T18:30:46.165443+00:00",
-      "last_checked_at": "2026-04-26T18:30:46.165469+00:00",
-      "posted_at": "2026-04-26T18:30:46.165469+00:00",
-      "first_seen_at": "2026-04-26T18:30:46.165469+00:00",
-      "expires_at": "2026-04-27T18:30:46.165472+00:00"
-    },
     "B08L43DNNK": {
       "asin": "B08L43DNNK",
       "title": "Worx 20V Cordless Sliding Miter Saw (Tool Only)",
@@ -910,21 +892,21 @@
     "B0D381H6HL": {
       "asin": "B0D381H6HL",
       "title": "Titebond Speed Set Wood Glue, Fast Set Time, 15-Minute Clamp, Superior Strength, Increase Productivity, Visible Under Blacklight, 8 oz. 4363 (Pack of 2)",
-      "current_price": 25.78,
-      "avg_7_price": 27.83,
+      "current_price": 24.82,
+      "avg_7_price": 28.61,
       "min_7_price": 15.62,
-      "avg_30_price": 18.94,
+      "avg_30_price": 19.08,
       "min_30_price": null,
-      "drop_percent": 7.4,
+      "drop_percent": 13.2,
       "drop_30_percent": null,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D381H6HL&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0D381H6HL?tag=simplewoodsho-20",
-      "checked_at": "2026-04-27T09:11:32.152622+00:00",
-      "last_checked_at": "2026-04-27T09:11:32.152755+00:00",
+      "checked_at": "2026-04-27T18:31:19.156107+00:00",
+      "last_checked_at": "2026-04-27T18:31:19.156516+00:00",
       "posted_at": "2026-04-27T09:11:32.152755+00:00",
       "first_seen_at": "2026-04-27T09:11:32.152755+00:00",
-      "expires_at": "2026-04-28T09:11:32.152757+00:00"
+      "expires_at": "2026-04-28T18:31:19.156518+00:00"
     },
     "B000XULXEO": {
       "asin": "B000XULXEO",
@@ -948,21 +930,21 @@
     "B0BWKFG3YS": {
       "asin": "B0BWKFG3YS",
       "title": "Titebond Speed Set Wood Glue 8 Oz. \u2013 Fast-Setting PVA Adhesive with 15-Minute Clamp Time, Strong Gap-Filling Bond, Heat-Resistant, Easy Water Cleanup \u2013 4363",
-      "current_price": 12.89,
-      "avg_7_price": 14.54,
-      "min_7_price": 12.89,
-      "avg_30_price": 12.04,
+      "current_price": 12.41,
+      "avg_7_price": 14.37,
+      "min_7_price": 12.41,
+      "avg_30_price": 12.06,
       "min_30_price": null,
-      "drop_percent": 11.3,
+      "drop_percent": 13.6,
       "drop_30_percent": null,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKFG3YS&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0BWKFG3YS?tag=simplewoodsho-20",
-      "checked_at": "2026-04-27T09:30:37.457063+00:00",
-      "last_checked_at": "2026-04-27T09:30:37.457235+00:00",
+      "checked_at": "2026-04-27T18:31:19.156298+00:00",
+      "last_checked_at": "2026-04-27T18:31:19.156516+00:00",
       "posted_at": "2026-04-27T09:30:37.457235+00:00",
       "first_seen_at": "2026-04-27T09:30:37.457235+00:00",
-      "expires_at": "2026-04-28T09:30:37.457237+00:00"
+      "expires_at": "2026-04-28T18:31:19.156518+00:00"
     },
     "B0G2L57HPZ": {
       "asin": "B0G2L57HPZ",
@@ -1343,6 +1325,25 @@
       "posted_at": "2026-04-27T17:00:38.615717+00:00",
       "first_seen_at": "2026-04-27T17:00:38.615717+00:00",
       "expires_at": "2026-04-28T17:00:38.615719+00:00"
+    },
+    "B07P8QTFRC": {
+      "asin": "B07P8QTFRC",
+      "title": "DEWALT 12-Inch Miter Saw, 15-Amp, Single Bevel, Compound (DWS715)",
+      "current_price": 279.99,
+      "avg_7_price": 345.85,
+      "min_7_price": 279.99,
+      "avg_30_price": 293.82,
+      "min_30_price": null,
+      "drop_percent": 19.0,
+      "drop_30_percent": 4.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P8QTFRC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07P8QTFRC?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T18:31:19.156313+00:00",
+      "last_checked_at": "2026-04-27T18:31:19.156516+00:00",
+      "posted_at": "2026-04-27T18:31:19.156516+00:00",
+      "first_seen_at": "2026-04-27T18:31:19.156516+00:00",
+      "expires_at": "2026-04-28T18:31:19.156518+00:00"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "next_start_index": 1946,
-  "last_start_index": 1846,
-  "last_end_index": 1946,
-  "last_scan_limit": 100,
-  "last_total_asins": 4404,
+  "next_start_index": 0,
+  "last_start_index": 0,
+  "last_end_index": 99,
+  "last_scan_limit": 99,
+  "last_total_asins": 99,
   "last_wrapped": false,
-  "last_scan_at": "2026-04-27T18:00:19.293584+00:00"
+  "last_scan_at": "2026-04-27T18:31:00.805579+00:00"
 }
