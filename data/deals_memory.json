@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T03:30:34.412465+00:00",
+  "updated_at": "2026-04-27T04:00:36.500269+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -293,6 +293,44 @@
       "posted_at": "2026-04-27T03:30:34.411702+00:00",
       "first_seen_at": "2026-04-27T03:30:34.411702+00:00",
       "expires_at": "2026-04-28T03:30:34.411704+00:00"
+    },
+    "B09TNQ6YBG": {
+      "asin": "B09TNQ6YBG",
+      "title": "POWERTEC 4 Inch to 2-1/2 Inch Hose Cone Reducer w/Stainless Steel Key Clamps, Dust Collection Fittings for Dust Collection, Dryer Vent & Shop Vacuum Hose (70338-P2)",
+      "current_price": 12.01,
+      "avg_7_price": 13.7,
+      "min_7_price": 12.01,
+      "avg_30_price": 14.83,
+      "min_30_price": null,
+      "drop_percent": 12.3,
+      "drop_30_percent": 19.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09TNQ6YBG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B09TNQ6YBG?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T04:00:36.499191+00:00",
+      "last_checked_at": "2026-04-27T04:00:36.499478+00:00",
+      "posted_at": "2026-04-27T04:00:36.499478+00:00",
+      "first_seen_at": "2026-04-27T04:00:36.499478+00:00",
+      "expires_at": "2026-04-28T04:00:36.499480+00:00"
+    },
+    "B01GRG4HQI": {
+      "asin": "B01GRG4HQI",
+      "title": "POWERTEC Router Bit Storage Inserts for 110 Bits, 50PCS 1/2\" and 60PCS 1/4\" Shank Router Bits, Routers Bit Holder, Bits Organizer with High Density Foam, Fits Toolbox, Drawer, Workstation (71046)",
+      "current_price": 15.59,
+      "avg_7_price": 16.65,
+      "min_7_price": 15.59,
+      "avg_30_price": 16.54,
+      "min_30_price": null,
+      "drop_percent": 6.4,
+      "drop_30_percent": 5.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01GRG4HQI&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B01GRG4HQI?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T04:00:36.499335+00:00",
+      "last_checked_at": "2026-04-27T04:00:36.499478+00:00",
+      "posted_at": "2026-04-27T04:00:36.499478+00:00",
+      "first_seen_at": "2026-04-27T04:00:36.499478+00:00",
+      "expires_at": "2026-04-28T04:00:36.499480+00:00"
     }
   }
 }
