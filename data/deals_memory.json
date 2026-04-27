@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T14:30:46.469208+00:00",
+  "updated_at": "2026-04-27T15:00:46.971539+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -1320,6 +1320,44 @@
       "posted_at": "2026-04-27T14:00:42.377594+00:00",
       "first_seen_at": "2026-04-27T14:00:42.377594+00:00",
       "expires_at": "2026-04-28T14:00:42.377598+00:00"
+    },
+    "B004HASE0W": {
+      "asin": "B004HASE0W",
+      "title": "DEWALT 20V MAX XR 12 inch Double Bevel Sliding Miter Saw, Cordless, Tool Only (DCS785B)",
+      "current_price": 539.0,
+      "avg_7_price": 598.37,
+      "min_7_price": 539.0,
+      "avg_30_price": 598.85,
+      "min_30_price": null,
+      "drop_percent": 9.9,
+      "drop_30_percent": 10.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004HASE0W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B004HASE0W?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T15:00:46.969204+00:00",
+      "last_checked_at": "2026-04-27T15:00:46.969603+00:00",
+      "posted_at": "2026-04-27T15:00:46.969603+00:00",
+      "first_seen_at": "2026-04-27T15:00:46.969603+00:00",
+      "expires_at": "2026-04-28T15:00:46.969605+00:00"
+    },
+    "B00004T7S1": {
+      "asin": "B00004T7S1",
+      "title": "General Tools 88CM Tungsten Carbide Scribe and Magnet, Copper, Replaceable Tip",
+      "current_price": 7.67,
+      "avg_7_price": 8.44,
+      "min_7_price": 8.09,
+      "avg_30_price": 8.47,
+      "min_30_price": null,
+      "drop_percent": 9.1,
+      "drop_30_percent": 9.4,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00004T7S1&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00004T7S1?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T15:00:46.969313+00:00",
+      "last_checked_at": "2026-04-27T15:00:46.969603+00:00",
+      "posted_at": "2026-04-27T15:00:46.969603+00:00",
+      "first_seen_at": "2026-04-27T15:00:46.969603+00:00",
+      "expires_at": "2026-04-28T15:00:46.969605+00:00"
     }
   }
 }
