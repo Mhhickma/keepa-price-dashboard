@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T09:11:32.154345+00:00",
+  "updated_at": "2026-04-27T09:30:37.458816+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -1015,6 +1015,63 @@
       "posted_at": "2026-04-27T09:11:32.152755+00:00",
       "first_seen_at": "2026-04-27T09:11:32.152755+00:00",
       "expires_at": "2026-04-28T09:11:32.152757+00:00"
+    },
+    "B0BWKFG3YS": {
+      "asin": "B0BWKFG3YS",
+      "title": "Titebond Speed Set Wood Glue 8 Oz. \u2013 Fast-Setting PVA Adhesive with 15-Minute Clamp Time, Strong Gap-Filling Bond, Heat-Resistant, Easy Water Cleanup \u2013 4363",
+      "current_price": 12.89,
+      "avg_7_price": 14.54,
+      "min_7_price": 12.89,
+      "avg_30_price": 12.04,
+      "min_30_price": null,
+      "drop_percent": 11.3,
+      "drop_30_percent": null,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BWKFG3YS&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0BWKFG3YS?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T09:30:37.457063+00:00",
+      "last_checked_at": "2026-04-27T09:30:37.457235+00:00",
+      "posted_at": "2026-04-27T09:30:37.457235+00:00",
+      "first_seen_at": "2026-04-27T09:30:37.457235+00:00",
+      "expires_at": "2026-04-28T09:30:37.457237+00:00"
+    },
+    "B0G2L57HPZ": {
+      "asin": "B0G2L57HPZ",
+      "title": "VEVOR Impact Socket Set 3/8\" Drive, 64-Piece Standard SAE (5/16 to 1 inch) & Metric (6 to 24 mm) Size, Deep & Shallow, 6 Point, CR-V, Ratchet Handle, Extension Bars, Universal Joint, Adapters",
+      "current_price": 52.1,
+      "avg_7_price": 56.38,
+      "min_7_price": 52.1,
+      "avg_30_price": 57.65,
+      "min_30_price": null,
+      "drop_percent": 7.6,
+      "drop_30_percent": 9.6,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0G2L57HPZ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0G2L57HPZ?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T09:30:37.457114+00:00",
+      "last_checked_at": "2026-04-27T09:30:37.457235+00:00",
+      "posted_at": "2026-04-27T09:30:37.457235+00:00",
+      "first_seen_at": "2026-04-27T09:30:37.457235+00:00",
+      "expires_at": "2026-04-28T09:30:37.457237+00:00"
+    },
+    "B07S1MXRRK": {
+      "asin": "B07S1MXRRK",
+      "title": "HYCHIKA Mini Circular Saw, Compact with 3 Blades 4A Pure Copper Motor, Scale Ruler, 3-3/8\u201d4500RPM Ideal for Wood, Soft Metal and Plastic Cuts",
+      "current_price": 54.7,
+      "avg_7_price": 64.88,
+      "min_7_price": 54.7,
+      "avg_30_price": 62.42,
+      "min_30_price": null,
+      "drop_percent": 15.7,
+      "drop_30_percent": 12.4,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07S1MXRRK&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07S1MXRRK?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T09:30:37.457146+00:00",
+      "last_checked_at": "2026-04-27T09:30:37.457235+00:00",
+      "posted_at": "2026-04-27T09:30:37.457235+00:00",
+      "first_seen_at": "2026-04-27T09:30:37.457235+00:00",
+      "expires_at": "2026-04-28T09:30:37.457237+00:00"
     }
   }
 }
