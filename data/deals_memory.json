@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T22:00:34.894479+00:00",
+  "updated_at": "2026-04-27T22:30:37.614729+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0001LQW82": {
@@ -1274,6 +1274,25 @@
       "posted_at": "2026-04-27T22:00:34.885677+00:00",
       "first_seen_at": "2026-04-27T22:00:34.885677+00:00",
       "expires_at": "2026-04-28T22:00:34.885679+00:00"
+    },
+    "B07F49ZXPV": {
+      "asin": "B07F49ZXPV",
+      "title": "Bora 31\" Parallel Clamp Set, 2 Pack of Woodworking Clamps with Rock-Solid, Even Pressure, 571131T",
+      "current_price": 82.42,
+      "avg_7_price": 87.77,
+      "min_7_price": 82.42,
+      "avg_30_price": 83.66,
+      "min_30_price": null,
+      "drop_percent": 6.1,
+      "drop_30_percent": 1.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07F49ZXPV&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07F49ZXPV?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T22:30:37.612925+00:00",
+      "last_checked_at": "2026-04-27T22:30:37.612969+00:00",
+      "posted_at": "2026-04-27T22:30:37.612969+00:00",
+      "first_seen_at": "2026-04-27T22:30:37.612969+00:00",
+      "expires_at": "2026-04-28T22:30:37.612972+00:00"
     }
   }
 }
