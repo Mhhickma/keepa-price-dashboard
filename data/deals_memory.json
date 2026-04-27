@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T10:30:39.905653+00:00",
+  "updated_at": "2026-04-27T11:00:38.515094+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -1167,6 +1167,44 @@
       "posted_at": "2026-04-27T10:30:39.903893+00:00",
       "first_seen_at": "2026-04-27T10:30:39.903893+00:00",
       "expires_at": "2026-04-28T10:30:39.903895+00:00"
+    },
+    "B098RJSW24": {
+      "asin": "B098RJSW24",
+      "title": "3M Xtract Net Disc 710W, 120+, 3 in, Die 300V, Pack of 50 Hook and Loop Sanding Discs, Virtually Dust-Free, Premium Option for Metal, Wood, Composites, Stock Removal, and Fine Finishing",
+      "current_price": 19.99,
+      "avg_7_price": 21.13,
+      "min_7_price": 19.99,
+      "avg_30_price": 20.39,
+      "min_30_price": null,
+      "drop_percent": 5.4,
+      "drop_30_percent": 2.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B098RJSW24&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B098RJSW24?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T11:00:38.513027+00:00",
+      "last_checked_at": "2026-04-27T11:00:38.513356+00:00",
+      "posted_at": "2026-04-27T11:00:38.513356+00:00",
+      "first_seen_at": "2026-04-27T11:00:38.513356+00:00",
+      "expires_at": "2026-04-28T11:00:38.513358+00:00"
+    },
+    "B0FNMJ3J7G": {
+      "asin": "B0FNMJ3J7G",
+      "title": "POWERTEC Router Bushing Guide Set, Router Template Guide 10 Pcs w/Storage Case, Fits Porter Cable Style Router Sub Base Plate. Size 5/16\" to 1\" Router Inlay Kit for Woodworking, 2 Sets, 71051-P2",
+      "current_price": 25.5,
+      "avg_7_price": 30.26,
+      "min_7_price": 25.5,
+      "avg_30_price": 30.3,
+      "min_30_price": null,
+      "drop_percent": 15.7,
+      "drop_30_percent": 15.8,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FNMJ3J7G&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0FNMJ3J7G?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T11:00:38.513051+00:00",
+      "last_checked_at": "2026-04-27T11:00:38.513356+00:00",
+      "posted_at": "2026-04-27T11:00:38.513356+00:00",
+      "first_seen_at": "2026-04-27T11:00:38.513356+00:00",
+      "expires_at": "2026-04-28T11:00:38.513358+00:00"
     }
   }
 }
