@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T16:30:39.300688+00:00",
+  "updated_at": "2026-04-27T17:00:38.617723+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -224,20 +224,20 @@
       "asin": "B0CYZWZ964",
       "title": "HYCHIKA Random Orbital Sander, 6 Variable Speed 3.8Amp 450W 5-Inch Electric Wood Sander with Double Handle, High Efficiency Dust Collector & 20Pcs Sandpapers for Heavy Duty Woodworking",
       "current_price": 39.99,
-      "avg_7_price": 43.31,
+      "avg_7_price": 42.22,
       "min_7_price": 39.99,
       "avg_30_price": 44.1,
       "min_30_price": null,
-      "drop_percent": 7.7,
+      "drop_percent": 5.3,
       "drop_30_percent": 9.3,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CYZWZ964&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0CYZWZ964?tag=simplewoodsho-20",
-      "checked_at": "2026-04-26T21:00:33.680607+00:00",
-      "last_checked_at": "2026-04-26T21:00:33.680798+00:00",
+      "checked_at": "2026-04-27T17:00:38.615531+00:00",
+      "last_checked_at": "2026-04-27T17:00:38.615717+00:00",
       "posted_at": "2026-04-26T21:00:33.680798+00:00",
       "first_seen_at": "2026-04-26T21:00:33.680798+00:00",
-      "expires_at": "2026-04-27T21:00:33.680800+00:00"
+      "expires_at": "2026-04-28T17:00:38.615719+00:00"
     },
     "B0001LQW82": {
       "asin": "B0001LQW82",
@@ -1397,6 +1397,25 @@
       "posted_at": "2026-04-27T16:30:39.298768+00:00",
       "first_seen_at": "2026-04-27T16:30:39.298768+00:00",
       "expires_at": "2026-04-28T16:30:39.298773+00:00"
+    },
+    "B0002YWZPW": {
+      "asin": "B0002YWZPW",
+      "title": "Titebond Original Wood Glue 5063, Industry Standard for Woodworking, Furniture Repair/Assembly, Construction, Home Repair or Modeling, 8 oz",
+      "current_price": 3.69,
+      "avg_7_price": 3.9,
+      "min_7_price": 3.69,
+      "avg_30_price": 3.92,
+      "min_30_price": null,
+      "drop_percent": 5.4,
+      "drop_30_percent": 5.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002YWZPW&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0002YWZPW?tag=simplewoodsho-20",
+      "checked_at": "2026-04-27T17:00:38.615571+00:00",
+      "last_checked_at": "2026-04-27T17:00:38.615717+00:00",
+      "posted_at": "2026-04-27T17:00:38.615717+00:00",
+      "first_seen_at": "2026-04-27T17:00:38.615717+00:00",
+      "expires_at": "2026-04-28T17:00:38.615719+00:00"
     }
   }
 }
