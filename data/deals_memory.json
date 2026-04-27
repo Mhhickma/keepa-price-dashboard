@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27T12:00:35.006500+00:00",
+  "updated_at": "2026-04-27T12:30:37.887344+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DC6KYHX6": {
@@ -24,19 +24,20 @@
       "asin": "B0002I5XHK",
       "title": "Akro-Mils 12-Inch ProBox Plastic Toolbox for Tools, Hobby or Craft Storage Toolbox, Model 09912, (12-Inch x 5-1/2-Inch x 4-Inch), Red",
       "current_price": 11.39,
-      "avg_7_price": 12.33,
-      "min_7_price": 5.52,
-      "avg_30_price": 12.33,
-      "min_30_price": 5.52,
-      "drop_percent": 7.6,
-      "drop_30_percent": 7.6,
+      "avg_7_price": 12.18,
+      "min_7_price": 11.26,
+      "avg_30_price": 12.31,
+      "min_30_price": null,
+      "drop_percent": 6.5,
+      "drop_30_percent": 7.5,
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002I5XHK&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0002I5XHK?tag=simplewoodsho-20",
-      "checked_at": "2026-04-26T17:00:32.636144+00:00",
-      "last_checked_at": "2026-04-26T17:00:32.636295+00:00",
+      "checked_at": "2026-04-27T12:30:37.885364+00:00",
+      "last_checked_at": "2026-04-27T12:30:37.885527+00:00",
       "posted_at": "2026-04-26T17:00:32.636295+00:00",
       "first_seen_at": "2026-04-26T17:00:32.636295+00:00",
-      "expires_at": "2026-04-27T17:00:32.636298+00:00"
+      "expires_at": "2026-04-28T12:30:37.885529+00:00",
+      "price_stats_source": "keepa_stats_7_days"
     },
     "B00EZSFAF8": {
       "asin": "B00EZSFAF8",
