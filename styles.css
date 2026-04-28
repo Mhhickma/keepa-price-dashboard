@@ -72,12 +72,35 @@ body {
   font-size: 0.95rem;
 }
 
+.toolbar-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.sort-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+select,
 input[type="search"] {
-  width: min(360px, 100%);
   padding: 12px 14px;
   border: 1px solid var(--border);
   border-radius: 999px;
   font-size: 1rem;
+  background: white;
+  color: var(--text);
+}
+
+input[type="search"] {
+  width: min(360px, 100%);
 }
 
 .card-grid {
@@ -211,6 +234,14 @@ input[type="search"] {
   font-size: 0.9rem;
 }
 
+.deal-time {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
 button {
   font-family: inherit;
 }
@@ -293,7 +324,19 @@ button {
     flex-direction: column;
   }
 
-  input[type="search"] {
+  .toolbar-controls {
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .sort-control {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  input[type="search"],
+  select {
     width: 100%;
   }
 
