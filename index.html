@@ -21,7 +21,18 @@
         <strong id="dealCount">Loading deals...</strong>
         <p id="updatedAt">Checking data file...</p>
       </div>
-      <input id="searchInput" type="search" placeholder="Search title or ASIN..." />
+      <div class="toolbar-controls">
+        <label class="sort-control" for="sortSelect">
+          <span>Sort by</span>
+          <select id="sortSelect">
+            <option value="newest">Newest posted</option>
+            <option value="highest-drop">Highest % off</option>
+            <option value="highest-30-drop">Highest 30-day drop</option>
+            <option value="lowest-price">Lowest current price</option>
+          </select>
+        </label>
+        <input id="searchInput" type="search" placeholder="Search title or ASIN..." />
+      </div>
     </section>
 
     <section id="cards" class="card-grid"></section>
