@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-28T16:20:56.874047+00:00",
+  "updated_at": "2026-04-28T16:31:32.662249+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07MDQC2W6": {
-      "asin": "B07MDQC2W6",
-      "title": "BOSCH ITT406B 10-Pack 6 In. Torx #40 Impact Tough Screwdriving Power Bits",
-      "current_price": 18.96,
-      "avg_7_price": 19.97,
-      "min_7_price": 18.86,
-      "avg_30_price": 19.5,
-      "min_30_price": null,
-      "drop_percent": 5.1,
-      "drop_30_percent": 2.8,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MDQC2W6&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07MDQC2W6?tag=simplewoodsho-20",
-      "checked_at": "2026-04-28T01:30:32.757307+00:00",
-      "last_checked_at": "2026-04-28T01:30:32.757397+00:00",
-      "posted_at": "2026-04-27T16:30:39.298768+00:00",
-      "first_seen_at": "2026-04-27T16:30:39.298768+00:00",
-      "expires_at": "2026-04-29T01:30:32.757400+00:00"
-    },
     "B0002YWZPW": {
       "asin": "B0002YWZPW",
       "title": "Titebond Original Wood Glue 5063, Industry Standard for Woodworking, Furniture Repair/Assembly, Construction, Home Repair or Modeling, 8 oz",
