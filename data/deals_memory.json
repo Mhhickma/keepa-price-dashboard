@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-29T22:08:49.572871+00:00",
+  "updated_at": "2026-04-29T22:30:35.098514+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B004HASE0W": {
-      "asin": "B004HASE0W",
-      "title": "DEWALT 20V MAX XR 12 inch Double Bevel Sliding Miter Saw, Cordless, Tool Only (DCS785B)",
-      "current_price": 539.0,
-      "avg_7_price": 580.15,
-      "min_7_price": 539.0,
-      "avg_30_price": 594.6,
-      "min_30_price": null,
-      "drop_percent": 7.1,
-      "drop_30_percent": 9.4,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004HASE0W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B004HASE0W?tag=simplewoodsho-20",
-      "checked_at": "2026-04-29T18:08:58.727706+00:00",
-      "last_checked_at": "2026-04-29T18:08:58.727816+00:00",
-      "posted_at": "2026-04-28T22:00:44.642335+00:00",
-      "first_seen_at": "2026-04-28T22:00:44.642335+00:00",
-      "expires_at": "2026-04-30T18:08:58.727818+00:00"
-    },
     "B09N8S228T": {
       "asin": "B09N8S228T",
       "title": "POWERTEC T Track Router Bit, Tungsten Carbide Tipped Router Bit, 1/2\" Shank, 5/8\" Dia., Slatwall, T Slot for Picture Frames, Compatible with 1/4\" & 5/16\" T Track Bolts (73025)",
