@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-29T01:04:11.701744+00:00",
+  "updated_at": "2026-04-29T01:30:37.013297+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0000TZX62": {
-      "asin": "B0000TZX62",
-      "title": "Bosch HC2012B25 25 pc. 3/16 in. x 8 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
-      "current_price": 113.76,
-      "avg_7_price": 120.68,
-      "min_7_price": 113.76,
-      "avg_30_price": 123.98,
-      "min_30_price": null,
-      "drop_percent": 5.7,
-      "drop_30_percent": 8.2,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX62&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0000TZX62?tag=simplewoodsho-20",
-      "checked_at": "2026-04-28T23:30:37.876302+00:00",
-      "last_checked_at": "2026-04-28T23:30:37.876533+00:00",
-      "posted_at": "2026-04-28T01:00:36.380164+00:00",
-      "first_seen_at": "2026-04-28T01:00:36.380164+00:00",
-      "expires_at": "2026-04-29T23:30:37.876535+00:00"
-    },
     "B017WVBUQ2": {
       "asin": "B017WVBUQ2",
       "title": "PORTER-CABLE 20V MAX* Lithium Battery, 4.0-Ah, 2-Pack (PCC685LP)",
