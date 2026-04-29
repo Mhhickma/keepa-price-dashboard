@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T07:00:47.157279+00:00",
+  "updated_at": "2026-04-29T07:30:46.999934+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0C3PQHGR7": {
@@ -62,21 +62,21 @@
     "B0002YQ3M8": {
       "asin": "B0002YQ3M8",
       "title": "Titebond 1416 III Ultimate Wood Glue, 1-Gallon",
-      "current_price": 31.93,
-      "avg_7_price": 34.52,
+      "current_price": 32.1,
+      "avg_7_price": 34.2,
       "min_7_price": 31.93,
-      "avg_30_price": 34.45,
+      "avg_30_price": 34.39,
       "min_30_price": null,
-      "drop_percent": 7.5,
-      "drop_30_percent": 7.3,
+      "drop_percent": 6.1,
+      "drop_30_percent": 6.7,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002YQ3M8&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0002YQ3M8?tag=simplewoodsho-20",
-      "checked_at": "2026-04-28T09:00:44.309051+00:00",
-      "last_checked_at": "2026-04-28T09:00:44.309208+00:00",
+      "checked_at": "2026-04-29T07:30:46.997751+00:00",
+      "last_checked_at": "2026-04-29T07:30:46.997891+00:00",
       "posted_at": "2026-04-28T09:00:44.309208+00:00",
       "first_seen_at": "2026-04-28T09:00:44.309208+00:00",
-      "expires_at": "2026-04-29T09:00:44.309210+00:00"
+      "expires_at": "2026-04-30T07:30:46.997894+00:00"
     },
     "B08FDJS5WP": {
       "asin": "B08FDJS5WP",
@@ -1350,6 +1350,25 @@
       "posted_at": "2026-04-29T06:00:34.584106+00:00",
       "first_seen_at": "2026-04-29T06:00:34.584106+00:00",
       "expires_at": "2026-04-30T06:00:34.584108+00:00"
+    },
+    "B00P84QEF8": {
+      "asin": "B00P84QEF8",
+      "title": "WEN Woodworking Air Filters, 1-Micron Inner Filter for 400 CFM Air Filtration Systems, Two Pack (90243-026-2)",
+      "current_price": 24.99,
+      "avg_7_price": 29.51,
+      "min_7_price": 24.99,
+      "avg_30_price": 29.79,
+      "min_30_price": null,
+      "drop_percent": 15.3,
+      "drop_30_percent": 16.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00P84QEF8&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00P84QEF8?tag=simplewoodsho-20",
+      "checked_at": "2026-04-29T07:30:46.997648+00:00",
+      "last_checked_at": "2026-04-29T07:30:46.997891+00:00",
+      "posted_at": "2026-04-29T07:30:46.997891+00:00",
+      "first_seen_at": "2026-04-29T07:30:46.997891+00:00",
+      "expires_at": "2026-04-30T07:30:46.997894+00:00"
     }
   }
 }
