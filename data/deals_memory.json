@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T16:00:46.413657+00:00",
+  "updated_at": "2026-04-29T16:30:55.706446+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07LB6ZHL1": {
@@ -666,6 +666,25 @@
       "posted_at": "2026-04-29T16:00:46.412285+00:00",
       "first_seen_at": "2026-04-29T16:00:46.412285+00:00",
       "expires_at": "2026-04-30T16:00:46.412289+00:00"
+    },
+    "B09BDK19JZ": {
+      "asin": "B09BDK19JZ",
+      "title": "CRAFTSMAN Tool Box, Lockable, 13 in., Red/Black (CMST13004)",
+      "current_price": 9.98,
+      "avg_7_price": 11.84,
+      "min_7_price": 9.98,
+      "avg_30_price": 11.86,
+      "min_30_price": null,
+      "drop_percent": 15.7,
+      "drop_30_percent": 15.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09BDK19JZ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B09BDK19JZ?tag=simplewoodsho-20",
+      "checked_at": "2026-04-29T16:30:55.705099+00:00",
+      "last_checked_at": "2026-04-29T16:30:55.705184+00:00",
+      "posted_at": "2026-04-29T16:30:55.705184+00:00",
+      "first_seen_at": "2026-04-29T16:30:55.705184+00:00",
+      "expires_at": "2026-04-30T16:30:55.705187+00:00"
     }
   }
 }
