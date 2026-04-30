@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T06:15:25.163136+00:00",
+  "updated_at": "2026-04-30T06:30:19.830682+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B00P84QEF8": {
@@ -837,6 +837,25 @@
       "posted_at": "2026-04-30T06:15:25.161648+00:00",
       "first_seen_at": "2026-04-30T06:15:25.161648+00:00",
       "expires_at": "2026-05-01T06:15:25.161650+00:00"
+    },
+    "B07P9DQ19R": {
+      "asin": "B07P9DQ19R",
+      "title": "DEWALT Circular Saw Blade, 8 1/4 Inch, 24 Tooth, Framing & Ripping (DWA181424)",
+      "current_price": 15.84,
+      "avg_7_price": 17.13,
+      "min_7_price": 15.84,
+      "avg_30_price": 18.85,
+      "min_30_price": null,
+      "drop_percent": 7.5,
+      "drop_30_percent": 16.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P9DQ19R&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07P9DQ19R?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T06:30:19.829370+00:00",
+      "last_checked_at": "2026-04-30T06:30:19.829521+00:00",
+      "posted_at": "2026-04-30T06:30:19.829521+00:00",
+      "first_seen_at": "2026-04-30T06:30:19.829521+00:00",
+      "expires_at": "2026-05-01T06:30:19.829523+00:00"
     }
   }
 }
