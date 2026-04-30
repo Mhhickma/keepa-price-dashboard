@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-30T10:00:30.594751+00:00",
+  "updated_at": "2026-04-30T10:15:24.772153+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0CT1QZ4CB": {
-      "asin": "B0CT1QZ4CB",
-      "title": "FLEX 24V Brushless Cordless 5-Inch 13,000 OPM Random Orbital Sander Tool Only, Battery and Charger Not Included - FX3411-Z",
-      "current_price": 101.98,
-      "avg_7_price": 118.14,
-      "min_7_price": 101.98,
-      "avg_30_price": 130.77,
-      "min_30_price": null,
-      "drop_percent": 13.7,
-      "drop_30_percent": 22.0,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CT1QZ4CB&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0CT1QZ4CB?tag=simplewoodsho-20",
-      "checked_at": "2026-04-29T10:00:38.767970+00:00",
-      "last_checked_at": "2026-04-29T10:00:38.768326+00:00",
-      "posted_at": "2026-04-29T10:00:38.768326+00:00",
-      "first_seen_at": "2026-04-29T10:00:38.768326+00:00",
-      "expires_at": "2026-04-30T10:00:38.768328+00:00"
-    },
     "B0G22ZYJCG": {
       "asin": "B0G22ZYJCG",
       "title": "VEVOR 3/8\" Drive Impact Socket Set, 50-Piece Standard SAE (5/16 to 3/4 inch) & Metric (8-22 mm) Size, Deep & Shallow, 6 Point, CR-V, Ratchet Handle, Extension Bars, Universal Joint, Reducer, Adapter",
@@ -951,6 +932,25 @@
       "posted_at": "2026-04-30T09:45:20.690433+00:00",
       "first_seen_at": "2026-04-30T09:45:20.690433+00:00",
       "expires_at": "2026-05-01T09:45:20.690435+00:00"
+    },
+    "B0DYNPMV1R": {
+      "asin": "B0DYNPMV1R",
+      "title": "POWERTEC 2 Way Pocket Hole Clamp, Quick Release 12\u201d Right Angle Clamp for Pocket Hole Joinery, Vise Grip Clamps w/Ergonomic Grip & Swivel Pad, Clamps for Woodworking, DIY, Drawer Making-2PCs (71745V)",
+      "current_price": 41.77,
+      "avg_7_price": 45.12,
+      "min_7_price": 41.77,
+      "avg_30_price": 46.04,
+      "min_30_price": null,
+      "drop_percent": 7.4,
+      "drop_30_percent": 9.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DYNPMV1R&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0DYNPMV1R?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T10:15:24.770483+00:00",
+      "last_checked_at": "2026-04-30T10:15:24.770658+00:00",
+      "posted_at": "2026-04-30T10:15:24.770658+00:00",
+      "first_seen_at": "2026-04-30T10:15:24.770658+00:00",
+      "expires_at": "2026-05-01T10:15:24.770661+00:00"
     }
   }
 }
