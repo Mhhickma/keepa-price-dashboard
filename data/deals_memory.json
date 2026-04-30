@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-30T08:30:30.100136+00:00",
+  "updated_at": "2026-04-30T08:45:25.095399+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B08LT514SM": {
-      "asin": "B08LT514SM",
-      "title": "VEVOR Hairpin Table Legs 24\" Black Set of 4 Desk Legs 880lbs Total Load Capacity Hairpin Desk Legs 3 Rods for Bench Desk Dining End Table Chairs Carbon Steel DIY Heavy Duty Furniture Legs",
-      "current_price": 19.91,
-      "avg_7_price": 21.44,
-      "min_7_price": 19.91,
-      "avg_30_price": 23.23,
-      "min_30_price": null,
-      "drop_percent": 7.1,
-      "drop_30_percent": 14.3,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08LT514SM&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B08LT514SM?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T04:45:25.130786+00:00",
-      "last_checked_at": "2026-04-30T04:45:25.130793+00:00",
-      "posted_at": "2026-04-29T08:30:42.708929+00:00",
-      "first_seen_at": "2026-04-29T08:30:42.708929+00:00",
-      "expires_at": "2026-05-01T04:45:25.130795+00:00"
-    },
     "B0CT1QZ4CB": {
       "asin": "B0CT1QZ4CB",
       "title": "FLEX 24V Brushless Cordless 5-Inch 13,000 OPM Random Orbital Sander Tool Only, Battery and Charger Not Included - FX3411-Z",
