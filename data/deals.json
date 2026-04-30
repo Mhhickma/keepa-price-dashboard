@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-04-30T03:30:21.655971+00:00",
+  "updated_at": "2026-04-30T03:45:22.429093+00:00",
   "asin_source": "Google Sheet CSV",
   "comparison_window": "Keepa stats=7 for 7-day average and 7-day low",
   "deal_ttl_hours": 24,
-  "deal_count": 29,
-  "new_scan_deal_count": 1,
-  "new_deals_added": 1,
+  "deal_count": 30,
+  "new_scan_deal_count": 2,
+  "new_deals_added": 2,
   "existing_deals_updated": 0,
-  "expired_deals_removed": 0,
+  "expired_deals_removed": 1,
   "skipped_count": 0,
   "missing_image_count": 0,
   "scan_window": {
     "total_asins": 4407,
-    "start_index": 3188,
-    "start_sheet_row": 3190,
-    "next_start_index": 3238,
-    "next_start_sheet_row": 3240,
+    "start_index": 3238,
+    "start_sheet_row": 3240,
+    "next_start_index": 3288,
+    "next_start_sheet_row": 3290,
     "scan_count": 50
   },
   "settings": {
@@ -28,6 +28,44 @@
     "keepa_stats_days": 7
   },
   "deals": [
+    {
+      "asin": "B001KYNKDO",
+      "title": "DeWalt DW317 Vs Orbital Jigsaw",
+      "current_price": 104.3,
+      "avg_7_price": 118.5,
+      "min_7_price": 104.3,
+      "avg_30_price": 131.14,
+      "min_30_price": null,
+      "drop_percent": 12.0,
+      "drop_30_percent": 20.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001KYNKDO&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B001KYNKDO?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T03:45:22.428581+00:00",
+      "last_checked_at": "2026-04-30T03:45:22.428772+00:00",
+      "posted_at": "2026-04-30T03:45:22.428772+00:00",
+      "first_seen_at": "2026-04-30T03:45:22.428772+00:00",
+      "expires_at": "2026-05-01T03:45:22.428774+00:00"
+    },
+    {
+      "asin": "B01FHOWQQO",
+      "title": "DEWALT 20V MAX Planer, 30,000 Cuts Per Minute, 2 mm Cut Depth, Brushless Motor, Bare Tool Only (DCP580B)",
+      "current_price": 230.26,
+      "avg_7_price": 245.56,
+      "min_7_price": 230.26,
+      "avg_30_price": 254.56,
+      "min_30_price": null,
+      "drop_percent": 6.2,
+      "drop_30_percent": 9.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01FHOWQQO&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B01FHOWQQO?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T03:45:22.428671+00:00",
+      "last_checked_at": "2026-04-30T03:45:22.428772+00:00",
+      "posted_at": "2026-04-30T03:45:22.428772+00:00",
+      "first_seen_at": "2026-04-30T03:45:22.428772+00:00",
+      "expires_at": "2026-05-01T03:45:22.428774+00:00"
+    },
     {
       "asin": "B07JQM7C28",
       "title": "DEWALT 20V MAX Orbital Sander, Tool Only (DCW210B)",
@@ -559,25 +597,6 @@
       "posted_at": "2026-04-29T05:00:41.487197+00:00",
       "first_seen_at": "2026-04-29T05:00:41.487197+00:00",
       "expires_at": "2026-05-01T00:30:25.574338+00:00"
-    },
-    {
-      "asin": "B0DCFXHKLD",
-      "title": "VEVOR Retractable Extension Cord Reel, 75 FT, Heavy Duty 14AWG/3C SJTOW Retractable Power Cord with Lighted Triple Tap Outlet, 13 Amp Circuit Breaker 180\u00b0 Swivel Bracket for Ceiling or Wall Mount",
-      "current_price": 99.9,
-      "avg_7_price": 105.99,
-      "min_7_price": 99.9,
-      "avg_30_price": 106.09,
-      "min_30_price": null,
-      "drop_percent": 5.7,
-      "drop_30_percent": 5.8,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DCFXHKLD&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0DCFXHKLD?tag=simplewoodsho-20",
-      "checked_at": "2026-04-29T03:30:38.420222+00:00",
-      "last_checked_at": "2026-04-29T03:30:38.420399+00:00",
-      "posted_at": "2026-04-29T03:30:38.420399+00:00",
-      "first_seen_at": "2026-04-29T03:30:38.420399+00:00",
-      "expires_at": "2026-04-30T03:30:38.420402+00:00"
     }
   ]
 }
