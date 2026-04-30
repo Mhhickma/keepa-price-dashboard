@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-04-30T14:30:36.140884+00:00",
+  "updated_at": "2026-04-30T14:45:25.219988+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07VBB55X5": {
-      "asin": "B07VBB55X5",
-      "title": "DEWALT 20V MAX XR Oscillating Multi-Tool Cordless, Variable Speed Brushless Motor Multitool with LED Light, Extended Runtime, Includes Two Wood Cutting Blades, Tool Only (DCS356B)",
-      "current_price": 124.0,
-      "avg_7_price": 137.27,
-      "min_7_price": 124.0,
-      "avg_30_price": 131.18,
-      "min_30_price": null,
-      "drop_percent": 9.7,
-      "drop_30_percent": 5.5,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07VBB55X5&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07VBB55X5?tag=simplewoodsho-20",
-      "checked_at": "2026-04-29T14:30:49.612678+00:00",
-      "last_checked_at": "2026-04-29T14:30:49.612935+00:00",
-      "posted_at": "2026-04-29T14:30:49.612935+00:00",
-      "first_seen_at": "2026-04-29T14:30:49.612935+00:00",
-      "expires_at": "2026-04-30T14:30:49.612937+00:00"
-    },
     "B001RUEJ36": {
       "asin": "B001RUEJ36",
       "title": "Titebond - Franklin International 6211 Medium Bond Thin Glue, 2-Ounce",
@@ -1217,6 +1198,44 @@
       "posted_at": "2026-04-30T13:45:26.211121+00:00",
       "first_seen_at": "2026-04-30T13:45:26.211121+00:00",
       "expires_at": "2026-05-01T13:45:26.211124+00:00"
+    },
+    "B00ZWJDPTC": {
+      "asin": "B00ZWJDPTC",
+      "title": "DEWALT Orbital Sander Kit, 5 inch, 3 amp, Corded, 12,000 OPM (DWE6421K)",
+      "current_price": 75.79,
+      "avg_7_price": 79.99,
+      "min_7_price": 79.99,
+      "avg_30_price": 79.71,
+      "min_30_price": null,
+      "drop_percent": 5.3,
+      "drop_30_percent": 4.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00ZWJDPTC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00ZWJDPTC?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T14:45:25.217951+00:00",
+      "last_checked_at": "2026-04-30T14:45:25.218200+00:00",
+      "posted_at": "2026-04-30T14:45:25.218200+00:00",
+      "first_seen_at": "2026-04-30T14:45:25.218200+00:00",
+      "expires_at": "2026-05-01T14:45:25.218202+00:00"
+    },
+    "B004HASE0W": {
+      "asin": "B004HASE0W",
+      "title": "DEWALT 20V MAX XR 12 inch Double Bevel Sliding Miter Saw, Cordless, Tool Only (DCS785B)",
+      "current_price": 499.0,
+      "avg_7_price": 569.29,
+      "min_7_price": 499.0,
+      "avg_30_price": 592.06,
+      "min_30_price": null,
+      "drop_percent": 12.3,
+      "drop_30_percent": 15.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004HASE0W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B004HASE0W?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T14:45:25.218090+00:00",
+      "last_checked_at": "2026-04-30T14:45:25.218200+00:00",
+      "posted_at": "2026-04-30T14:45:25.218200+00:00",
+      "first_seen_at": "2026-04-30T14:45:25.218200+00:00",
+      "expires_at": "2026-05-01T14:45:25.218202+00:00"
     }
   }
 }
