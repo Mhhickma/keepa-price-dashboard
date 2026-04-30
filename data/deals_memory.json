@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T01:15:27.937425+00:00",
+  "updated_at": "2026-04-30T01:30:26.379289+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DCFXHKLD": {
@@ -400,6 +400,25 @@
       "posted_at": "2026-04-30T01:15:27.936444+00:00",
       "first_seen_at": "2026-04-30T01:15:27.936444+00:00",
       "expires_at": "2026-05-01T01:15:27.936446+00:00"
+    },
+    "B001GOEPF0": {
+      "asin": "B001GOEPF0",
+      "title": "Powermatic 15-Inch Thickness Planer for Woodworking, Helical Style Cutterhead with 2-Speed (16 FPM / 20 FPM) Feed Rate, 3 HP, 230V 1Ph (15HH)",
+      "current_price": 4099.0,
+      "avg_7_price": 4365.37,
+      "min_7_price": 4099.0,
+      "avg_30_price": 4391.15,
+      "min_30_price": null,
+      "drop_percent": 6.1,
+      "drop_30_percent": 6.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001GOEPF0&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B001GOEPF0?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T01:30:26.378171+00:00",
+      "last_checked_at": "2026-04-30T01:30:26.378301+00:00",
+      "posted_at": "2026-04-30T01:30:26.378301+00:00",
+      "first_seen_at": "2026-04-30T01:30:26.378301+00:00",
+      "expires_at": "2026-05-01T01:30:26.378304+00:00"
     }
   }
 }
