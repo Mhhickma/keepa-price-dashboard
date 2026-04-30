@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T04:00:21.507799+00:00",
+  "updated_at": "2026-04-30T04:15:18.569737+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0001LQW82": {
@@ -609,6 +609,25 @@
       "posted_at": "2026-04-30T04:00:21.506606+00:00",
       "first_seen_at": "2026-04-30T04:00:21.506606+00:00",
       "expires_at": "2026-05-01T04:00:21.506608+00:00"
+    },
+    "B0000DD0F3": {
+      "asin": "B0000DD0F3",
+      "title": "Boeshield RustFree Rust and Stain Remover, 8 oz",
+      "current_price": 15.18,
+      "avg_7_price": 16.12,
+      "min_7_price": 12.59,
+      "avg_30_price": 15.98,
+      "min_30_price": null,
+      "drop_percent": 5.8,
+      "drop_30_percent": 5.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000DD0F3&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0000DD0F3?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T04:15:18.568482+00:00",
+      "last_checked_at": "2026-04-30T04:15:18.568538+00:00",
+      "posted_at": "2026-04-30T04:15:18.568538+00:00",
+      "first_seen_at": "2026-04-30T04:15:18.568538+00:00",
+      "expires_at": "2026-05-01T04:15:18.568540+00:00"
     }
   }
 }
