@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T22:30:22.860446+00:00",
+  "updated_at": "2026-04-30T22:45:30.588604+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DCHQ9NF4": {
@@ -43,21 +43,21 @@
     "B001GOEPF0": {
       "asin": "B001GOEPF0",
       "title": "Powermatic 15-Inch Thickness Planer for Woodworking, Helical Style Cutterhead with 2-Speed (16 FPM / 20 FPM) Feed Rate, 3 HP, 230V 1Ph (15HH)",
-      "current_price": 4099.0,
-      "avg_7_price": 4365.37,
-      "min_7_price": 4099.0,
-      "avg_30_price": 4391.15,
+      "current_price": 3799.0,
+      "avg_7_price": 4312.93,
+      "min_7_price": 3799.0,
+      "avg_30_price": 4378.91,
       "min_30_price": null,
-      "drop_percent": 6.1,
-      "drop_30_percent": 6.7,
+      "drop_percent": 11.9,
+      "drop_30_percent": 13.2,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001GOEPF0&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B001GOEPF0?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T01:30:26.378171+00:00",
-      "last_checked_at": "2026-04-30T01:30:26.378301+00:00",
+      "checked_at": "2026-04-30T22:45:30.586715+00:00",
+      "last_checked_at": "2026-04-30T22:45:30.586815+00:00",
       "posted_at": "2026-04-30T01:30:26.378301+00:00",
       "first_seen_at": "2026-04-30T01:30:26.378301+00:00",
-      "expires_at": "2026-05-01T01:30:26.378304+00:00"
+      "expires_at": "2026-05-01T22:45:30.586817+00:00"
     },
     "B08TM9K5QY": {
       "asin": "B08TM9K5QY",
@@ -1217,6 +1217,25 @@
       "posted_at": "2026-04-30T21:45:30.124436+00:00",
       "first_seen_at": "2026-04-30T21:45:30.124436+00:00",
       "expires_at": "2026-05-01T21:45:30.124438+00:00"
+    },
+    "B0BTTBQPW2": {
+      "asin": "B0BTTBQPW2",
+      "title": "Mirka Gold Multifit 5'' Sandpaper Grit 180 Hook and Loop, 50 Pack 5 inch Sanding Discs for Orbital Sander, Sand Paper Pads for Wood, Drywall, Metal",
+      "current_price": 23.74,
+      "avg_7_price": 26.59,
+      "min_7_price": 23.74,
+      "avg_30_price": 26.89,
+      "min_30_price": null,
+      "drop_percent": 10.7,
+      "drop_30_percent": 11.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BTTBQPW2&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0BTTBQPW2?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T22:45:30.586810+00:00",
+      "last_checked_at": "2026-04-30T22:45:30.586815+00:00",
+      "posted_at": "2026-04-30T22:45:30.586815+00:00",
+      "first_seen_at": "2026-04-30T22:45:30.586815+00:00",
+      "expires_at": "2026-05-01T22:45:30.586817+00:00"
     }
   }
 }
