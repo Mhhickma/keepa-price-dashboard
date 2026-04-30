@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T03:15:18.905878+00:00",
+  "updated_at": "2026-04-30T03:30:21.670327+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0DCFXHKLD": {
@@ -533,6 +533,25 @@
       "posted_at": "2026-04-30T03:15:18.904765+00:00",
       "first_seen_at": "2026-04-30T03:15:18.904765+00:00",
       "expires_at": "2026-05-01T03:15:18.904767+00:00"
+    },
+    "B07JQM7C28": {
+      "asin": "B07JQM7C28",
+      "title": "DEWALT 20V MAX Orbital Sander, Tool Only (DCW210B)",
+      "current_price": 96.9,
+      "avg_7_price": 118.71,
+      "min_7_price": 96.9,
+      "avg_30_price": 137.86,
+      "min_30_price": null,
+      "drop_percent": 18.4,
+      "drop_30_percent": 29.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JQM7C28&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07JQM7C28?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T03:30:21.655527+00:00",
+      "last_checked_at": "2026-04-30T03:30:21.655549+00:00",
+      "posted_at": "2026-04-30T03:30:21.655549+00:00",
+      "first_seen_at": "2026-04-30T03:30:21.655549+00:00",
+      "expires_at": "2026-05-01T03:30:21.655551+00:00"
     }
   }
 }
