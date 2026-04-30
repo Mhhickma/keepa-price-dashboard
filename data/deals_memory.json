@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T21:30:26.119328+00:00",
+  "updated_at": "2026-04-30T21:45:30.125943+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07MRNBCXM": {
@@ -1217,6 +1217,25 @@
       "posted_at": "2026-04-30T20:00:24.327791+00:00",
       "first_seen_at": "2026-04-30T20:00:24.327791+00:00",
       "expires_at": "2026-05-01T20:00:24.327793+00:00"
+    },
+    "B087D6PXC4": {
+      "asin": "B087D6PXC4",
+      "title": "3M WorkTunes Hearing Protector Replacement Ear Cushion Hygiene Kit, 1 pair, works with WorkTunes AM/FM (90541) and WorkTunes Connect + AM/FM (90542)",
+      "current_price": 14.99,
+      "avg_7_price": 15.9,
+      "min_7_price": 14.99,
+      "avg_30_price": 15.34,
+      "min_30_price": null,
+      "drop_percent": 5.7,
+      "drop_30_percent": 2.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B087D6PXC4&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B087D6PXC4?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T21:45:30.124388+00:00",
+      "last_checked_at": "2026-04-30T21:45:30.124436+00:00",
+      "posted_at": "2026-04-30T21:45:30.124436+00:00",
+      "first_seen_at": "2026-04-30T21:45:30.124436+00:00",
+      "expires_at": "2026-05-01T21:45:30.124438+00:00"
     }
   }
 }
