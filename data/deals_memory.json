@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T18:30:27.461819+00:00",
+  "updated_at": "2026-04-30T18:45:24.301520+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07MRNBCXM": {
@@ -1160,6 +1160,25 @@
       "posted_at": "2026-04-30T17:45:23.397901+00:00",
       "first_seen_at": "2026-04-30T17:45:23.397901+00:00",
       "expires_at": "2026-05-01T17:45:23.397903+00:00"
+    },
+    "B0B9T68W3B": {
+      "asin": "B0B9T68W3B",
+      "title": "DEWALT 20V MAX Cordless Impact Wrench, 1/2 Impact Gun, 4-Speed High Torque with Hog Ring Anvil and LED Light, Brushless Motor, Precision Wrench, Tool Only (DCF900B)",
+      "current_price": 219.99,
+      "avg_7_price": 238.29,
+      "min_7_price": 219.99,
+      "avg_30_price": 227.33,
+      "min_30_price": null,
+      "drop_percent": 7.7,
+      "drop_30_percent": 3.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B9T68W3B&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0B9T68W3B?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T18:45:24.299704+00:00",
+      "last_checked_at": "2026-04-30T18:45:24.299804+00:00",
+      "posted_at": "2026-04-30T18:45:24.299804+00:00",
+      "first_seen_at": "2026-04-30T18:45:24.299804+00:00",
+      "expires_at": "2026-05-01T18:45:24.299807+00:00"
     }
   }
 }
