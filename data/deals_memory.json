@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T12:15:29.027166+00:00",
+  "updated_at": "2026-04-30T12:30:26.621696+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0G22ZYJCG": {
@@ -1179,6 +1179,63 @@
       "posted_at": "2026-04-30T12:00:22.810728+00:00",
       "first_seen_at": "2026-04-30T12:00:22.810728+00:00",
       "expires_at": "2026-05-01T12:00:22.810731+00:00"
+    },
+    "B0002I5XHK": {
+      "asin": "B0002I5XHK",
+      "title": "Akro-Mils 12-Inch ProBox Plastic Toolbox for Tools, Hobby or Craft Storage Toolbox, Model 09912, (12-Inch x 5-1/2-Inch x 4-Inch), Red",
+      "current_price": 10.9,
+      "avg_7_price": 11.76,
+      "min_7_price": 10.9,
+      "avg_30_price": 12.21,
+      "min_30_price": null,
+      "drop_percent": 7.3,
+      "drop_30_percent": 10.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002I5XHK&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0002I5XHK?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T12:30:26.619737+00:00",
+      "last_checked_at": "2026-04-30T12:30:26.619872+00:00",
+      "posted_at": "2026-04-30T12:30:26.619872+00:00",
+      "first_seen_at": "2026-04-30T12:30:26.619872+00:00",
+      "expires_at": "2026-05-01T12:30:26.619874+00:00"
+    },
+    "B000UZ0P7I": {
+      "asin": "B000UZ0P7I",
+      "title": "Olympia Tools 85-010 Grand Pack-N-Roll Portable Tools Carrier with Telescopic Handle, 80 Lb. Load Capacity, Black 2025 New Version",
+      "current_price": 29.74,
+      "avg_7_price": 34.56,
+      "min_7_price": 29.74,
+      "avg_30_price": 33.99,
+      "min_30_price": null,
+      "drop_percent": 13.9,
+      "drop_30_percent": 12.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000UZ0P7I&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B000UZ0P7I?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T12:30:26.619778+00:00",
+      "last_checked_at": "2026-04-30T12:30:26.619872+00:00",
+      "posted_at": "2026-04-30T12:30:26.619872+00:00",
+      "first_seen_at": "2026-04-30T12:30:26.619872+00:00",
+      "expires_at": "2026-05-01T12:30:26.619874+00:00"
+    },
+    "B0BBN9W3YR": {
+      "asin": "B0BBN9W3YR",
+      "title": "CRAFTSMAN Storage Organizer, Small Parts Organizer, 3-Packs with 10-Compartments, Lid Includes Secure Latch (CMST60964M)",
+      "current_price": 13.08,
+      "avg_7_price": 26.41,
+      "min_7_price": 13.08,
+      "avg_30_price": 28.28,
+      "min_30_price": null,
+      "drop_percent": 50.5,
+      "drop_30_percent": 53.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BBN9W3YR&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0BBN9W3YR?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T12:30:26.619797+00:00",
+      "last_checked_at": "2026-04-30T12:30:26.619872+00:00",
+      "posted_at": "2026-04-30T12:30:26.619872+00:00",
+      "first_seen_at": "2026-04-30T12:30:26.619872+00:00",
+      "expires_at": "2026-05-01T12:30:26.619874+00:00"
     }
   }
 }
