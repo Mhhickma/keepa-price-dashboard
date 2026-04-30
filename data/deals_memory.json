@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T11:00:25.502600+00:00",
+  "updated_at": "2026-04-30T11:15:18.134959+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0G22ZYJCG": {
@@ -1046,6 +1046,25 @@
       "posted_at": "2026-04-30T11:00:25.500939+00:00",
       "first_seen_at": "2026-04-30T11:00:25.500939+00:00",
       "expires_at": "2026-05-01T11:00:25.500942+00:00"
+    },
+    "B0DW3YVMGC": {
+      "asin": "B0DW3YVMGC",
+      "title": "POWERTEC 70367V 4 Inch ID Y Fitting for 4 Inch OD Dust Collection Pipes, Adapters and Fittings, 1 pack",
+      "current_price": 14.59,
+      "avg_7_price": 16.7,
+      "min_7_price": 14.59,
+      "avg_30_price": 16.59,
+      "min_30_price": null,
+      "drop_percent": 12.6,
+      "drop_30_percent": 12.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DW3YVMGC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0DW3YVMGC?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T11:15:18.133140+00:00",
+      "last_checked_at": "2026-04-30T11:15:18.133259+00:00",
+      "posted_at": "2026-04-30T11:15:18.133259+00:00",
+      "first_seen_at": "2026-04-30T11:15:18.133259+00:00",
+      "expires_at": "2026-05-01T11:15:18.133261+00:00"
     }
   }
 }
