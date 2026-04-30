@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-30T11:45:21.988524+00:00",
+  "updated_at": "2026-04-30T12:00:22.812574+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0G22ZYJCG": {
@@ -1160,6 +1160,25 @@
       "posted_at": "2026-04-30T11:30:25.056190+00:00",
       "first_seen_at": "2026-04-30T11:30:25.056190+00:00",
       "expires_at": "2026-05-01T11:30:25.056192+00:00"
+    },
+    "B07BWNCGKJ": {
+      "asin": "B07BWNCGKJ",
+      "title": "BESSEY KREX2450 K Body REVO Clamp Kit, 2 x 24 In., 2 x 50 In. and 2 KBX20 Extenders - 1700 lbs Nominal Clamping Force. Spreader, and Woodworking Accessories - Clamps and Tools for Cabinetry",
+      "current_price": 279.45,
+      "avg_7_price": 311.68,
+      "min_7_price": 279.45,
+      "avg_30_price": 313.45,
+      "min_30_price": null,
+      "drop_percent": 10.3,
+      "drop_30_percent": 10.8,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07BWNCGKJ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07BWNCGKJ?tag=simplewoodsho-20",
+      "checked_at": "2026-04-30T12:00:22.810625+00:00",
+      "last_checked_at": "2026-04-30T12:00:22.810728+00:00",
+      "posted_at": "2026-04-30T12:00:22.810728+00:00",
+      "first_seen_at": "2026-04-30T12:00:22.810728+00:00",
+      "expires_at": "2026-05-01T12:00:22.810731+00:00"
     }
   }
 }
