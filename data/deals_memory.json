@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T15:34:33.540820+00:00",
+  "updated_at": "2026-05-01T15:45:24.422617+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01ESCU5WS": {
@@ -1027,6 +1027,44 @@
       "posted_at": "2026-05-01T15:34:33.539258+00:00",
       "first_seen_at": "2026-05-01T15:34:33.539258+00:00",
       "expires_at": "2026-05-02T15:34:33.539261+00:00"
+    },
+    "B07MB2VH9Y": {
+      "asin": "B07MB2VH9Y",
+      "title": "Bosch Impact Tough Phillips #2 Screwdriving Power Bits, 3-1/2 Inch, 10-Pack",
+      "current_price": 13.99,
+      "avg_7_price": 17.04,
+      "min_7_price": 13.99,
+      "avg_30_price": 17.08,
+      "min_30_price": null,
+      "drop_percent": 17.9,
+      "drop_30_percent": 18.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MB2VH9Y&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07MB2VH9Y?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T15:45:24.420775+00:00",
+      "last_checked_at": "2026-05-01T15:45:24.420811+00:00",
+      "posted_at": "2026-05-01T15:45:24.420811+00:00",
+      "first_seen_at": "2026-05-01T15:45:24.420811+00:00",
+      "expires_at": "2026-05-02T15:45:24.420813+00:00"
+    },
+    "B07MRNBCXM": {
+      "asin": "B07MRNBCXM",
+      "title": "BOSCH ITT206B 10-Pack 6 In. Torx #20 Impact Tough Screwdriving Power Bits",
+      "current_price": 16.59,
+      "avg_7_price": 20.55,
+      "min_7_price": 16.59,
+      "avg_30_price": 21.25,
+      "min_30_price": null,
+      "drop_percent": 19.3,
+      "drop_30_percent": 21.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MRNBCXM&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07MRNBCXM?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T15:45:24.420802+00:00",
+      "last_checked_at": "2026-05-01T15:45:24.420811+00:00",
+      "posted_at": "2026-05-01T15:45:24.420811+00:00",
+      "first_seen_at": "2026-05-01T15:45:24.420811+00:00",
+      "expires_at": "2026-05-02T15:45:24.420813+00:00"
     }
   }
 }
