@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T20:45:26.559416+00:00",
+  "updated_at": "2026-05-01T21:00:23.305578+00:00",
   "asin_source": "Google Sheet CSV",
   "comparison_window": "Keepa stats=7 for 7-day average and 7-day low",
   "deal_ttl_hours": 24,
@@ -12,10 +12,10 @@
   "missing_image_count": 0,
   "scan_window": {
     "total_asins": 4407,
-    "start_index": 2974,
-    "start_sheet_row": 2976,
-    "next_start_index": 3024,
-    "next_start_sheet_row": 3026,
+    "start_index": 3024,
+    "start_sheet_row": 3026,
+    "next_start_index": 3074,
+    "next_start_sheet_row": 3076,
     "scan_count": 50
   },
   "settings": {
