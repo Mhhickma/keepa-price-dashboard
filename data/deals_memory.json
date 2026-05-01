@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T18:15:18.558824+00:00",
+  "updated_at": "2026-05-01T18:30:23.821682+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0B9T68W3B": {
@@ -1141,6 +1141,44 @@
       "posted_at": "2026-05-01T17:45:24.065663+00:00",
       "first_seen_at": "2026-05-01T17:45:24.065663+00:00",
       "expires_at": "2026-05-02T17:45:24.065665+00:00"
+    },
+    "B00540JS7C": {
+      "asin": "B00540JS7C",
+      "title": "DEWALT Miter Saw, 12-inch Double Bevel Sliding Compound Miter Saw with XPS LED Shadow Light System, Includes Blade Wrench, Material Clamp and Dust Bag (DWS780)",
+      "current_price": 499.0,
+      "avg_7_price": 631.08,
+      "min_7_price": 499.0,
+      "avg_30_price": 634.08,
+      "min_30_price": null,
+      "drop_percent": 20.9,
+      "drop_30_percent": 21.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00540JS7C&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00540JS7C?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T18:30:23.819792+00:00",
+      "last_checked_at": "2026-05-01T18:30:23.819953+00:00",
+      "posted_at": "2026-05-01T18:30:23.819953+00:00",
+      "first_seen_at": "2026-05-01T18:30:23.819953+00:00",
+      "expires_at": "2026-05-02T18:30:23.819956+00:00"
+    },
+    "B092RG6QD5": {
+      "asin": "B092RG6QD5",
+      "title": "JET Flip Top Benchtop Machine Table (728200)",
+      "current_price": 299.99,
+      "avg_7_price": 335.29,
+      "min_7_price": 299.99,
+      "avg_30_price": 338.89,
+      "min_30_price": null,
+      "drop_percent": 10.5,
+      "drop_30_percent": 11.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B092RG6QD5&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B092RG6QD5?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T18:30:23.819841+00:00",
+      "last_checked_at": "2026-05-01T18:30:23.819953+00:00",
+      "posted_at": "2026-05-01T18:30:23.819953+00:00",
+      "first_seen_at": "2026-05-01T18:30:23.819953+00:00",
+      "expires_at": "2026-05-02T18:30:23.819956+00:00"
     }
   }
 }
