@@ -1,45 +1,7 @@
 {
-  "updated_at": "2026-05-01T09:15:18.464556+00:00",
+  "updated_at": "2026-05-01T09:30:20.736773+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07LB6ZHL1": {
-      "asin": "B07LB6ZHL1",
-      "title": "DEWALT DXF2042 Industrial Fan, 20 Inch High Velocity Fans with 3-Speed Adjustable Tilting Head, Drum Fan for Outdoor, House and Warehouse, Yellow",
-      "current_price": 125.99,
-      "avg_7_price": 144.38,
-      "min_7_price": 125.99,
-      "avg_30_price": 143.56,
-      "min_30_price": null,
-      "drop_percent": 12.7,
-      "drop_30_percent": 12.2,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07LB6ZHL1&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07LB6ZHL1?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T06:45:25.716364+00:00",
-      "last_checked_at": "2026-05-01T06:45:25.716471+00:00",
-      "posted_at": "2026-04-30T09:15:26.678700+00:00",
-      "first_seen_at": "2026-04-30T09:15:26.678700+00:00",
-      "expires_at": "2026-05-02T06:45:25.716474+00:00"
-    },
-    "B0743QY2SP": {
-      "asin": "B0743QY2SP",
-      "title": "Titebond White 5036 All-Purpose Glue Gallon, 1 Gallon",
-      "current_price": 20.53,
-      "avg_7_price": 26.1,
-      "min_7_price": 13.54,
-      "avg_30_price": 20.39,
-      "min_30_price": null,
-      "drop_percent": 21.3,
-      "drop_30_percent": null,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0743QY2SP&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0743QY2SP?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T09:15:26.678634+00:00",
-      "last_checked_at": "2026-04-30T09:15:26.678700+00:00",
-      "posted_at": "2026-04-30T09:15:26.678700+00:00",
-      "first_seen_at": "2026-04-30T09:15:26.678700+00:00",
-      "expires_at": "2026-05-01T09:15:26.678703+00:00"
-    },
     "B0BF45MLXR": {
       "asin": "B0BF45MLXR",
       "title": "Makita ADADP05 Outdoor Adventure\u2122 18V LXT\u00ae Cordless Power Source, Power Source Only, USB, Camo Green",
@@ -1046,6 +1008,25 @@
       "posted_at": "2026-05-01T09:00:26.230378+00:00",
       "first_seen_at": "2026-05-01T09:00:26.230378+00:00",
       "expires_at": "2026-05-02T09:00:26.230380+00:00"
+    },
+    "B072FKNSN9": {
+      "asin": "B072FKNSN9",
+      "title": "Milescraft 53460003 5346 Dowel Pin Bucket-375 Wooden Dowels-1/4in (200 pcs.) -5/16in (100pcs.)-3/8in Dia. (75pcs.) Made of Hardwood-Ideal for Woodworking Projects, Original Version",
+      "current_price": 8.99,
+      "avg_7_price": 9.63,
+      "min_7_price": 8.99,
+      "avg_30_price": 9.9,
+      "min_30_price": null,
+      "drop_percent": 6.6,
+      "drop_30_percent": 9.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B072FKNSN9&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B072FKNSN9?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T09:30:20.735162+00:00",
+      "last_checked_at": "2026-05-01T09:30:20.735222+00:00",
+      "posted_at": "2026-05-01T09:30:20.735222+00:00",
+      "first_seen_at": "2026-05-01T09:30:20.735222+00:00",
+      "expires_at": "2026-05-02T09:30:20.735224+00:00"
     }
   }
 }
