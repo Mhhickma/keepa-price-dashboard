@@ -5,7 +5,7 @@ const updatedAtEl = document.getElementById("updatedAt");
 const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
 
-const REMOVE_ASIN_WEB_APP_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const REMOVE_ASIN_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbyWGSoeqsZPeLBjr806G7_fsXmRk5w8mBWC5ASO3bO7XGQv2Xh7tWijSydiRjGLeQSC9g/exec";
 const HIDDEN_DEALS_KEY = "keepa-dashboard-hidden-asins";
 const REMOVE_QUEUE_KEY = "keepa-dashboard-remove-queue-asins";
 const HIDE_FOR_HOURS = 24;
