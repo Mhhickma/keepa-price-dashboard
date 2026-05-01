@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T15:30:21.122672+00:00",
+  "updated_at": "2026-05-01T15:34:33.540820+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01ESCU5WS": {
@@ -1008,6 +1008,25 @@
       "posted_at": "2026-05-01T15:30:21.121031+00:00",
       "first_seen_at": "2026-05-01T15:30:21.121031+00:00",
       "expires_at": "2026-05-02T15:30:21.121033+00:00"
+    },
+    "B0FCHG4YJL": {
+      "asin": "B0FCHG4YJL",
+      "title": "DEWALT 20V MAX XR 10 in. Double Bevel Fixed Miter Saw (Tool Only) (DCS714B)",
+      "current_price": 369.0,
+      "avg_7_price": 399.33,
+      "min_7_price": 369.0,
+      "avg_30_price": 377.51,
+      "min_30_price": null,
+      "drop_percent": 7.6,
+      "drop_30_percent": 2.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FCHG4YJL&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0FCHG4YJL?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T15:34:33.539105+00:00",
+      "last_checked_at": "2026-05-01T15:34:33.539258+00:00",
+      "posted_at": "2026-05-01T15:34:33.539258+00:00",
+      "first_seen_at": "2026-05-01T15:34:33.539258+00:00",
+      "expires_at": "2026-05-02T15:34:33.539261+00:00"
     }
   }
 }
