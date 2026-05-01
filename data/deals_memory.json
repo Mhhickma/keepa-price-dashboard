@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T00:00:27.969352+00:00",
+  "updated_at": "2026-05-01T00:15:17.586747+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01F1NZF1Y": {
@@ -101,20 +101,20 @@
       "asin": "B0002YQ3M8",
       "title": "Titebond 1416 III Ultimate Wood Glue, 1-Gallon",
       "current_price": 31.93,
-      "avg_7_price": 33.94,
+      "avg_7_price": 33.67,
       "min_7_price": 31.93,
-      "avg_30_price": 34.34,
+      "avg_30_price": 34.3,
       "min_30_price": null,
-      "drop_percent": 5.9,
-      "drop_30_percent": 7.0,
+      "drop_percent": 5.2,
+      "drop_30_percent": 6.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0002YQ3M8&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0002YQ3M8?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T03:15:18.904623+00:00",
-      "last_checked_at": "2026-04-30T03:15:18.904765+00:00",
+      "checked_at": "2026-05-01T00:15:17.584713+00:00",
+      "last_checked_at": "2026-05-01T00:15:17.584815+00:00",
       "posted_at": "2026-04-30T03:15:18.904765+00:00",
       "first_seen_at": "2026-04-30T03:15:18.904765+00:00",
-      "expires_at": "2026-05-01T03:15:18.904767+00:00"
+      "expires_at": "2026-05-02T00:15:17.584817+00:00"
     },
     "B08FDJS5WP": {
       "asin": "B08FDJS5WP",
@@ -1217,6 +1217,44 @@
       "posted_at": "2026-04-30T22:45:30.586815+00:00",
       "first_seen_at": "2026-04-30T22:45:30.586815+00:00",
       "expires_at": "2026-05-01T22:45:30.586817+00:00"
+    },
+    "B00P84QEF8": {
+      "asin": "B00P84QEF8",
+      "title": "WEN Woodworking Air Filters, 1-Micron Inner Filter for 400 CFM Air Filtration Systems, Two Pack (90243-026-2)",
+      "current_price": 24.99,
+      "avg_7_price": 28.32,
+      "min_7_price": 24.99,
+      "avg_30_price": 29.51,
+      "min_30_price": null,
+      "drop_percent": 11.8,
+      "drop_30_percent": 15.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00P84QEF8&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00P84QEF8?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T00:15:17.584596+00:00",
+      "last_checked_at": "2026-05-01T00:15:17.584815+00:00",
+      "posted_at": "2026-05-01T00:15:17.584815+00:00",
+      "first_seen_at": "2026-05-01T00:15:17.584815+00:00",
+      "expires_at": "2026-05-02T00:15:17.584817+00:00"
+    },
+    "B0CFMB9T43": {
+      "asin": "B0CFMB9T43",
+      "title": "Powermatic ArmorGlide 12-Inch Parallelogram Jointer, Straight Knife, 3 HP, 230V 1Ph (1285T)",
+      "current_price": 7499.0,
+      "avg_7_price": 7927.62,
+      "min_7_price": 7499.0,
+      "avg_30_price": 7970.67,
+      "min_30_price": null,
+      "drop_percent": 5.4,
+      "drop_30_percent": 5.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CFMB9T43&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0CFMB9T43?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T00:15:17.584786+00:00",
+      "last_checked_at": "2026-05-01T00:15:17.584815+00:00",
+      "posted_at": "2026-05-01T00:15:17.584815+00:00",
+      "first_seen_at": "2026-05-01T00:15:17.584815+00:00",
+      "expires_at": "2026-05-02T00:15:17.584817+00:00"
     }
   }
 }
