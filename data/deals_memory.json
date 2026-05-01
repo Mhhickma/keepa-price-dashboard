@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T03:30:27.155293+00:00",
+  "updated_at": "2026-05-01T03:45:22.336236+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B001KYNKDO": {
@@ -348,20 +348,20 @@
       "asin": "B0FC246MJ4",
       "title": "POWERTEC AF1045E 3-Speed Remote Controlled Air Filtration System Woodworking (655/875/1060 CFM), Hanging Air Filter for Dust Collector & Workshop, Air Purifier for Garage",
       "current_price": 255.99,
-      "avg_7_price": 308.02,
+      "avg_7_price": 293.87,
       "min_7_price": 255.99,
-      "avg_30_price": 374.29,
+      "avg_30_price": 370.2,
       "min_30_price": null,
-      "drop_percent": 16.9,
-      "drop_30_percent": 31.6,
+      "drop_percent": 12.9,
+      "drop_30_percent": 30.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FC246MJ4&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0FC246MJ4?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T06:15:25.161640+00:00",
-      "last_checked_at": "2026-04-30T06:15:25.161648+00:00",
+      "checked_at": "2026-05-01T03:45:22.334241+00:00",
+      "last_checked_at": "2026-05-01T03:45:22.334395+00:00",
       "posted_at": "2026-04-30T06:15:25.161648+00:00",
       "first_seen_at": "2026-04-30T06:15:25.161648+00:00",
-      "expires_at": "2026-05-01T06:15:25.161650+00:00"
+      "expires_at": "2026-05-02T03:45:22.334397+00:00"
     },
     "B07P9DQ19R": {
       "asin": "B07P9DQ19R",
@@ -1255,6 +1255,25 @@
       "posted_at": "2026-05-01T03:00:27.443808+00:00",
       "first_seen_at": "2026-05-01T03:00:27.443808+00:00",
       "expires_at": "2026-05-02T03:00:27.443810+00:00"
+    },
+    "B0DFY8DC8F": {
+      "asin": "B0DFY8DC8F",
+      "title": "GarveeTech Powerful Benchtop Planer, 1250W Power, Low Noise & Low Dust Work, Thickness Planer Extended Infeeding Table, Ideal for Hard & Soft Wood",
+      "current_price": 161.45,
+      "avg_7_price": 172.0,
+      "min_7_price": 168.99,
+      "avg_30_price": 195.98,
+      "min_30_price": null,
+      "drop_percent": 6.1,
+      "drop_30_percent": 17.6,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DFY8DC8F&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0DFY8DC8F?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T03:45:22.334315+00:00",
+      "last_checked_at": "2026-05-01T03:45:22.334395+00:00",
+      "posted_at": "2026-05-01T03:45:22.334395+00:00",
+      "first_seen_at": "2026-05-01T03:45:22.334395+00:00",
+      "expires_at": "2026-05-02T03:45:22.334397+00:00"
     }
   }
 }
