@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T06:45:25.717912+00:00",
+  "updated_at": "2026-05-01T07:00:30.837910+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B005W0ZT86": {
@@ -894,6 +894,25 @@
       "posted_at": "2026-05-01T03:45:22.334395+00:00",
       "first_seen_at": "2026-05-01T03:45:22.334395+00:00",
       "expires_at": "2026-05-02T03:45:22.334397+00:00"
+    },
+    "B07P8QTFRC": {
+      "asin": "B07P8QTFRC",
+      "title": "DEWALT 12-Inch Miter Saw, 15-Amp, Single Bevel, Compound (DWS715)",
+      "current_price": 318.3,
+      "avg_7_price": 336.98,
+      "min_7_price": 279.99,
+      "avg_30_price": 300.01,
+      "min_30_price": null,
+      "drop_percent": 5.5,
+      "drop_30_percent": null,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P8QTFRC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07P8QTFRC?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T07:00:30.836052+00:00",
+      "last_checked_at": "2026-05-01T07:00:30.836162+00:00",
+      "posted_at": "2026-05-01T07:00:30.836162+00:00",
+      "first_seen_at": "2026-05-01T07:00:30.836162+00:00",
+      "expires_at": "2026-05-02T07:00:30.836165+00:00"
     }
   }
 }
