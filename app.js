@@ -5,6 +5,7 @@ const updatedAtEl = document.getElementById("updatedAt");
 const searchInput = document.getElementById("searchInput");
 const sortSelect = document.getElementById("sortSelect");
 
+const REMOVE_ASIN_WEB_APP_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
 const HIDDEN_DEALS_KEY = "keepa-dashboard-hidden-asins";
 const REMOVE_QUEUE_KEY = "keepa-dashboard-remove-queue-asins";
 const HIDE_FOR_HOURS = 24;
@@ -16,7 +17,6 @@ function readHiddenMap() {
     const raw = JSON.parse(localStorage.getItem(HIDDEN_DEALS_KEY) || "{}");
 
     if (Array.isArray(raw)) {
-      // Upgrade the old hidden-ASIN list format to 24-hour hidden timestamps.
       const upgraded = {};
       const hideUntil = Date.now() + HIDE_FOR_HOURS * 60 * 60 * 1000;
       raw.forEach((asin) => {
@@ -81,12 +81,28 @@ function hideDeal(asin) {
   applySearch();
 }
 
-function queueRemoveDeal(asin) {
-  const removeQueue = removeQueueAsins();
-  removeQueue.add(asin);
-  writeSet(REMOVE_QUEUE_KEY, removeQueue);
+async function queueRemoveDeal(asin) {
+  const confirmRemove = confirm(`Remove ASIN ${asin} from the spreadsheet?`);
+  if (!confirmRemove) return;
 
-  hideDeal(asin);
+  if (!REMOVE_ASIN_WEB_APP_URL || REMOVE_ASIN_WEB_APP_URL.includes("PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE")) {
+    alert("Remove ASIN is not connected yet. Add your Google Apps Script Web App URL to app.js.");
+    return;
+  }
+
+  try {
+    await fetch(REMOVE_ASIN_WEB_APP_URL, {
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify({ asin: asin })
+    });
+
+    hideDeal(asin);
+    alert(`Remove request sent for ${asin}.`);
+  } catch (error) {
+    alert("Could not connect to the spreadsheet removal script.");
+    console.error(error);
+  }
 }
 
 function resetHiddenDeals() {
