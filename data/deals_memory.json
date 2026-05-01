@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T08:00:25.679727+00:00",
+  "updated_at": "2026-05-01T08:15:18.918876+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07LB6ZHL1": {
@@ -196,39 +196,39 @@
       "asin": "B0C74G3CC4",
       "title": "Velcro Brand Heavy Duty Carrying Strap with Handle | Holds 100 Pounds | Extension Cord Storage, Easily Transport or Hang Garden Hoses | Durable Garage Organization | Medium, Wraps 5.5 Inch Diameter",
       "current_price": 12.07,
-      "avg_7_price": 12.96,
+      "avg_7_price": 12.84,
       "min_7_price": 12.07,
-      "avg_30_price": 12.43,
+      "avg_30_price": 12.46,
       "min_30_price": null,
-      "drop_percent": 6.9,
-      "drop_30_percent": 2.9,
+      "drop_percent": 6.0,
+      "drop_30_percent": 3.1,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C74G3CC4&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0C74G3CC4?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T11:00:25.500736+00:00",
-      "last_checked_at": "2026-04-30T11:00:25.500939+00:00",
+      "checked_at": "2026-05-01T08:15:18.917425+00:00",
+      "last_checked_at": "2026-05-01T08:15:18.917597+00:00",
       "posted_at": "2026-04-30T11:00:25.500939+00:00",
       "first_seen_at": "2026-04-30T11:00:25.500939+00:00",
-      "expires_at": "2026-05-01T11:00:25.500942+00:00"
+      "expires_at": "2026-05-02T08:15:18.917599+00:00"
     },
     "B001DSY4QO": {
       "asin": "B001DSY4QO",
       "title": "IRWIN Quick-Grip 1964758 One-Handed Mini Bar Clamp 4 Pack, 6\", Blue",
       "current_price": 25.5,
-      "avg_7_price": 29.69,
+      "avg_7_price": 29.06,
       "min_7_price": 25.5,
-      "avg_30_price": 31.3,
+      "avg_30_price": 31.19,
       "min_30_price": null,
-      "drop_percent": 14.1,
-      "drop_30_percent": 18.5,
+      "drop_percent": 12.3,
+      "drop_30_percent": 18.2,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001DSY4QO&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B001DSY4QO?tag=simplewoodsho-20",
-      "checked_at": "2026-04-30T11:00:25.500784+00:00",
-      "last_checked_at": "2026-04-30T11:00:25.500939+00:00",
+      "checked_at": "2026-05-01T08:15:18.917463+00:00",
+      "last_checked_at": "2026-05-01T08:15:18.917597+00:00",
       "posted_at": "2026-04-30T11:00:25.500939+00:00",
       "first_seen_at": "2026-04-30T11:00:25.500939+00:00",
-      "expires_at": "2026-05-01T11:00:25.500942+00:00"
+      "expires_at": "2026-05-02T08:15:18.917599+00:00"
     },
     "B0DW3YVMGC": {
       "asin": "B0DW3YVMGC",
@@ -970,6 +970,25 @@
       "posted_at": "2026-05-01T08:00:25.678174+00:00",
       "first_seen_at": "2026-05-01T08:00:25.678174+00:00",
       "expires_at": "2026-05-02T08:00:25.678177+00:00"
+    },
+    "B0F1T4TZNG": {
+      "asin": "B0F1T4TZNG",
+      "title": "POWERTEC 2-1/2\" ID Dust Collection End Cap for 2-1/2\" OD Pipes, Plastic Pipe Cover for Woodworking Dust Systems, 2-Pack (70451-P2)",
+      "current_price": 10.74,
+      "avg_7_price": 11.64,
+      "min_7_price": 10.74,
+      "avg_30_price": 11.33,
+      "min_30_price": null,
+      "drop_percent": 7.7,
+      "drop_30_percent": 5.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0F1T4TZNG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0F1T4TZNG?tag=simplewoodsho-20",
+      "checked_at": "2026-05-01T08:15:18.917579+00:00",
+      "last_checked_at": "2026-05-01T08:15:18.917597+00:00",
+      "posted_at": "2026-05-01T08:15:18.917597+00:00",
+      "first_seen_at": "2026-05-01T08:15:18.917597+00:00",
+      "expires_at": "2026-05-02T08:15:18.917599+00:00"
     }
   }
 }
