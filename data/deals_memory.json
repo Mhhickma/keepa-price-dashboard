@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T20:00:19.283755+00:00",
+  "updated_at": "2026-05-02T20:15:24.184793+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B08W8KS8D3": {
-      "asin": "B08W8KS8D3",
-      "title": "Amazon Smart Air Quality Monitor \u2013 Know your air, Works with Alexa",
-      "current_price": 49.99,
-      "avg_7_price": 56.65,
-      "min_7_price": 49.99,
-      "avg_30_price": 61.93,
-      "min_30_price": null,
-      "drop_percent": 11.8,
-      "drop_30_percent": 19.3,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08W8KS8D3&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B08W8KS8D3?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T20:15:17.083237+00:00",
-      "last_checked_at": "2026-05-01T20:15:17.083275+00:00",
-      "posted_at": "2026-05-01T20:15:17.083275+00:00",
-      "first_seen_at": "2026-05-01T20:15:17.083275+00:00",
-      "expires_at": "2026-05-02T20:15:17.083278+00:00"
-    },
     "B07M62L77L": {
       "asin": "B07M62L77L",
       "title": "Metabo HPT Finish Nailer with Air Duster, Pro-Preferred Pneumatic Power Nailer for Crown Moldings, Base Moldings, and More, Selective Actuation, 15 Gauge Angled, 1-1/4\u2033 to 2-1/2\u2033 Finish Nails, NT65MA4",
@@ -1464,6 +1445,25 @@
       "posted_at": "2026-05-02T19:45:18.058421+00:00",
       "first_seen_at": "2026-05-02T19:45:18.058421+00:00",
       "expires_at": "2026-05-03T19:45:18.058424+00:00"
+    },
+    "B08WHNPC85": {
+      "asin": "B08WHNPC85",
+      "title": "BOSCH JS120N 12V Max Barrel Grip Jig Saw, Cordless, Variable Speed, Tool-free Blade Change (Bare Tool)",
+      "current_price": 119.0,
+      "avg_7_price": 127.03,
+      "min_7_price": 119.0,
+      "avg_30_price": 128.54,
+      "min_30_price": null,
+      "drop_percent": 6.3,
+      "drop_30_percent": 7.4,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08WHNPC85&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B08WHNPC85?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T20:15:24.182691+00:00",
+      "last_checked_at": "2026-05-02T20:15:24.182778+00:00",
+      "posted_at": "2026-05-02T20:15:24.182778+00:00",
+      "first_seen_at": "2026-05-02T20:15:24.182778+00:00",
+      "expires_at": "2026-05-03T20:15:24.182780+00:00"
     }
   }
 }
