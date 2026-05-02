@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T20:45:16.203772+00:00",
+  "updated_at": "2026-05-02T21:00:23.171958+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07M62L77L": {
@@ -1502,6 +1502,44 @@
       "posted_at": "2026-05-02T20:45:16.201815+00:00",
       "first_seen_at": "2026-05-02T20:45:16.201815+00:00",
       "expires_at": "2026-05-03T20:45:16.201817+00:00"
+    },
+    "B0000TZX76": {
+      "asin": "B0000TZX76",
+      "title": "Bosch HC2061B25 25 pc. 3/8 in. x 6 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
+      "current_price": 84.99,
+      "avg_7_price": 101.85,
+      "min_7_price": 84.99,
+      "avg_30_price": 105.02,
+      "min_30_price": null,
+      "drop_percent": 16.6,
+      "drop_30_percent": 19.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX76&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0000TZX76?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T21:00:23.169685+00:00",
+      "last_checked_at": "2026-05-02T21:00:23.169732+00:00",
+      "posted_at": "2026-05-02T21:00:23.169732+00:00",
+      "first_seen_at": "2026-05-02T21:00:23.169732+00:00",
+      "expires_at": "2026-05-03T21:00:23.169734+00:00"
+    },
+    "B01HD4EH4A": {
+      "asin": "B01HD4EH4A",
+      "title": "Bosch GWS8-45 4-1/2 In. Angle Grinder",
+      "current_price": 69.0,
+      "avg_7_price": 76.83,
+      "min_7_price": 69.0,
+      "avg_30_price": 78.49,
+      "min_30_price": null,
+      "drop_percent": 10.2,
+      "drop_30_percent": 12.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01HD4EH4A&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B01HD4EH4A?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T21:00:23.169720+00:00",
+      "last_checked_at": "2026-05-02T21:00:23.169732+00:00",
+      "posted_at": "2026-05-02T21:00:23.169732+00:00",
+      "first_seen_at": "2026-05-02T21:00:23.169732+00:00",
+      "expires_at": "2026-05-03T21:00:23.169734+00:00"
     }
   }
 }
