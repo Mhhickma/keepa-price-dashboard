@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T23:30:20.992122+00:00",
+  "updated_at": "2026-05-02T23:45:18.023163+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0CSKB971J": {
-      "asin": "B0CSKB971J",
-      "title": "1250W Power Benchtop Planer, 29 \"x 8\" Worktable Thickness Wood Planer, Low Noise, Low Dust Planing and Dual Planing Function, for Removing Hard and Soft Wood Materials, Blue",
-      "current_price": 267.67,
-      "avg_7_price": 284.03,
-      "min_7_price": 267.67,
-      "avg_30_price": 286.24,
-      "min_30_price": null,
-      "drop_percent": 5.8,
-      "drop_30_percent": 6.5,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CSKB971J&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0CSKB971J?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T23:30:27.397795+00:00",
-      "last_checked_at": "2026-05-01T23:30:27.397826+00:00",
-      "posted_at": "2026-05-01T23:30:27.397826+00:00",
-      "first_seen_at": "2026-05-01T23:30:27.397826+00:00",
-      "expires_at": "2026-05-02T23:30:27.397828+00:00"
-    },
     "B0000TZX7Q": {
       "asin": "B0000TZX7Q",
       "title": "Bosch HC2102B25 25 pc. 5/8 in. x 8 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
@@ -1540,6 +1521,25 @@
       "posted_at": "2026-05-02T23:15:20.857540+00:00",
       "first_seen_at": "2026-05-02T23:15:20.857540+00:00",
       "expires_at": "2026-05-03T23:15:20.857542+00:00"
+    },
+    "B0000TZX7G": {
+      "asin": "B0000TZX7G",
+      "title": "Bosch HC2081B25 25 pc. 1/2 in. x 6 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
+      "current_price": 115.99,
+      "avg_7_price": 131.44,
+      "min_7_price": 115.99,
+      "avg_30_price": 134.59,
+      "min_30_price": null,
+      "drop_percent": 11.8,
+      "drop_30_percent": 13.8,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX7G&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0000TZX7G?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T23:45:17.977204+00:00",
+      "last_checked_at": "2026-05-02T23:45:17.977256+00:00",
+      "posted_at": "2026-05-02T23:45:17.977256+00:00",
+      "first_seen_at": "2026-05-02T23:45:17.977256+00:00",
+      "expires_at": "2026-05-03T23:45:17.977259+00:00"
     }
   }
 }
