@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T05:15:19.116030+00:00",
+  "updated_at": "2026-05-02T05:30:19.227427+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07P8QTFRC": {
@@ -101,20 +101,20 @@
       "asin": "B0F1T4TZNG",
       "title": "POWERTEC 2-1/2\" ID Dust Collection End Cap for 2-1/2\" OD Pipes, Plastic Pipe Cover for Woodworking Dust Systems, 2-Pack (70451-P2)",
       "current_price": 10.74,
-      "avg_7_price": 11.64,
+      "avg_7_price": 11.51,
       "min_7_price": 10.74,
-      "avg_30_price": 11.33,
+      "avg_30_price": 11.36,
       "min_30_price": null,
-      "drop_percent": 7.7,
-      "drop_30_percent": 5.2,
+      "drop_percent": 6.7,
+      "drop_30_percent": 5.5,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0F1T4TZNG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0F1T4TZNG?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T08:15:18.917579+00:00",
-      "last_checked_at": "2026-05-01T08:15:18.917597+00:00",
+      "checked_at": "2026-05-02T05:30:19.225078+00:00",
+      "last_checked_at": "2026-05-02T05:30:19.225282+00:00",
       "posted_at": "2026-05-01T08:15:18.917597+00:00",
       "first_seen_at": "2026-05-01T08:15:18.917597+00:00",
-      "expires_at": "2026-05-02T08:15:18.917599+00:00"
+      "expires_at": "2026-05-03T05:30:19.225285+00:00"
     },
     "B09FCVLKPQ": {
       "asin": "B09FCVLKPQ",
