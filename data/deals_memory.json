@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T17:30:25.795231+00:00",
+  "updated_at": "2026-05-02T17:45:22.041868+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B09W8NM884": {
-      "asin": "B09W8NM884",
-      "title": "JET JWP-13BT, 13-Inch Helical-Style Benchtop Planer, 120V 1PH (722130) and Flip Top Benchtop Machine Table (728200)",
-      "current_price": 1099.98,
-      "avg_7_price": 1165.91,
-      "min_7_price": 1099.98,
-      "avg_30_price": 1177.22,
-      "min_30_price": null,
-      "drop_percent": 5.7,
-      "drop_30_percent": 6.6,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09W8NM884&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B09W8NM884?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T17:30:26.654167+00:00",
-      "last_checked_at": "2026-05-01T17:30:26.654212+00:00",
-      "posted_at": "2026-05-01T17:30:26.654212+00:00",
-      "first_seen_at": "2026-05-01T17:30:26.654212+00:00",
-      "expires_at": "2026-05-02T17:30:26.654215+00:00"
-    },
     "B07MP5FG51": {
       "asin": "B07MP5FG51",
       "title": "BOSCH ITT256B 10-Pack 6 In. Torx #25 Impact Tough Screwdriving Power Bits",
@@ -994,20 +975,20 @@
       "asin": "B07JQ45LVW",
       "title": "CRAFTSMAN V20 Lithium Ion Battery, 4.0-Amp Hour (CMCB204)",
       "current_price": 39.0,
-      "avg_7_price": 58.33,
+      "avg_7_price": 57.11,
       "min_7_price": 39.0,
-      "avg_30_price": 55.09,
+      "avg_30_price": 54.94,
       "min_30_price": null,
-      "drop_percent": 33.1,
-      "drop_30_percent": 29.2,
+      "drop_percent": 31.7,
+      "drop_30_percent": 29.0,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JQ45LVW&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B07JQ45LVW?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T07:30:18.048522+00:00",
-      "last_checked_at": "2026-05-02T07:30:18.048729+00:00",
+      "checked_at": "2026-05-02T17:45:21.997969+00:00",
+      "last_checked_at": "2026-05-02T17:45:21.998040+00:00",
       "posted_at": "2026-05-02T07:30:18.048729+00:00",
       "first_seen_at": "2026-05-02T07:30:18.048729+00:00",
-      "expires_at": "2026-05-03T07:30:18.048732+00:00"
+      "expires_at": "2026-05-03T17:45:21.998042+00:00"
     },
     "B001BSD7SW": {
       "asin": "B001BSD7SW",
@@ -1407,6 +1388,25 @@
       "posted_at": "2026-05-02T17:30:25.793212+00:00",
       "first_seen_at": "2026-05-02T17:30:25.793212+00:00",
       "expires_at": "2026-05-03T17:30:25.793215+00:00"
+    },
+    "B000AMS7SA": {
+      "asin": "B000AMS7SA",
+      "title": "Bosch HC2014B25 25 pc. 3/16 in. x 12 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
+      "current_price": 219.99,
+      "avg_7_price": 272.42,
+      "min_7_price": 219.99,
+      "avg_30_price": 277.52,
+      "min_30_price": null,
+      "drop_percent": 19.2,
+      "drop_30_percent": 20.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000AMS7SA&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B000AMS7SA?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T17:45:21.998025+00:00",
+      "last_checked_at": "2026-05-02T17:45:21.998040+00:00",
+      "posted_at": "2026-05-02T17:45:21.998040+00:00",
+      "first_seen_at": "2026-05-02T17:45:21.998040+00:00",
+      "expires_at": "2026-05-03T17:45:21.998042+00:00"
     }
   }
 }
