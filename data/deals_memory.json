@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T07:00:22.036416+00:00",
+  "updated_at": "2026-05-02T07:15:17.362740+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07P8QTFRC": {
-      "asin": "B07P8QTFRC",
-      "title": "DEWALT 12-Inch Miter Saw, 15-Amp, Single Bevel, Compound (DWS715)",
-      "current_price": 318.3,
-      "avg_7_price": 336.98,
-      "min_7_price": 279.99,
-      "avg_30_price": 300.01,
-      "min_30_price": null,
-      "drop_percent": 5.5,
-      "drop_30_percent": null,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07P8QTFRC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07P8QTFRC?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T07:00:30.836052+00:00",
-      "last_checked_at": "2026-05-01T07:00:30.836162+00:00",
-      "posted_at": "2026-05-01T07:00:30.836162+00:00",
-      "first_seen_at": "2026-05-01T07:00:30.836162+00:00",
-      "expires_at": "2026-05-02T07:00:30.836165+00:00"
-    },
     "B0G22ZYJCG": {
       "asin": "B0G22ZYJCG",
       "title": "VEVOR 3/8\" Drive Impact Socket Set, 50-Piece Standard SAE (5/16 to 3/4 inch) & Metric (8-22 mm) Size, Deep & Shallow, 6 Point, CR-V, Ratchet Handle, Extension Bars, Universal Joint, Reducer, Adapter",
