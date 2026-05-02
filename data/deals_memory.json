@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T03:00:23.255954+00:00",
+  "updated_at": "2026-05-02T03:15:25.414858+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0BV17VLYG": {
-      "asin": "B0BV17VLYG",
-      "title": "DEWALT 20V MAX Impact Driver, 1/4 Inch, Battery and Charger Included (DCF787D1)",
-      "current_price": 159.64,
-      "avg_7_price": 173.35,
-      "min_7_price": 158.03,
-      "avg_30_price": 177.58,
-      "min_30_price": null,
-      "drop_percent": 7.9,
-      "drop_30_percent": 10.1,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BV17VLYG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0BV17VLYG?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T00:00:24.686354+00:00",
-      "last_checked_at": "2026-05-02T00:00:24.686572+00:00",
-      "posted_at": "2026-05-01T03:00:27.443808+00:00",
-      "first_seen_at": "2026-05-01T03:00:27.443808+00:00",
-      "expires_at": "2026-05-03T00:00:24.686574+00:00"
-    },
     "B0DFY8DC8F": {
       "asin": "B0DFY8DC8F",
       "title": "GarveeTech Powerful Benchtop Planer, 1250W Power, Low Noise & Low Dust Work, Thickness Planer Extended Infeeding Table, Ideal for Hard & Soft Wood",

@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-02T03:00:23.254346+00:00",
+  "updated_at": "2026-05-02T03:15:25.413246+00:00",
   "asin_source": "Google Sheet CSV",
   "comparison_window": "Keepa stats=7 for 7-day average and 7-day low",
   "deal_ttl_hours": 24,
-  "deal_count": 74,
+  "deal_count": 73,
   "new_scan_deal_count": 0,
   "new_deals_added": 0,
   "existing_deals_updated": 0,
-  "expired_deals_removed": 0,
+  "expired_deals_removed": 1,
   "skipped_count": 0,
   "missing_image_count": 0,
   "scan_window": {
     "total_asins": 4407,
-    "start_index": 4274,
-    "start_sheet_row": 4276,
-    "next_start_index": 4324,
-    "next_start_sheet_row": 4326,
+    "start_index": 4324,
+    "start_sheet_row": 4326,
+    "next_start_index": 4374,
+    "next_start_sheet_row": 4376,
     "scan_count": 50
   },
   "settings": {
@@ -1414,25 +1414,6 @@
       "posted_at": "2026-05-01T03:45:22.334395+00:00",
       "first_seen_at": "2026-05-01T03:45:22.334395+00:00",
       "expires_at": "2026-05-03T00:30:25.827595+00:00"
-    },
-    {
-      "asin": "B0BV17VLYG",
-      "title": "DEWALT 20V MAX Impact Driver, 1/4 Inch, Battery and Charger Included (DCF787D1)",
-      "current_price": 159.64,
-      "avg_7_price": 173.35,
-      "min_7_price": 158.03,
-      "avg_30_price": 177.58,
-      "min_30_price": null,
-      "drop_percent": 7.9,
-      "drop_30_percent": 10.1,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BV17VLYG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0BV17VLYG?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T00:00:24.686354+00:00",
-      "last_checked_at": "2026-05-02T00:00:24.686572+00:00",
-      "posted_at": "2026-05-01T03:00:27.443808+00:00",
-      "first_seen_at": "2026-05-01T03:00:27.443808+00:00",
-      "expires_at": "2026-05-03T00:00:24.686574+00:00"
     }
   ]
 }
