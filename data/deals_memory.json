@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T08:45:25.545391+00:00",
+  "updated_at": "2026-05-02T09:00:23.152778+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B000WI4236": {
@@ -236,18 +236,18 @@
       "current_price": 15.99,
       "avg_7_price": 18.34,
       "min_7_price": 15.99,
-      "avg_30_price": 16.73,
+      "avg_30_price": 16.69,
       "min_30_price": null,
       "drop_percent": 12.8,
-      "drop_30_percent": 4.4,
+      "drop_30_percent": 4.2,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09N923QFL&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B09N923QFL?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T12:00:21.419668+00:00",
-      "last_checked_at": "2026-05-01T12:00:21.419882+00:00",
+      "checked_at": "2026-05-02T09:00:23.150370+00:00",
+      "last_checked_at": "2026-05-02T09:00:23.150553+00:00",
       "posted_at": "2026-05-01T12:00:21.419882+00:00",
       "first_seen_at": "2026-05-01T12:00:21.419882+00:00",
-      "expires_at": "2026-05-02T12:00:21.419884+00:00"
+      "expires_at": "2026-05-03T09:00:23.150555+00:00"
     },
     "B07B6JPYFT": {
       "asin": "B07B6JPYFT",
@@ -1673,6 +1673,44 @@
       "posted_at": "2026-05-02T08:00:23.027251+00:00",
       "first_seen_at": "2026-05-02T08:00:23.027251+00:00",
       "expires_at": "2026-05-03T08:00:23.027253+00:00"
+    },
+    "B004HASE0W": {
+      "asin": "B004HASE0W",
+      "title": "DEWALT 20V MAX XR 12 inch Double Bevel Sliding Miter Saw, Cordless, Tool Only (DCS785B)",
+      "current_price": 485.0,
+      "avg_7_price": 543.47,
+      "min_7_price": 485.0,
+      "avg_30_price": 586.03,
+      "min_30_price": null,
+      "drop_percent": 10.8,
+      "drop_30_percent": 17.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004HASE0W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B004HASE0W?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T09:00:23.150505+00:00",
+      "last_checked_at": "2026-05-02T09:00:23.150553+00:00",
+      "posted_at": "2026-05-02T09:00:23.150553+00:00",
+      "first_seen_at": "2026-05-02T09:00:23.150553+00:00",
+      "expires_at": "2026-05-03T09:00:23.150555+00:00"
+    },
+    "B0000TZX6C": {
+      "asin": "B0000TZX6C",
+      "title": "Bosch HC2040B25 25 pc. 1/4 in. x 4 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
+      "current_price": 56.79,
+      "avg_7_price": 68.34,
+      "min_7_price": 56.79,
+      "avg_30_price": 68.7,
+      "min_30_price": null,
+      "drop_percent": 16.9,
+      "drop_30_percent": 17.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX6C&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0000TZX6C?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T09:00:23.150541+00:00",
+      "last_checked_at": "2026-05-02T09:00:23.150553+00:00",
+      "posted_at": "2026-05-02T09:00:23.150553+00:00",
+      "first_seen_at": "2026-05-02T09:00:23.150553+00:00",
+      "expires_at": "2026-05-03T09:00:23.150555+00:00"
     }
   }
 }
