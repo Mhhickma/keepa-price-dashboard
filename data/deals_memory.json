@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T06:28:44.922575+00:00",
+  "updated_at": "2026-05-02T06:30:18.240377+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07P8QTFRC": {
@@ -1692,6 +1692,25 @@
       "posted_at": "2026-05-02T06:15:18.649301+00:00",
       "first_seen_at": "2026-05-02T06:15:18.649301+00:00",
       "expires_at": "2026-05-03T06:15:18.649303+00:00"
+    },
+    "B0C65K9VBC": {
+      "asin": "B0C65K9VBC",
+      "title": "POWERTEC 70366 4\" Integrated Blast Gate (Patented) with 4\" Flex Cuff and 4\" OD to 2-1/2\" OD Cone Reducer",
+      "current_price": 18.8,
+      "avg_7_price": 21.61,
+      "min_7_price": 18.8,
+      "avg_30_price": 21.9,
+      "min_30_price": null,
+      "drop_percent": 13.0,
+      "drop_30_percent": 14.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C65K9VBC&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0C65K9VBC?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T06:30:18.238087+00:00",
+      "last_checked_at": "2026-05-02T06:30:18.238122+00:00",
+      "posted_at": "2026-05-02T06:30:18.238122+00:00",
+      "first_seen_at": "2026-05-02T06:30:18.238122+00:00",
+      "expires_at": "2026-05-03T06:30:18.238124+00:00"
     }
   }
 }
