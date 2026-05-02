@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T20:15:24.184793+00:00",
+  "updated_at": "2026-05-02T20:30:22.178340+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07M62L77L": {
@@ -918,20 +918,20 @@
       "asin": "B01ESCU5WS",
       "title": "DEWALT Miter Saw, 12 Inch Double Bevel Sliding Compound Miter Saw, Includes Blade Wrench and Clamp, Increased Crosscut Capacity, Powerful 3800 RPM Motor 15 Amp (DWS779)",
       "current_price": 359.0,
-      "avg_7_price": 410.93,
+      "avg_7_price": 405.45,
       "min_7_price": 359.0,
-      "avg_30_price": 440.11,
+      "avg_30_price": 438.83,
       "min_30_price": null,
-      "drop_percent": 12.6,
-      "drop_30_percent": 18.4,
+      "drop_percent": 11.5,
+      "drop_30_percent": 18.2,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B01ESCU5WS&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B01ESCU5WS?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T10:15:18.074475+00:00",
-      "last_checked_at": "2026-05-02T10:15:18.074679+00:00",
+      "checked_at": "2026-05-02T20:30:22.176243+00:00",
+      "last_checked_at": "2026-05-02T20:30:22.176348+00:00",
       "posted_at": "2026-05-02T10:15:18.074679+00:00",
       "first_seen_at": "2026-05-02T10:15:18.074679+00:00",
-      "expires_at": "2026-05-03T10:15:18.074681+00:00"
+      "expires_at": "2026-05-03T20:30:22.176350+00:00"
     },
     "B0D85KHQZP": {
       "asin": "B0D85KHQZP",
@@ -1464,6 +1464,25 @@
       "posted_at": "2026-05-02T20:15:24.182778+00:00",
       "first_seen_at": "2026-05-02T20:15:24.182778+00:00",
       "expires_at": "2026-05-03T20:15:24.182780+00:00"
+    },
+    "B07MKVQWSP": {
+      "asin": "B07MKVQWSP",
+      "title": "BOSCH ITT2535B 10-Pack 3-1/2 In. Torx #25 Impact Tough Screwdriving Power Bits",
+      "current_price": 15.09,
+      "avg_7_price": 17.21,
+      "min_7_price": 15.09,
+      "avg_30_price": 17.65,
+      "min_30_price": null,
+      "drop_percent": 12.3,
+      "drop_30_percent": 14.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MKVQWSP&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07MKVQWSP?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T20:30:22.176333+00:00",
+      "last_checked_at": "2026-05-02T20:30:22.176348+00:00",
+      "posted_at": "2026-05-02T20:30:22.176348+00:00",
+      "first_seen_at": "2026-05-02T20:30:22.176348+00:00",
+      "expires_at": "2026-05-03T20:30:22.176350+00:00"
     }
   }
 }
