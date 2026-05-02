@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T19:30:19.347384+00:00",
+  "updated_at": "2026-05-02T19:45:18.060593+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01F1NZF1Y": {
@@ -1521,6 +1521,25 @@
       "posted_at": "2026-05-02T19:30:19.345323+00:00",
       "first_seen_at": "2026-05-02T19:30:19.345323+00:00",
       "expires_at": "2026-05-03T19:30:19.345324+00:00"
+    },
+    "B0C76CPGC7": {
+      "asin": "B0C76CPGC7",
+      "title": "BOSCH GLM100-23 100 Ft BLAZE Laser Distance Measure, Includes 2 AA Batteries",
+      "current_price": 49.0,
+      "avg_7_price": 57.65,
+      "min_7_price": 49.0,
+      "avg_30_price": 57.55,
+      "min_30_price": null,
+      "drop_percent": 15.0,
+      "drop_30_percent": 14.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C76CPGC7&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0C76CPGC7?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T19:45:18.058213+00:00",
+      "last_checked_at": "2026-05-02T19:45:18.058421+00:00",
+      "posted_at": "2026-05-02T19:45:18.058421+00:00",
+      "first_seen_at": "2026-05-02T19:45:18.058421+00:00",
+      "expires_at": "2026-05-03T19:45:18.058424+00:00"
     }
   }
 }
