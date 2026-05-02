@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T05:45:26.490137+00:00",
+  "updated_at": "2026-05-02T06:00:41.066515+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07P8QTFRC": {
@@ -139,39 +139,39 @@
       "asin": "B000WI4236",
       "title": "Bosch HC2107 5/8 in. x 18 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bit",
       "current_price": 18.89,
-      "avg_7_price": 23.95,
+      "avg_7_price": 23.31,
       "min_7_price": 18.89,
-      "avg_30_price": 23.98,
+      "avg_30_price": 23.83,
       "min_30_price": null,
-      "drop_percent": 21.1,
-      "drop_30_percent": 21.2,
+      "drop_percent": 19.0,
+      "drop_30_percent": 20.7,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000WI4236&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B000WI4236?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T09:00:26.230215+00:00",
-      "last_checked_at": "2026-05-01T09:00:26.230378+00:00",
+      "checked_at": "2026-05-02T06:00:41.064221+00:00",
+      "last_checked_at": "2026-05-02T06:00:41.064354+00:00",
       "posted_at": "2026-05-01T09:00:26.230378+00:00",
       "first_seen_at": "2026-05-01T09:00:26.230378+00:00",
-      "expires_at": "2026-05-02T09:00:26.230380+00:00"
+      "expires_at": "2026-05-03T06:00:41.064356+00:00"
     },
     "B0087EPY5W": {
       "asin": "B0087EPY5W",
       "title": "Strong Hand Tools UM125-C3 Regular Duty Bar Clamp, 12-1/2\" Capcaity, 2400 LBS Clamping Pressure, 5-1/2\" Throat Depth",
-      "current_price": 108.22,
-      "avg_7_price": 115.09,
-      "min_7_price": 108.22,
-      "avg_30_price": 107.17,
+      "current_price": 108.19,
+      "avg_7_price": 114.44,
+      "min_7_price": 108.19,
+      "avg_30_price": 107.35,
       "min_30_price": null,
-      "drop_percent": 6.0,
+      "drop_percent": 5.5,
       "drop_30_percent": null,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0087EPY5W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0087EPY5W?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T09:00:26.230331+00:00",
-      "last_checked_at": "2026-05-01T09:00:26.230378+00:00",
+      "checked_at": "2026-05-02T06:00:41.064323+00:00",
+      "last_checked_at": "2026-05-02T06:00:41.064354+00:00",
       "posted_at": "2026-05-01T09:00:26.230378+00:00",
       "first_seen_at": "2026-05-01T09:00:26.230378+00:00",
-      "expires_at": "2026-05-02T09:00:26.230380+00:00"
+      "expires_at": "2026-05-03T06:00:41.064356+00:00"
     },
     "B072FKNSN9": {
       "asin": "B072FKNSN9",
@@ -1654,6 +1654,25 @@
       "posted_at": "2026-05-02T05:45:26.487998+00:00",
       "first_seen_at": "2026-05-02T05:45:26.487998+00:00",
       "expires_at": "2026-05-03T05:45:26.488001+00:00"
+    },
+    "B09DFGPSZZ": {
+      "asin": "B09DFGPSZZ",
+      "title": "3M Xtract Net Disc 710W, 5 in, 12 Piece Multi-Pack Hook and Loop Sanding Discs, 80+, 120+, 180+, 220+, 240+, 320+, Virtually Dust-Free, Assorted Grades, 66584",
+      "current_price": 7.99,
+      "avg_7_price": 8.59,
+      "min_7_price": 7.99,
+      "avg_30_price": 8.64,
+      "min_30_price": null,
+      "drop_percent": 7.0,
+      "drop_30_percent": 7.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09DFGPSZZ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B09DFGPSZZ?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T06:00:41.064178+00:00",
+      "last_checked_at": "2026-05-02T06:00:41.064354+00:00",
+      "posted_at": "2026-05-02T06:00:41.064354+00:00",
+      "first_seen_at": "2026-05-02T06:00:41.064354+00:00",
+      "expires_at": "2026-05-03T06:00:41.064356+00:00"
     }
   }
 }
