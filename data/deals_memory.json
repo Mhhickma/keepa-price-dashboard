@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T18:00:20.365103+00:00",
+  "updated_at": "2026-05-02T18:15:18.449352+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B00540JS7C": {
@@ -1426,6 +1426,25 @@
       "posted_at": "2026-05-02T18:00:20.362950+00:00",
       "first_seen_at": "2026-05-02T18:00:20.362950+00:00",
       "expires_at": "2026-05-03T18:00:20.362952+00:00"
+    },
+    "B0CKLYNKGY": {
+      "asin": "B0CKLYNKGY",
+      "title": "BOSCH GST18V-50BN 18V Brushless Barrel-Grip Jig Saw (Bare Tool)",
+      "current_price": 139.0,
+      "avg_7_price": 162.98,
+      "min_7_price": 139.0,
+      "avg_30_price": 167.59,
+      "min_30_price": null,
+      "drop_percent": 14.7,
+      "drop_30_percent": 17.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CKLYNKGY&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0CKLYNKGY?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T18:15:18.447070+00:00",
+      "last_checked_at": "2026-05-02T18:15:18.447152+00:00",
+      "posted_at": "2026-05-02T18:15:18.447152+00:00",
+      "first_seen_at": "2026-05-02T18:15:18.447152+00:00",
+      "expires_at": "2026-05-03T18:15:18.447155+00:00"
     }
   }
 }
