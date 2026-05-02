@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-02T21:45:19.679681+00:00",
+  "updated_at": "2026-05-02T22:00:19.562579+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07M62L77L": {
-      "asin": "B07M62L77L",
-      "title": "Metabo HPT Finish Nailer with Air Duster, Pro-Preferred Pneumatic Power Nailer for Crown Moldings, Base Moldings, and More, Selective Actuation, 15 Gauge Angled, 1-1/4\u2033 to 2-1/2\u2033 Finish Nails, NT65MA4",
-      "current_price": 129.0,
-      "avg_7_price": 143.2,
-      "min_7_price": 129.0,
-      "avg_30_price": 142.63,
-      "min_30_price": null,
-      "drop_percent": 9.9,
-      "drop_30_percent": 9.6,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07M62L77L&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07M62L77L?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T21:45:18.139112+00:00",
-      "last_checked_at": "2026-05-01T21:45:18.139289+00:00",
-      "posted_at": "2026-05-01T21:45:18.139289+00:00",
-      "first_seen_at": "2026-05-01T21:45:18.139289+00:00",
-      "expires_at": "2026-05-02T21:45:18.139292+00:00"
-    },
     "B07JQM7C28": {
       "asin": "B07JQM7C28",
       "title": "DEWALT 20V MAX Orbital Sander, Tool Only (DCW210B)",
@@ -1578,6 +1559,25 @@
       "posted_at": "2026-05-02T21:15:19.031921+00:00",
       "first_seen_at": "2026-05-02T21:15:19.031921+00:00",
       "expires_at": "2026-05-03T21:15:19.031927+00:00"
+    },
+    "B0CYZWZ964": {
+      "asin": "B0CYZWZ964",
+      "title": "HYCHIKA Random Orbital Sander, 6 Variable Speed 3.8Amp 450W 5-Inch Electric Wood Sander with Double Handle, High Efficiency Dust Collector & 20Pcs Sandpapers for Heavy Duty Woodworking",
+      "current_price": 39.99,
+      "avg_7_price": 42.5,
+      "min_7_price": 39.99,
+      "avg_30_price": 44.17,
+      "min_30_price": null,
+      "drop_percent": 5.9,
+      "drop_30_percent": 9.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CYZWZ964&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0CYZWZ964?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T22:00:19.560190+00:00",
+      "last_checked_at": "2026-05-02T22:00:19.560381+00:00",
+      "posted_at": "2026-05-02T22:00:19.560381+00:00",
+      "first_seen_at": "2026-05-02T22:00:19.560381+00:00",
+      "expires_at": "2026-05-03T22:00:19.560384+00:00"
     }
   }
 }
