@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T05:30:19.227427+00:00",
+  "updated_at": "2026-05-02T05:45:26.490137+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07P8QTFRC": {
@@ -1635,6 +1635,25 @@
       "posted_at": "2026-05-02T05:15:19.113871+00:00",
       "first_seen_at": "2026-05-02T05:15:19.113871+00:00",
       "expires_at": "2026-05-03T05:15:19.113873+00:00"
+    },
+    "B07QYPD17W": {
+      "asin": "B07QYPD17W",
+      "title": "CMT ORANGE TOOLS 285.624.10 Orange Chrome Ripping Blade 10\" x T24 Flat,Silver",
+      "current_price": 67.67,
+      "avg_7_price": 71.77,
+      "min_7_price": 60.5,
+      "avg_30_price": 71.44,
+      "min_30_price": null,
+      "drop_percent": 5.7,
+      "drop_30_percent": 5.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYPD17W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07QYPD17W?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T05:45:26.487884+00:00",
+      "last_checked_at": "2026-05-02T05:45:26.487998+00:00",
+      "posted_at": "2026-05-02T05:45:26.487998+00:00",
+      "first_seen_at": "2026-05-02T05:45:26.487998+00:00",
+      "expires_at": "2026-05-03T05:45:26.488001+00:00"
     }
   }
 }
