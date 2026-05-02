@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-01T23:45:17.048015+00:00",
+  "updated_at": "2026-05-02T00:00:24.688613+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B00P84QEF8": {
@@ -195,21 +195,21 @@
     "B0BV17VLYG": {
       "asin": "B0BV17VLYG",
       "title": "DEWALT 20V MAX Impact Driver, 1/4 Inch, Battery and Charger Included (DCF787D1)",
-      "current_price": 160.23,
-      "avg_7_price": 175.07,
-      "min_7_price": 160.18,
-      "avg_30_price": 177.98,
+      "current_price": 159.64,
+      "avg_7_price": 173.35,
+      "min_7_price": 158.03,
+      "avg_30_price": 177.58,
       "min_30_price": null,
-      "drop_percent": 8.5,
-      "drop_30_percent": 10.0,
+      "drop_percent": 7.9,
+      "drop_30_percent": 10.1,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BV17VLYG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0BV17VLYG?tag=simplewoodsho-20",
-      "checked_at": "2026-05-01T03:00:27.443803+00:00",
-      "last_checked_at": "2026-05-01T03:00:27.443808+00:00",
+      "checked_at": "2026-05-02T00:00:24.686354+00:00",
+      "last_checked_at": "2026-05-02T00:00:24.686572+00:00",
       "posted_at": "2026-05-01T03:00:27.443808+00:00",
       "first_seen_at": "2026-05-01T03:00:27.443808+00:00",
-      "expires_at": "2026-05-02T03:00:27.443810+00:00"
+      "expires_at": "2026-05-03T00:00:24.686574+00:00"
     },
     "B0DFY8DC8F": {
       "asin": "B0DFY8DC8F",
@@ -1502,6 +1502,25 @@
       "posted_at": "2026-05-01T23:45:17.045863+00:00",
       "first_seen_at": "2026-05-01T23:45:17.045863+00:00",
       "expires_at": "2026-05-02T23:45:17.045864+00:00"
+    },
+    "B07PDZRQWY": {
+      "asin": "B07PDZRQWY",
+      "title": "EGO POWER+ Battery 56V,2.5Ah - BA1400T",
+      "current_price": 100.48,
+      "avg_7_price": 105.93,
+      "min_7_price": 100.48,
+      "avg_30_price": 130.85,
+      "min_30_price": null,
+      "drop_percent": 5.1,
+      "drop_30_percent": 23.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07PDZRQWY&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07PDZRQWY?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T00:00:24.686553+00:00",
+      "last_checked_at": "2026-05-02T00:00:24.686572+00:00",
+      "posted_at": "2026-05-02T00:00:24.686572+00:00",
+      "first_seen_at": "2026-05-02T00:00:24.686572+00:00",
+      "expires_at": "2026-05-03T00:00:24.686574+00:00"
     }
   }
 }
