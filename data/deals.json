@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-05-02T21:15:19.032306+00:00",
+  "updated_at": "2026-05-02T21:30:19.870116+00:00",
   "asin_source": "Google Sheet CSV",
   "comparison_window": "Keepa stats=7 for 7-day average and 7-day low",
   "deal_ttl_hours": 24,
   "deal_count": 83,
-  "new_scan_deal_count": 2,
-  "new_deals_added": 2,
+  "new_scan_deal_count": 0,
+  "new_deals_added": 0,
   "existing_deals_updated": 0,
   "expired_deals_removed": 0,
   "skipped_count": 0,
   "missing_image_count": 0,
   "scan_window": {
     "total_asins": 4575,
-    "start_index": 1550,
-    "start_sheet_row": 1552,
-    "next_start_index": 1600,
-    "next_start_sheet_row": 1602,
+    "start_index": 1600,
+    "start_sheet_row": 1602,
+    "next_start_index": 1650,
+    "next_start_sheet_row": 1652,
     "scan_count": 50
   },
   "settings": {
