@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-02T06:30:18.240377+00:00",
+  "updated_at": "2026-05-02T06:45:23.137564+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07P8QTFRC": {
@@ -1711,6 +1711,44 @@
       "posted_at": "2026-05-02T06:30:18.238122+00:00",
       "first_seen_at": "2026-05-02T06:30:18.238122+00:00",
       "expires_at": "2026-05-03T06:30:18.238124+00:00"
+    },
+    "B000UZ0P7I": {
+      "asin": "B000UZ0P7I",
+      "title": "Olympia Tools 85-010 Grand Pack-N-Roll Portable Tools Carrier with Telescopic Handle, 80 Lb. Load Capacity, Black 2025 New Version",
+      "current_price": 29.74,
+      "avg_7_price": 33.02,
+      "min_7_price": 29.74,
+      "avg_30_price": 33.81,
+      "min_30_price": null,
+      "drop_percent": 9.9,
+      "drop_30_percent": 12.0,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000UZ0P7I&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B000UZ0P7I?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T06:45:23.135258+00:00",
+      "last_checked_at": "2026-05-02T06:45:23.135304+00:00",
+      "posted_at": "2026-05-02T06:45:23.135304+00:00",
+      "first_seen_at": "2026-05-02T06:45:23.135304+00:00",
+      "expires_at": "2026-05-03T06:45:23.135306+00:00"
+    },
+    "B0BBN9W3YR": {
+      "asin": "B0BBN9W3YR",
+      "title": "CRAFTSMAN Storage Organizer, Small Parts Organizer, 3-Packs with 10-Compartments, Lid Includes Secure Latch (CMST60964M)",
+      "current_price": 17.98,
+      "avg_7_price": 23.61,
+      "min_7_price": 13.08,
+      "avg_30_price": 27.44,
+      "min_30_price": null,
+      "drop_percent": 23.8,
+      "drop_30_percent": 34.5,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BBN9W3YR&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0BBN9W3YR?tag=simplewoodsho-20",
+      "checked_at": "2026-05-02T06:45:23.135286+00:00",
+      "last_checked_at": "2026-05-02T06:45:23.135304+00:00",
+      "posted_at": "2026-05-02T06:45:23.135304+00:00",
+      "first_seen_at": "2026-05-02T06:45:23.135304+00:00",
+      "expires_at": "2026-05-03T06:45:23.135306+00:00"
     }
   }
 }
