@@ -1,45 +1,7 @@
 {
-  "updated_at": "2026-05-03T06:45:32.010888+00:00",
+  "updated_at": "2026-05-03T07:00:33.688069+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B000UZ0P7I": {
-      "asin": "B000UZ0P7I",
-      "title": "Olympia Tools 85-010 Grand Pack-N-Roll Portable Tools Carrier with Telescopic Handle, 80 Lb. Load Capacity, Black 2025 New Version",
-      "current_price": 29.74,
-      "avg_7_price": 32.64,
-      "min_7_price": 29.74,
-      "avg_30_price": 33.77,
-      "min_30_price": null,
-      "drop_percent": 8.9,
-      "drop_30_percent": 11.9,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000UZ0P7I&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B000UZ0P7I?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T17:15:24.943799+00:00",
-      "last_checked_at": "2026-05-02T17:15:24.943964+00:00",
-      "posted_at": "2026-05-02T06:45:23.135304+00:00",
-      "first_seen_at": "2026-05-02T06:45:23.135304+00:00",
-      "expires_at": "2026-05-03T17:15:24.943966+00:00"
-    },
-    "B0BBN9W3YR": {
-      "asin": "B0BBN9W3YR",
-      "title": "CRAFTSMAN Storage Organizer, Small Parts Organizer, 3-Packs with 10-Compartments, Lid Includes Secure Latch (CMST60964M)",
-      "current_price": 17.98,
-      "avg_7_price": 22.91,
-      "min_7_price": 13.08,
-      "avg_30_price": 27.28,
-      "min_30_price": null,
-      "drop_percent": 21.5,
-      "drop_30_percent": 34.1,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BBN9W3YR&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0BBN9W3YR?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T17:15:24.943828+00:00",
-      "last_checked_at": "2026-05-02T17:15:24.943964+00:00",
-      "posted_at": "2026-05-02T06:45:23.135304+00:00",
-      "first_seen_at": "2026-05-02T06:45:23.135304+00:00",
-      "expires_at": "2026-05-03T17:15:24.943966+00:00"
-    },
     "B07JQ45LVW": {
       "asin": "B07JQ45LVW",
       "title": "CRAFTSMAN V20 Lithium Ion Battery, 4.0-Amp Hour (CMCB204)",
@@ -1711,6 +1673,25 @@
       "posted_at": "2026-05-03T05:30:32.270279+00:00",
       "first_seen_at": "2026-05-03T05:30:32.270279+00:00",
       "expires_at": "2026-05-04T05:30:32.270281+00:00"
+    },
+    "B07LB6ZHL1": {
+      "asin": "B07LB6ZHL1",
+      "title": "DEWALT DXF2042 Industrial Fan, 20 Inch High Velocity Fans with 3-Speed Adjustable Tilting Head, Drum Fan for Outdoor, House and Warehouse, Yellow",
+      "current_price": 125.99,
+      "avg_7_price": 135.73,
+      "min_7_price": 125.99,
+      "avg_30_price": 141.48,
+      "min_30_price": null,
+      "drop_percent": 7.2,
+      "drop_30_percent": 10.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07LB6ZHL1&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07LB6ZHL1?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T07:00:33.685733+00:00",
+      "last_checked_at": "2026-05-03T07:00:33.685873+00:00",
+      "posted_at": "2026-05-03T07:00:33.685873+00:00",
+      "first_seen_at": "2026-05-03T07:00:33.685873+00:00",
+      "expires_at": "2026-05-04T07:00:33.685875+00:00"
     }
   }
 }
