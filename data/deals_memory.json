@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T05:45:31.567068+00:00",
+  "updated_at": "2026-05-03T06:00:34.162812+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07QYPD17W": {
-      "asin": "B07QYPD17W",
-      "title": "CMT ORANGE TOOLS 285.624.10 Orange Chrome Ripping Blade 10\" x T24 Flat,Silver",
-      "current_price": 67.67,
-      "avg_7_price": 71.77,
-      "min_7_price": 60.5,
-      "avg_30_price": 71.44,
-      "min_30_price": null,
-      "drop_percent": 5.7,
-      "drop_30_percent": 5.3,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QYPD17W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07QYPD17W?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T05:45:26.487884+00:00",
-      "last_checked_at": "2026-05-02T05:45:26.487998+00:00",
-      "posted_at": "2026-05-02T05:45:26.487998+00:00",
-      "first_seen_at": "2026-05-02T05:45:26.487998+00:00",
-      "expires_at": "2026-05-03T05:45:26.488001+00:00"
-    },
     "B09DFGPSZZ": {
       "asin": "B09DFGPSZZ",
       "title": "3M Xtract Net Disc 710W, 5 in, 12 Piece Multi-Pack Hook and Loop Sanding Discs, 80+, 120+, 180+, 220+, 240+, 320+, Virtually Dust-Free, Assorted Grades, 66584",
