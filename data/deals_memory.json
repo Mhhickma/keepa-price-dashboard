@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T21:45:31.673719+00:00",
+  "updated_at": "2026-05-03T22:00:34.340827+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0CYZWZ964": {
@@ -994,20 +994,20 @@
       "asin": "B07GD7D6N5",
       "title": "Goplus Portable Folding Sawhorse, Adjustable Steel Sawbuck for Firewood, Heavy Duty 220 lbs Sawhorse Work Table, Lightweight Log Wood Cutting Saw Horses Stand",
       "current_price": 45.1,
-      "avg_7_price": 54.86,
+      "avg_7_price": 53.62,
       "min_7_price": 45.1,
-      "avg_30_price": 56.61,
+      "avg_30_price": 56.28,
       "min_30_price": null,
-      "drop_percent": 17.8,
-      "drop_30_percent": 20.3,
+      "drop_percent": 15.9,
+      "drop_30_percent": 19.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07GD7D6N5&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B07GD7D6N5?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T08:00:36.188774+00:00",
-      "last_checked_at": "2026-05-03T08:00:36.188876+00:00",
+      "checked_at": "2026-05-03T22:00:34.338513+00:00",
+      "last_checked_at": "2026-05-03T22:00:34.338668+00:00",
       "posted_at": "2026-05-03T08:00:36.188876+00:00",
       "first_seen_at": "2026-05-03T08:00:36.188876+00:00",
-      "expires_at": "2026-05-04T08:00:36.188879+00:00"
+      "expires_at": "2026-05-04T22:00:34.338670+00:00"
     },
     "B000LDN0RQ": {
       "asin": "B000LDN0RQ",
