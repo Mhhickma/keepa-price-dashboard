@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T22:26:08.855354+00:00",
+  "updated_at": "2026-05-03T22:30:30.472980+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B004323NQY": {
@@ -994,20 +994,20 @@
       "asin": "B07FNQTKZ2",
       "title": "POWERTEC 71130 T-Track Knob Kit with 1/4-20 by 1-1/2\" Hex Bolts and Washers, Set of 36, T Track Bolts, T Track Accessories for Woodworking Jigs and Fixtures",
       "current_price": 15.27,
-      "avg_7_price": 16.17,
+      "avg_7_price": 16.09,
       "min_7_price": 15.27,
-      "avg_30_price": 17.97,
+      "avg_30_price": 17.87,
       "min_30_price": null,
-      "drop_percent": 5.6,
-      "drop_30_percent": 15.0,
+      "drop_percent": 5.1,
+      "drop_30_percent": 14.5,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07FNQTKZ2&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B07FNQTKZ2?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T08:45:31.442296+00:00",
-      "last_checked_at": "2026-05-03T08:45:31.442455+00:00",
+      "checked_at": "2026-05-03T22:30:30.470366+00:00",
+      "last_checked_at": "2026-05-03T22:30:30.470561+00:00",
       "posted_at": "2026-05-03T08:45:31.442455+00:00",
       "first_seen_at": "2026-05-03T08:45:31.442455+00:00",
-      "expires_at": "2026-05-04T08:45:31.442457+00:00"
+      "expires_at": "2026-05-04T22:30:30.470564+00:00"
     },
     "B0DMTHS2NZ": {
       "asin": "B0DMTHS2NZ",
