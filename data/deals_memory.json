@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T00:30:18.462959+00:00",
+  "updated_at": "2026-05-03T00:45:19.275689+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0FC246MJ4": {
-      "asin": "B0FC246MJ4",
-      "title": "POWERTEC AF1045E 3-Speed Remote Controlled Air Filtration System Woodworking (655/875/1060 CFM), Hanging Air Filter for Dust Collector & Workshop, Air Purifier for Garage",
-      "current_price": 263.99,
-      "avg_7_price": 284.57,
-      "min_7_price": 255.99,
-      "avg_30_price": 366.39,
-      "min_30_price": null,
-      "drop_percent": 7.2,
-      "drop_30_percent": 27.9,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FC246MJ4&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0FC246MJ4?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T00:30:25.827477+00:00",
-      "last_checked_at": "2026-05-02T00:30:25.827592+00:00",
-      "posted_at": "2026-05-02T00:30:25.827592+00:00",
-      "first_seen_at": "2026-05-02T00:30:25.827592+00:00",
-      "expires_at": "2026-05-03T00:30:25.827595+00:00"
-    },
     "B005W0ZT86": {
       "asin": "B005W0ZT86",
       "title": "Steelex D3655 Forstner Bit Set in Case, 7-Piece",
@@ -1426,6 +1407,25 @@
       "posted_at": "2026-05-03T00:30:18.461018+00:00",
       "first_seen_at": "2026-05-03T00:30:18.461018+00:00",
       "expires_at": "2026-05-04T00:30:18.461021+00:00"
+    },
+    "B00CP8DF3O": {
+      "asin": "B00CP8DF3O",
+      "title": "DEWALT 20V MAX Cordless Shop Vac, Wet Dry Vacuum Cleaner, Portable 2 Gallon Wet Dry Vac, Strong Suction Shop Vacuum with Hepa Filter, Tool Only (DCV580H)",
+      "current_price": 79.0,
+      "avg_7_price": 122.52,
+      "min_7_price": 79.0,
+      "avg_30_price": 123.28,
+      "min_30_price": null,
+      "drop_percent": 35.5,
+      "drop_30_percent": 35.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00CP8DF3O&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00CP8DF3O?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T00:45:19.273732+00:00",
+      "last_checked_at": "2026-05-03T00:45:19.273781+00:00",
+      "posted_at": "2026-05-03T00:45:19.273781+00:00",
+      "first_seen_at": "2026-05-03T00:45:19.273781+00:00",
+      "expires_at": "2026-05-04T00:45:19.273783+00:00"
     }
   }
 }
