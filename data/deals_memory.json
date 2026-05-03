@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T20:15:36.679486+00:00",
+  "updated_at": "2026-05-03T20:30:31.140053+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B08WHNPC85": {
-      "asin": "B08WHNPC85",
-      "title": "BOSCH JS120N 12V Max Barrel Grip Jig Saw, Cordless, Variable Speed, Tool-free Blade Change (Bare Tool)",
-      "current_price": 119.0,
-      "avg_7_price": 126.0,
-      "min_7_price": 119.0,
-      "avg_30_price": 128.3,
-      "min_30_price": null,
-      "drop_percent": 5.6,
-      "drop_30_percent": 7.2,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08WHNPC85&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B08WHNPC85?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T13:45:34.090589+00:00",
-      "last_checked_at": "2026-05-03T13:45:34.090993+00:00",
-      "posted_at": "2026-05-02T20:15:24.182778+00:00",
-      "first_seen_at": "2026-05-02T20:15:24.182778+00:00",
-      "expires_at": "2026-05-04T13:45:34.090995+00:00"
-    },
     "B07MKVQWSP": {
       "asin": "B07MKVQWSP",
       "title": "BOSCH ITT2535B 10-Pack 3-1/2 In. Torx #25 Impact Tough Screwdriving Power Bits",
