@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T07:26:33.521469+00:00",
+  "updated_at": "2026-05-03T07:30:28.321361+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07JQ45LVW": {
@@ -1749,6 +1749,25 @@
       "posted_at": "2026-05-03T07:26:33.519513+00:00",
       "first_seen_at": "2026-05-03T07:26:33.519513+00:00",
       "expires_at": "2026-05-04T07:26:33.519515+00:00"
+    },
+    "B0CW19JP1W": {
+      "asin": "B0CW19JP1W",
+      "title": "POWERTEC Tool Stand with Wheels, Casters & Melamine MDF Table Top, Power Tool Stand for Miter Saw, Drill Press, Belt Sander, Bench Grinder, Band Saw, Scroll Saw, Planer (UT1008V)",
+      "current_price": 157.66,
+      "avg_7_price": 169.98,
+      "min_7_price": 155.18,
+      "avg_30_price": 185.32,
+      "min_30_price": null,
+      "drop_percent": 7.2,
+      "drop_30_percent": 14.9,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CW19JP1W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0CW19JP1W?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T07:30:28.318886+00:00",
+      "last_checked_at": "2026-05-03T07:30:28.319136+00:00",
+      "posted_at": "2026-05-03T07:30:28.319136+00:00",
+      "first_seen_at": "2026-05-03T07:30:28.319136+00:00",
+      "expires_at": "2026-05-04T07:30:28.319139+00:00"
     }
   }
 }
