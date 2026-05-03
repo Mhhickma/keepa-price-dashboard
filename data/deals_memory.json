@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T06:00:34.162812+00:00",
+  "updated_at": "2026-05-03T06:15:36.199376+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B09DFGPSZZ": {
-      "asin": "B09DFGPSZZ",
-      "title": "3M Xtract Net Disc 710W, 5 in, 12 Piece Multi-Pack Hook and Loop Sanding Discs, 80+, 120+, 180+, 220+, 240+, 320+, Virtually Dust-Free, Assorted Grades, 66584",
-      "current_price": 7.99,
-      "avg_7_price": 8.52,
-      "min_7_price": 7.99,
-      "avg_30_price": 8.64,
-      "min_30_price": null,
-      "drop_percent": 6.2,
-      "drop_30_percent": 7.5,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09DFGPSZZ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B09DFGPSZZ?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T16:15:18.609076+00:00",
-      "last_checked_at": "2026-05-02T16:15:18.609160+00:00",
-      "posted_at": "2026-05-02T06:00:41.064354+00:00",
-      "first_seen_at": "2026-05-02T06:00:41.064354+00:00",
-      "expires_at": "2026-05-03T16:15:18.609167+00:00"
-    },
     "B07BWNCGKJ": {
       "asin": "B07BWNCGKJ",
       "title": "BESSEY KREX2450 K Body REVO Clamp Kit, 2 x 24 In., 2 x 50 In. and 2 KBX20 Extenders - 1700 lbs Nominal Clamping Force. Spreader, and Woodworking Accessories - Clamps and Tools for Cabinetry",
