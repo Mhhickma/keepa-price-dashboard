@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T08:00:36.190989+00:00",
+  "updated_at": "2026-05-03T08:15:31.746352+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0DKH7Q1ZZ": {
-      "asin": "B0DKH7Q1ZZ",
-      "title": "POWERTEC Slab Flattening Router Bit, 1/2 Shank, 2\" Diameter, 1/2\" Cutting Depth,Woodworking Surfacing Bit for CNC Machine, Wood Milling & Live Edge Wood Planing (73055)",
-      "current_price": 15.3,
-      "avg_7_price": 16.11,
-      "min_7_price": 15.3,
-      "avg_30_price": 17.55,
-      "min_30_price": null,
-      "drop_percent": 5.0,
-      "drop_30_percent": 12.8,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DKH7Q1ZZ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0DKH7Q1ZZ?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T08:00:23.027180+00:00",
-      "last_checked_at": "2026-05-02T08:00:23.027251+00:00",
-      "posted_at": "2026-05-02T08:00:23.027251+00:00",
-      "first_seen_at": "2026-05-02T08:00:23.027251+00:00",
-      "expires_at": "2026-05-03T08:00:23.027253+00:00"
-    },
     "B004HASE0W": {
       "asin": "B004HASE0W",
       "title": "DEWALT 20V MAX XR 12 inch Double Bevel Sliding Miter Saw, Cordless, Tool Only (DCS785B)",
