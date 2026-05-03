@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T14:00:35.013867+00:00",
+  "updated_at": "2026-05-03T14:15:27.256840+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0D41J8ZTK": {
@@ -576,20 +576,20 @@
       "asin": "B000NKDPIG",
       "title": "BOSCH HC2108 5/8 in. x 22 in. x 24 in. Bulldog SDS-Plus Rotary Hammer Bit",
       "current_price": 28.59,
-      "avg_7_price": 32.82,
+      "avg_7_price": 32.27,
       "min_7_price": 28.59,
-      "avg_30_price": 33.71,
+      "avg_30_price": 33.59,
       "min_30_price": null,
-      "drop_percent": 12.9,
-      "drop_30_percent": 15.2,
+      "drop_percent": 11.4,
+      "drop_30_percent": 14.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000NKDPIG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B000NKDPIG?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T21:15:19.031917+00:00",
-      "last_checked_at": "2026-05-02T21:15:19.031921+00:00",
+      "checked_at": "2026-05-03T14:15:27.253739+00:00",
+      "last_checked_at": "2026-05-03T14:15:27.254003+00:00",
       "posted_at": "2026-05-02T21:15:19.031921+00:00",
       "first_seen_at": "2026-05-02T21:15:19.031921+00:00",
-      "expires_at": "2026-05-03T21:15:19.031927+00:00"
+      "expires_at": "2026-05-04T14:15:27.254006+00:00"
     },
     "B0CYZWZ964": {
       "asin": "B0CYZWZ964",
