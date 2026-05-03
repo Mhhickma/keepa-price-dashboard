@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T15:00:36.700366+00:00",
+  "updated_at": "2026-05-03T15:15:34.217861+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B0BFJJV95V": {
@@ -709,20 +709,20 @@
       "asin": "B0000TZX7G",
       "title": "Bosch HC2081B25 25 pc. 1/2 in. x 6 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
       "current_price": 115.99,
-      "avg_7_price": 131.44,
+      "avg_7_price": 129.59,
       "min_7_price": 115.99,
-      "avg_30_price": 134.59,
+      "avg_30_price": 134.2,
       "min_30_price": null,
-      "drop_percent": 11.8,
-      "drop_30_percent": 13.8,
+      "drop_percent": 10.5,
+      "drop_30_percent": 13.6,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX7G&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0000TZX7G?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T23:45:17.977204+00:00",
-      "last_checked_at": "2026-05-02T23:45:17.977256+00:00",
+      "checked_at": "2026-05-03T15:15:34.215175+00:00",
+      "last_checked_at": "2026-05-03T15:15:34.215268+00:00",
       "posted_at": "2026-05-02T23:45:17.977256+00:00",
       "first_seen_at": "2026-05-02T23:45:17.977256+00:00",
-      "expires_at": "2026-05-03T23:45:17.977259+00:00"
+      "expires_at": "2026-05-04T15:15:34.215275+00:00"
     },
     "B07MKVQTM3": {
       "asin": "B07MKVQTM3",
@@ -2224,6 +2224,25 @@
       "posted_at": "2026-05-03T15:00:36.697572+00:00",
       "first_seen_at": "2026-05-03T15:00:36.697572+00:00",
       "expires_at": "2026-05-04T15:00:36.697574+00:00"
+    },
+    "B07H39S9JQ": {
+      "asin": "B07H39S9JQ",
+      "title": "DEWALT Tire Inflator Portable Air Compressor 20V MAX, Car Air Pump with Automatic Shut Off, LED Light, Tool Only (DCC020IB)",
+      "current_price": 133.98,
+      "avg_7_price": 142.91,
+      "min_7_price": 133.98,
+      "avg_30_price": 139.06,
+      "min_30_price": null,
+      "drop_percent": 6.2,
+      "drop_30_percent": 3.7,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07H39S9JQ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07H39S9JQ?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T15:15:34.214905+00:00",
+      "last_checked_at": "2026-05-03T15:15:34.215268+00:00",
+      "posted_at": "2026-05-03T15:15:34.215268+00:00",
+      "first_seen_at": "2026-05-03T15:15:34.215268+00:00",
+      "expires_at": "2026-05-04T15:15:34.215275+00:00"
     }
   }
 }
