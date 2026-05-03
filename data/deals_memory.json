@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T22:00:34.340827+00:00",
+  "updated_at": "2026-05-03T22:15:30.908689+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0CYZWZ964": {
-      "asin": "B0CYZWZ964",
-      "title": "HYCHIKA Random Orbital Sander, 6 Variable Speed 3.8Amp 450W 5-Inch Electric Wood Sander with Double Handle, High Efficiency Dust Collector & 20Pcs Sandpapers for Heavy Duty Woodworking",
-      "current_price": 39.99,
-      "avg_7_price": 42.5,
-      "min_7_price": 39.99,
-      "avg_30_price": 43.94,
-      "min_30_price": null,
-      "drop_percent": 5.9,
-      "drop_30_percent": 9.0,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CYZWZ964&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0CYZWZ964?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T14:16:17.537542+00:00",
-      "last_checked_at": "2026-05-03T14:16:17.537812+00:00",
-      "posted_at": "2026-05-02T22:00:19.560381+00:00",
-      "first_seen_at": "2026-05-02T22:00:19.560381+00:00",
-      "expires_at": "2026-05-04T14:16:17.537815+00:00"
-    },
     "B072MJ2V9J": {
       "asin": "B072MJ2V9J",
       "title": "Freud Pro Dado Set with Premium Tico Hi-Density Carbide Crosscutting Blend for Maximum Performance - 8\" Diameter, 12 Teeth, 5/8\" Arbor, 6000 Max RPM - SD208S",
