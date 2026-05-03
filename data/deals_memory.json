@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T13:00:39.790116+00:00",
+  "updated_at": "2026-05-03T13:15:35.256182+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07H39S9JQ": {
@@ -443,39 +443,39 @@
       "asin": "B07B6JPYFT",
       "title": "Bosch GHO12V-08N 12V Max EC Brushless Planer (Bare Tool)",
       "current_price": 199.0,
-      "avg_7_price": 214.96,
+      "avg_7_price": 212.85,
       "min_7_price": 199.0,
-      "avg_30_price": 211.91,
+      "avg_30_price": 211.41,
       "min_30_price": null,
-      "drop_percent": 7.4,
-      "drop_30_percent": 6.1,
+      "drop_percent": 6.5,
+      "drop_30_percent": 5.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07B6JPYFT&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B07B6JPYFT?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T19:30:19.345262+00:00",
-      "last_checked_at": "2026-05-02T19:30:19.345323+00:00",
+      "checked_at": "2026-05-03T13:15:35.252962+00:00",
+      "last_checked_at": "2026-05-03T13:15:35.253302+00:00",
       "posted_at": "2026-05-02T19:30:19.345323+00:00",
       "first_seen_at": "2026-05-02T19:30:19.345323+00:00",
-      "expires_at": "2026-05-03T19:30:19.345324+00:00"
+      "expires_at": "2026-05-04T13:15:35.253304+00:00"
     },
     "B0C76CPGC7": {
       "asin": "B0C76CPGC7",
       "title": "BOSCH GLM100-23 100 Ft BLAZE Laser Distance Measure, Includes 2 AA Batteries",
       "current_price": 49.0,
-      "avg_7_price": 57.65,
+      "avg_7_price": 56.52,
       "min_7_price": 49.0,
-      "avg_30_price": 57.55,
+      "avg_30_price": 57.38,
       "min_30_price": null,
-      "drop_percent": 15.0,
-      "drop_30_percent": 14.9,
+      "drop_percent": 13.3,
+      "drop_30_percent": 14.6,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0C76CPGC7&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B0C76CPGC7?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T19:45:18.058213+00:00",
-      "last_checked_at": "2026-05-02T19:45:18.058421+00:00",
+      "checked_at": "2026-05-03T13:15:35.253111+00:00",
+      "last_checked_at": "2026-05-03T13:15:35.253302+00:00",
       "posted_at": "2026-05-02T19:45:18.058421+00:00",
       "first_seen_at": "2026-05-02T19:45:18.058421+00:00",
-      "expires_at": "2026-05-03T19:45:18.058424+00:00"
+      "expires_at": "2026-05-04T13:15:35.253304+00:00"
     },
     "B08WHNPC85": {
       "asin": "B08WHNPC85",
@@ -2205,6 +2205,25 @@
       "posted_at": "2026-05-03T13:00:39.787467+00:00",
       "first_seen_at": "2026-05-03T13:00:39.787467+00:00",
       "expires_at": "2026-05-04T13:00:39.787469+00:00"
+    },
+    "B0007SXH64": {
+      "asin": "B0007SXH64",
+      "title": "Makita 164095-8 Rip Fence for Circular Saws, Black",
+      "current_price": 9.99,
+      "avg_7_price": 11.0,
+      "min_7_price": 9.99,
+      "avg_30_price": 10.78,
+      "min_30_price": null,
+      "drop_percent": 9.2,
+      "drop_30_percent": 7.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0007SXH64&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0007SXH64?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T13:15:35.253215+00:00",
+      "last_checked_at": "2026-05-03T13:15:35.253302+00:00",
+      "posted_at": "2026-05-03T13:15:35.253302+00:00",
+      "first_seen_at": "2026-05-03T13:15:35.253302+00:00",
+      "expires_at": "2026-05-04T13:15:35.253304+00:00"
     }
   }
 }
