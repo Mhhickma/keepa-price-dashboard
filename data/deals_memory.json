@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T17:00:38.418707+00:00",
+  "updated_at": "2026-05-03T17:11:49.232841+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01HF9FJJU": {
@@ -2110,6 +2110,44 @@
       "posted_at": "2026-05-03T17:00:38.416071+00:00",
       "first_seen_at": "2026-05-03T17:00:38.416071+00:00",
       "expires_at": "2026-05-04T17:00:38.416073+00:00"
+    },
+    "B00IJ0ALYS": {
+      "asin": "B00IJ0ALYS",
+      "title": "DEWALT 20V MAX Cordless Drill and Impact Driver, Power Tool Combo Kit , Includes 2 Batteries, Charger and Bag (DCK240C2)",
+      "current_price": 129.0,
+      "avg_7_price": 138.76,
+      "min_7_price": 129.0,
+      "avg_30_price": 138.94,
+      "min_30_price": null,
+      "drop_percent": 7.0,
+      "drop_30_percent": 7.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00IJ0ALYS&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B00IJ0ALYS?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T17:11:49.229767+00:00",
+      "last_checked_at": "2026-05-03T17:11:49.230093+00:00",
+      "posted_at": "2026-05-03T17:11:49.230093+00:00",
+      "first_seen_at": "2026-05-03T17:11:49.230093+00:00",
+      "expires_at": "2026-05-04T17:11:49.230095+00:00"
+    },
+    "B0000223IA": {
+      "asin": "B0000223IA",
+      "title": "Freud LU91R010: 10\" Thin Kerf Sliding Compound Miter Saw Blade",
+      "current_price": 71.61,
+      "avg_7_price": 83.79,
+      "min_7_price": 69.61,
+      "avg_30_price": 77.12,
+      "min_30_price": null,
+      "drop_percent": 14.5,
+      "drop_30_percent": 7.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000223IA&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0000223IA?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T17:11:49.230065+00:00",
+      "last_checked_at": "2026-05-03T17:11:49.230093+00:00",
+      "posted_at": "2026-05-03T17:11:49.230093+00:00",
+      "first_seen_at": "2026-05-03T17:11:49.230093+00:00",
+      "expires_at": "2026-05-04T17:11:49.230095+00:00"
     }
   }
 }
