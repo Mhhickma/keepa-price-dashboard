@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T00:00:23.497882+00:00",
+  "updated_at": "2026-05-03T00:15:22.847093+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B07PDZRQWY": {
-      "asin": "B07PDZRQWY",
-      "title": "EGO POWER+ Battery 56V,2.5Ah - BA1400T",
-      "current_price": 100.48,
-      "avg_7_price": 105.93,
-      "min_7_price": 100.48,
-      "avg_30_price": 130.85,
-      "min_30_price": null,
-      "drop_percent": 5.1,
-      "drop_30_percent": 23.2,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07PDZRQWY&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B07PDZRQWY?tag=simplewoodsho-20",
-      "checked_at": "2026-05-02T00:00:24.686553+00:00",
-      "last_checked_at": "2026-05-02T00:00:24.686572+00:00",
-      "posted_at": "2026-05-02T00:00:24.686572+00:00",
-      "first_seen_at": "2026-05-02T00:00:24.686572+00:00",
-      "expires_at": "2026-05-03T00:00:24.686574+00:00"
-    },
     "B0F4769RDT": {
       "asin": "B0F4769RDT",
       "title": "POWERTEC Swivel Jaws for Parallel Clamps, 4 Pack - Add-On Pivot Jaws for Irregular Shapes, Cabinet Door & Frame Gluing, Compatible with Most Standard Parallel Clamps (72156-P2)",
