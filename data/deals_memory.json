@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-03T07:15:33.539958+00:00",
+  "updated_at": "2026-05-03T07:26:33.521469+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B07JQ45LVW": {
@@ -1711,6 +1711,44 @@
       "posted_at": "2026-05-03T07:15:33.537705+00:00",
       "first_seen_at": "2026-05-03T07:15:33.537705+00:00",
       "expires_at": "2026-05-04T07:15:33.537708+00:00"
+    },
+    "B07QJ96V1S": {
+      "asin": "B07QJ96V1S",
+      "title": "DEWALT ATOMIC 20V MAX* Impact Driver, Cordless, Compact, 1/4-Inch, Tool Only (DCF809B)",
+      "current_price": 124.96,
+      "avg_7_price": 137.26,
+      "min_7_price": 117.46,
+      "avg_30_price": 145.61,
+      "min_30_price": null,
+      "drop_percent": 9.0,
+      "drop_30_percent": 14.2,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07QJ96V1S&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B07QJ96V1S?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T07:26:33.519135+00:00",
+      "last_checked_at": "2026-05-03T07:26:33.519513+00:00",
+      "posted_at": "2026-05-03T07:26:33.519513+00:00",
+      "first_seen_at": "2026-05-03T07:26:33.519513+00:00",
+      "expires_at": "2026-05-04T07:26:33.519515+00:00"
+    },
+    "B0DJCFY97W": {
+      "asin": "B0DJCFY97W",
+      "title": "IRWIN Quick-Lift Construction Jacks, Hand Lifting Jack Tool, Multifunctional, Lift up to 10\" and Capacity 330 lbs, Pack of 2 (IRHT83100-2)",
+      "current_price": 127.57,
+      "avg_7_price": 149.31,
+      "min_7_price": 127.57,
+      "avg_30_price": 177.44,
+      "min_30_price": null,
+      "drop_percent": 14.6,
+      "drop_30_percent": 28.1,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DJCFY97W&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0DJCFY97W?tag=simplewoodsho-20",
+      "checked_at": "2026-05-03T07:26:33.519222+00:00",
+      "last_checked_at": "2026-05-03T07:26:33.519513+00:00",
+      "posted_at": "2026-05-03T07:26:33.519513+00:00",
+      "first_seen_at": "2026-05-03T07:26:33.519513+00:00",
+      "expires_at": "2026-05-04T07:26:33.519515+00:00"
     }
   }
 }
