@@ -1,45 +1,7 @@
 {
-  "updated_at": "2026-05-04T04:15:30.255728+00:00",
+  "updated_at": "2026-05-04T04:30:54.191695+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0BF4XZX7X": {
-      "asin": "B0BF4XZX7X",
-      "title": "POWERTEC 4PK Toggle Clamp, 220 lbs Holding Capacity, 4001 Adjustable Pull Action Latch for Smoker, Tool Box, Woodworking Jigs and Fixtures, Cabinet, Door (20311V)",
-      "current_price": 7.5,
-      "avg_7_price": 7.91,
-      "min_7_price": 7.5,
-      "avg_30_price": 9.65,
-      "min_30_price": null,
-      "drop_percent": 5.2,
-      "drop_30_percent": 22.3,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0BF4XZX7X&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0BF4XZX7X?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T04:15:41.504197+00:00",
-      "last_checked_at": "2026-05-03T04:15:41.504463+00:00",
-      "posted_at": "2026-05-03T04:15:41.504463+00:00",
-      "first_seen_at": "2026-05-03T04:15:41.504463+00:00",
-      "expires_at": "2026-05-04T04:15:41.504465+00:00"
-    },
-    "B0FB8J14GN": {
-      "asin": "B0FB8J14GN",
-      "title": "POWERTEC Slab Flattening Router Bit, CNC and Surfacing Router Bit 1/4 Shank, 2\" Diameter, 1/2\" Cutting Depth, Router Planer Bit - Perfect for Spoilboard Surfacing, Wood Milling Planing - 2PK, 73056-P2",
-      "current_price": 28.5,
-      "avg_7_price": 30.04,
-      "min_7_price": 28.5,
-      "avg_30_price": 31.95,
-      "min_30_price": null,
-      "drop_percent": 5.1,
-      "drop_30_percent": 10.8,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FB8J14GN&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0FB8J14GN?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T18:00:39.535457+00:00",
-      "last_checked_at": "2026-05-03T18:00:39.535639+00:00",
-      "posted_at": "2026-05-03T04:15:41.504463+00:00",
-      "first_seen_at": "2026-05-03T04:15:41.504463+00:00",
-      "expires_at": "2026-05-04T18:00:39.535647+00:00"
-    },
     "B0C4XYW5RG": {
       "asin": "B0C4XYW5RG",
       "title": "POWERTEC 71158-P3, 6 Pack, 48 Inch Double-Cut Profile Universal T-Track with Predrilled Mounting Holes, Aluminum T Track for Woodworking Jigs and Fixtures, Drill Press Table, Router Table, Workbench",
@@ -2015,6 +1977,25 @@
       "posted_at": "2026-05-04T04:15:30.253121+00:00",
       "first_seen_at": "2026-05-04T04:15:30.253121+00:00",
       "expires_at": "2026-05-05T04:15:30.253123+00:00"
+    },
+    "B0CYZWZ964": {
+      "asin": "B0CYZWZ964",
+      "title": "HYCHIKA Random Orbital Sander, 6 Variable Speed 3.8Amp 450W 5-Inch Electric Wood Sander with Double Handle, High Efficiency Dust Collector & 20Pcs Sandpapers for Heavy Duty Woodworking",
+      "current_price": 39.99,
+      "avg_7_price": 42.5,
+      "min_7_price": 39.99,
+      "avg_30_price": 43.73,
+      "min_30_price": null,
+      "drop_percent": 5.9,
+      "drop_30_percent": 8.6,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CYZWZ964&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B0CYZWZ964?tag=simplewoodsho-20",
+      "checked_at": "2026-05-04T04:30:54.188865+00:00",
+      "last_checked_at": "2026-05-04T04:30:54.189167+00:00",
+      "posted_at": "2026-05-04T04:30:54.189167+00:00",
+      "first_seen_at": "2026-05-04T04:30:54.189167+00:00",
+      "expires_at": "2026-05-05T04:30:54.189170+00:00"
     }
   }
 }
