@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04T02:00:40.042565+00:00",
+  "updated_at": "2026-05-04T02:15:32.255647+00:00",
   "deal_ttl_hours": 24,
   "deals": {
     "B01F1NZF1Y": {
@@ -1184,39 +1184,39 @@
       "asin": "B07JQ45LVW",
       "title": "CRAFTSMAN V20 Lithium Ion Battery, 4.0-Amp Hour (CMCB204)",
       "current_price": 39.0,
-      "avg_7_price": 54.91,
+      "avg_7_price": 53.24,
       "min_7_price": 39.0,
-      "avg_30_price": 54.65,
+      "avg_30_price": 54.44,
       "min_30_price": null,
-      "drop_percent": 29.0,
-      "drop_30_percent": 28.6,
+      "drop_percent": 26.7,
+      "drop_30_percent": 28.4,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07JQ45LVW&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B07JQ45LVW?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T12:15:32.175522+00:00",
-      "last_checked_at": "2026-05-03T12:15:32.175655+00:00",
+      "checked_at": "2026-05-04T02:15:32.252989+00:00",
+      "last_checked_at": "2026-05-04T02:15:32.253204+00:00",
       "posted_at": "2026-05-03T12:15:32.175655+00:00",
       "first_seen_at": "2026-05-03T12:15:32.175655+00:00",
-      "expires_at": "2026-05-04T12:15:32.175657+00:00"
+      "expires_at": "2026-05-05T02:15:32.253206+00:00"
     },
     "B001BSD7SW": {
       "asin": "B001BSD7SW",
       "title": "Powermatic 20-Inch Thickness Planer for Woodworking, Helical Style Cutterhead with 4-Speed (16/20 / 24/31 FPM) Feed Rate, 5 HP, 230V/460V 3Ph (209HH)",
       "current_price": 5328.65,
-      "avg_7_price": 5822.94,
+      "avg_7_price": 5771.48,
       "min_7_price": 5328.65,
-      "avg_30_price": 5925.48,
+      "avg_30_price": 5913.47,
       "min_30_price": null,
-      "drop_percent": 8.5,
-      "drop_30_percent": 10.1,
+      "drop_percent": 7.7,
+      "drop_30_percent": 9.9,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B001BSD7SW&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B001BSD7SW?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T12:30:37.715185+00:00",
-      "last_checked_at": "2026-05-03T12:30:37.715550+00:00",
+      "checked_at": "2026-05-04T02:15:32.253176+00:00",
+      "last_checked_at": "2026-05-04T02:15:32.253204+00:00",
       "posted_at": "2026-05-03T12:30:37.715550+00:00",
       "first_seen_at": "2026-05-03T12:30:37.715550+00:00",
-      "expires_at": "2026-05-04T12:30:37.715552+00:00"
+      "expires_at": "2026-05-05T02:15:32.253206+00:00"
     },
     "B01M6V8CP4": {
       "asin": "B01M6V8CP4",
@@ -1920,6 +1920,25 @@
       "posted_at": "2026-05-04T02:00:40.040038+00:00",
       "first_seen_at": "2026-05-04T02:00:40.040038+00:00",
       "expires_at": "2026-05-05T02:00:40.040041+00:00"
+    },
+    "B000AMS7SA": {
+      "asin": "B000AMS7SA",
+      "title": "Bosch HC2014B25 25 pc. 3/16 in. x 12 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
+      "current_price": 219.99,
+      "avg_7_price": 259.64,
+      "min_7_price": 219.99,
+      "avg_30_price": 275.91,
+      "min_30_price": null,
+      "drop_percent": 15.3,
+      "drop_30_percent": 20.3,
+      "price_stats_source": "keepa_stats_7_days",
+      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B000AMS7SA&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
+      "amazon_url": "https://www.amazon.com/dp/B000AMS7SA?tag=simplewoodsho-20",
+      "checked_at": "2026-05-04T02:15:32.253076+00:00",
+      "last_checked_at": "2026-05-04T02:15:32.253204+00:00",
+      "posted_at": "2026-05-04T02:15:32.253204+00:00",
+      "first_seen_at": "2026-05-04T02:15:32.253204+00:00",
+      "expires_at": "2026-05-05T02:15:32.253206+00:00"
     }
   }
 }
