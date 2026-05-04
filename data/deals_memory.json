@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-04T03:15:35.114250+00:00",
+  "updated_at": "2026-05-04T03:30:33.155272+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B08W8KS8D3": {
-      "asin": "B08W8KS8D3",
-      "title": "Amazon Smart Air Quality Monitor \u2013 Know your air, Works with Alexa",
-      "current_price": 49.99,
-      "avg_7_price": 52.96,
-      "min_7_price": 49.99,
-      "avg_30_price": 61.07,
-      "min_30_price": null,
-      "drop_percent": 5.6,
-      "drop_30_percent": 18.1,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B08W8KS8D3&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B08W8KS8D3?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T03:15:33.450863+00:00",
-      "last_checked_at": "2026-05-03T03:15:33.451001+00:00",
-      "posted_at": "2026-05-03T03:15:33.451001+00:00",
-      "first_seen_at": "2026-05-03T03:15:33.451001+00:00",
-      "expires_at": "2026-05-04T03:15:33.451004+00:00"
-    },
     "B00P84QEF8": {
       "asin": "B00P84QEF8",
       "title": "WEN Woodworking Air Filters, 1-Micron Inner Filter for 400 CFM Air Filtration Systems, Two Pack (90243-026-2)",
