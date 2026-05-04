@@ -1,26 +1,7 @@
 {
-  "updated_at": "2026-05-03T23:45:36.048356+00:00",
+  "updated_at": "2026-05-04T00:00:35.363680+00:00",
   "deal_ttl_hours": 24,
   "deals": {
-    "B0000TZX7G": {
-      "asin": "B0000TZX7G",
-      "title": "Bosch HC2081B25 25 pc. 1/2 in. x 6 in. SDS-Plus\u00ae Bulldog\u2122 Rotary Hammer Bits",
-      "current_price": 115.99,
-      "avg_7_price": 129.59,
-      "min_7_price": 115.99,
-      "avg_30_price": 134.2,
-      "min_30_price": null,
-      "drop_percent": 10.5,
-      "drop_30_percent": 13.6,
-      "price_stats_source": "keepa_stats_7_days",
-      "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0000TZX7G&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
-      "amazon_url": "https://www.amazon.com/dp/B0000TZX7G?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T15:15:34.215175+00:00",
-      "last_checked_at": "2026-05-03T15:15:34.215268+00:00",
-      "posted_at": "2026-05-02T23:45:17.977256+00:00",
-      "first_seen_at": "2026-05-02T23:45:17.977256+00:00",
-      "expires_at": "2026-05-04T15:15:34.215275+00:00"
-    },
     "B07MKVQTM3": {
       "asin": "B07MKVQTM3",
       "title": "BOSCH ITT2035B 10-Pack 3-1/2 In. Torx #20 Impact Tough Screwdriving Power Bits",
@@ -955,21 +936,21 @@
     "B004AYE9PY": {
       "asin": "B004AYE9PY",
       "title": "Oshlun SBF-054030 5-3/8-Inch 30 Tooth MTCG Saw Blade with 20mm Arbor (5/8-Inch and 10mm Bushings) for Mild Steel and Ferrous Metals",
-      "current_price": 22.83,
-      "avg_7_price": 24.53,
+      "current_price": 22.86,
+      "avg_7_price": 24.35,
       "min_7_price": 22.83,
-      "avg_30_price": 21.05,
+      "avg_30_price": 21.1,
       "min_30_price": null,
-      "drop_percent": 6.9,
+      "drop_percent": 6.1,
       "drop_30_percent": null,
       "price_stats_source": "keepa_stats_7_days",
       "image": "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004AYE9PY&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822",
       "amazon_url": "https://www.amazon.com/dp/B004AYE9PY?tag=simplewoodsho-20",
-      "checked_at": "2026-05-03T10:15:29.257014+00:00",
-      "last_checked_at": "2026-05-03T10:15:29.257097+00:00",
+      "checked_at": "2026-05-04T00:00:35.361306+00:00",
+      "last_checked_at": "2026-05-04T00:00:35.361450+00:00",
       "posted_at": "2026-05-03T10:15:29.257097+00:00",
       "first_seen_at": "2026-05-03T10:15:29.257097+00:00",
-      "expires_at": "2026-05-04T10:15:29.257100+00:00"
+      "expires_at": "2026-05-05T00:00:35.361453+00:00"
     },
     "B07SHRKZJD": {
       "asin": "B07SHRKZJD",
