@@ -5,8 +5,8 @@
   "count": 24,
   "deal_count": 24,
   "totalProducts": 24,
-  "updatedAt": "2026-09-07T17:58:25.456092+00:00",
-  "updated_at": "2026-09-07T17:58:25.456112+00:00",
+  "updatedAt": "2026-09-07T21:32:05.077937+00:00",
+  "updated_at": "2026-09-07T21:32:05.077947+00:00",
   "deal_ttl_hours": 23,
   "creator_campaign_deal_count": 0,
   "creator_connections": {
@@ -16,6 +16,74 @@
     "path": "data/creator-connections"
   },
   "deals": [
+    {
+      "asin": "B0G3P428LL",
+      "title": "160 Pcs Fidget Toys Party Favors Pack, Randomly Selected Pop Sensory Set Gifts Stickers for Kids Adults Boy Girl Stocking Stuffers Autistic Bulk Goodie Bag Filler Treasure Box Classroom Prizes School",
+      "brand": "TwCare",
+      "cat": "Toys & Games",
+      "image": "https://m.media-amazon.com/images/I/61y7LWJ4SlL._SL160_.jpg",
+      "image_candidates": [
+        "https://m.media-amazon.com/images/I/61y7LWJ4SlL._SL160_.jpg"
+      ],
+      "current_price": 9.99,
+      "avg_7_price": 15.99,
+      "min_7_price": 9.99,
+      "avg_30_price": 15.99,
+      "drop_percent": 38,
+      "drop_30_percent": 0,
+      "price": "$9.99",
+      "price_amount": 9.99,
+      "currency": "USD",
+      "availability": "IN_STOCK",
+      "amazon_url": "https://www.amazon.com/dp/B0G3P428LL?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "link": "https://www.amazon.com/dp/B0G3P428LL?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "desc": "TwCare",
+      "posted_at": "2026-09-07T21:32:05.061274+00:00",
+      "first_seen_at": "2026-09-07T21:32:05.061274+00:00",
+      "checked_at": "2026-09-07T21:32:05.061274+00:00",
+      "last_checked_at": "2026-09-07T21:32:05.061274+00:00",
+      "expires_at": "2026-09-08T20:32:05.061275+00:00",
+      "seen_at": "2026-09-07T21:32:05.061274+00:00",
+      "updated_at": "2026-09-07T21:32:05.061274+00:00",
+      "qualification_reasons": [
+        "saved_price_drop",
+        "amazon_savings_drop"
+      ]
+    },
+    {
+      "asin": "B0B2X2L8G8",
+      "title": "VALITIC Kojic Acid Dark Spot Remover Soap Bars, Turmeric Bar Soaps 3 Pack",
+      "brand": "VALITIC",
+      "cat": "Beauty & Personal Care",
+      "image": "https://m.media-amazon.com/images/I/41e6qO8ViyL._SL160_.jpg",
+      "image_candidates": [
+        "https://m.media-amazon.com/images/I/41e6qO8ViyL._SL160_.jpg"
+      ],
+      "current_price": 11.96,
+      "avg_7_price": 17.49,
+      "min_7_price": 11.96,
+      "avg_30_price": 17.49,
+      "drop_percent": 32,
+      "drop_30_percent": 0,
+      "price": "$11.96",
+      "price_amount": 11.96,
+      "currency": "USD",
+      "availability": "IN_STOCK",
+      "amazon_url": "https://www.amazon.com/dp/B0B2X2L8G8?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "link": "https://www.amazon.com/dp/B0B2X2L8G8?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "desc": "VALITIC",
+      "posted_at": "2026-08-14T21:43:45.566199+00:00",
+      "first_seen_at": "2026-08-14T21:43:45.566199+00:00",
+      "checked_at": "2026-09-07T21:32:05.061170+00:00",
+      "last_checked_at": "2026-09-07T21:32:05.061170+00:00",
+      "expires_at": "2026-09-08T20:32:05.061172+00:00",
+      "seen_at": "2026-08-14T21:43:45.566199+00:00",
+      "updated_at": "2026-09-07T21:32:05.061170+00:00",
+      "qualification_reasons": [
+        "saved_price_drop",
+        "amazon_savings_drop"
+      ]
+    },
     {
       "asin": "B0CD42KQ3K",
       "title": "Baby Montessori Sensory Teething Toy 0-6 6-12 Months, Teether Ball & Rattle",
@@ -758,73 +826,6 @@
       "expires_at": "2026-09-07T22:04:59.720671+00:00",
       "seen_at": "2026-09-06T23:04:59.720668+00:00",
       "updated_at": "2026-09-06T23:04:59.720668+00:00",
-      "qualification_reasons": [
-        "saved_price_drop",
-        "amazon_savings_drop"
-      ]
-    },
-    {
-      "asin": "B0B1PFCGZ8",
-      "title": "Naturium The Smoother Glycolic Acid Body Wash, 16.9 fl oz",
-      "brand": "Naturium",
-      "cat": "Beauty & Personal Care",
-      "image": "https://m.media-amazon.com/images/I/31V4+vfjRNL._SL160_.jpg",
-      "image_candidates": [
-        "https://m.media-amazon.com/images/I/31V4+vfjRNL._SL160_.jpg"
-      ],
-      "current_price": 15.19,
-      "avg_7_price": 16.88,
-      "min_7_price": 15.19,
-      "avg_30_price": 16.88,
-      "drop_percent": 10,
-      "drop_30_percent": 0,
-      "price": "$15.19",
-      "price_amount": 15.19,
-      "currency": "USD",
-      "availability": "IN_STOCK",
-      "amazon_url": "https://www.amazon.com/dp/B0B1PFCGZ8?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "link": "https://www.amazon.com/dp/B0B1PFCGZ8?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "desc": "Naturium",
-      "posted_at": "2026-09-06T21:19:02.605100+00:00",
-      "first_seen_at": "2026-09-06T21:19:02.605100+00:00",
-      "checked_at": "2026-09-06T21:19:02.605100+00:00",
-      "last_checked_at": "2026-09-06T21:19:02.605100+00:00",
-      "expires_at": "2026-09-07T20:19:02.605102+00:00",
-      "seen_at": "2026-09-06T21:19:02.605100+00:00",
-      "updated_at": "2026-09-06T21:19:02.605100+00:00",
-      "qualification_reasons": [
-        "saved_price_drop"
-      ]
-    },
-    {
-      "asin": "B0004F7GUI",
-      "title": "EXPO Dry Erase Markers, Low Odor Ink, Assorted Colors, Chisel Tip, 12 Count",
-      "brand": "EXPO",
-      "cat": "Office Products",
-      "image": "https://m.media-amazon.com/images/I/51f05M-SMVL._SL160_.jpg",
-      "image_candidates": [
-        "https://m.media-amazon.com/images/I/51f05M-SMVL._SL160_.jpg"
-      ],
-      "current_price": 4.99,
-      "avg_7_price": 8.52,
-      "min_7_price": 4.99,
-      "avg_30_price": 8.52,
-      "drop_percent": 41,
-      "drop_30_percent": 0,
-      "price": "$4.99",
-      "price_amount": 4.99,
-      "currency": "USD",
-      "availability": "IN_STOCK",
-      "amazon_url": "https://www.amazon.com/dp/B0004F7GUI?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "link": "https://www.amazon.com/dp/B0004F7GUI?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "desc": "EXPO",
-      "posted_at": "2026-08-07T14:06:33.818389+00:00",
-      "first_seen_at": "2026-08-07T14:06:33.818389+00:00",
-      "checked_at": "2026-09-06T21:19:02.604036+00:00",
-      "last_checked_at": "2026-09-06T21:19:02.604036+00:00",
-      "expires_at": "2026-09-07T20:19:02.604038+00:00",
-      "seen_at": "2026-08-07T14:06:33.818389+00:00",
-      "updated_at": "2026-09-06T21:19:02.604036+00:00",
       "qualification_reasons": [
         "saved_price_drop",
         "amazon_savings_drop"
