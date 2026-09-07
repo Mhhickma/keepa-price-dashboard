@@ -227,7 +227,7 @@ def evaluate(p, campaigns, now, fetched, ttl_hours=24):
     growth = (current / avg - 1) * 100 if current is not None and avg is not None and avg > 0 else None
     videos = p.get("videos")
     # Live refresh must have succeeded. Missing metadata is not zero videos.
-    video_known = isinstance(videos, list) and p.get("offersSuccessful") is True
+    video_known = isinstance(videos, list) and p.get("offersSuccessful") is not False
     unique = {}
     if video_known:
         for video in videos:
@@ -285,8 +285,9 @@ def evaluate(p, campaigns, now, fetched, ttl_hours=24):
 
 
 class Keepa:
-    def __init__(self, key, deadline, budget, session=None):
+    def __init__(self, key, deadline, budget, session=None, refresh=False):
         self.key, self.deadline, self.budget = key, deadline, budget
+        self.refresh = refresh
         self.session = session or requests.Session()
         self.consumed, self.reserved, self.balance, self.refill = 0, 0, None, None
         self.usage_unknown = False
@@ -294,7 +295,7 @@ class Keepa:
     def fetch(self, asins):
         for attempt in range(5):
             # offers=20 costs up to two pages at six tokens/page per ASIN.
-            reserve = len(asins) * 12
+            reserve = len(asins) * (12 if self.refresh else 1)
             if self.reserved + reserve > self.budget or time.monotonic() + 65 >= self.deadline:
                 return None, "paused_budget_or_time"
             self.reserved += reserve
@@ -302,7 +303,8 @@ class Keepa:
             try:
                 response = self.session.get("https://api.keepa.com/product", params={
                     "key": self.key, "domain": 1, "asin": ",".join(asins), "history": 1,
-                    "stats": 90, "videos": 1, "offers": 20, "only-live-offers": 1,
+                    "stats": 90, "videos": 1,
+                    **({"offers": 20, "only-live-offers": 1} if self.refresh else {}),
                 }, timeout=(10, 50))
                 payload = response.json()
                 used = number(payload.get("tokensConsumed"))
@@ -375,13 +377,17 @@ def main(argv=None):
     parser.add_argument("--output", default="data/influencer")
     parser.add_argument("--limit", type=int, default=100, help="Total unique ASIN cohort across resumes, not per batch")
     parser.add_argument("--batch-size", type=int, default=10)
-    parser.add_argument("--token-budget", type=int, default=1500)
+    parser.add_argument("--token-budget", type=int, default=100)
     parser.add_argument("--seconds", type=int, default=900)
     parser.add_argument("--cache-hours", type=int, default=24)
+    parser.add_argument("--refresh-asins", default="", help="Explicit final refresh: only these previously scanned ASINs, comma separated")
     parser.add_argument("--offline", action="store_true", help="Import/export only; never call Keepa")
     args = parser.parse_args(argv)
-    if not 1 <= args.limit <= 10000 or not 1 <= args.batch_size <= 100 or args.token_budget < 12 or args.seconds < 1 or not 1 <= args.cache_hours <= 168:
-        parser.error("limit 1..10000; batch 1..100; budget >=12; seconds >=1; cache hours 1..168 required")
+    if not 1 <= args.limit <= 10000 or not 1 <= args.batch_size <= 100 or args.token_budget < 1 or args.seconds < 1 or not 1 <= args.cache_hours <= 168:
+        parser.error("limit 1..10000; batch 1..100; budget >=1; seconds >=1; cache hours 1..168 required")
+    refresh_asins = [a.strip().upper() for a in args.refresh_asins.split(",") if a.strip()]
+    if any(not ASIN.fullmatch(a) for a in refresh_asins) or len(refresh_asins) > 100:
+        parser.error("Refresh requires 1..100 valid ASINs separated by commas")
     paths = sorted(Path(args.input).glob("*.csv"))
     db = connect(Path(args.state))
     api, phase = None, "no_input"
@@ -407,12 +413,20 @@ def main(argv=None):
             key = os.getenv("KEEPA_API_KEY")
             if not key:
                 raise ValueError("Missing KEEPA_API_KEY environment variable")
-            api = Keepa(key, deadline, args.token_budget)
+            api = Keepa(key, deadline, args.token_budget, refresh=bool(refresh_asins))
             cutoff = time.time() - args.cache_hours * 3600
             cursor = db.execute("""SELECT s.asin FROM selected s LEFT JOIN cache c ON c.asin=s.asin
               WHERE (c.asin IS NULL OR c.fetched<?) AND EXISTS
               (SELECT 1 FROM links l JOIN eligible e ON e.id=l.id WHERE l.asin=s.asin)
               ORDER BY s.asin""", (cutoff,))
+            if refresh_asins:
+                # Explicit final step: never expand a paid refresh beyond the user's list.
+                for asin in refresh_asins:
+                    if not db.execute("SELECT 1 FROM cache JOIN selected USING(asin) WHERE asin=?", (asin,)).fetchone():
+                        raise ValueError("Refresh ASIN must already have been scanned")
+                db.execute("CREATE TEMP TABLE refresh_requested(asin TEXT PRIMARY KEY)")
+                db.executemany("INSERT OR IGNORE INTO refresh_requested VALUES(?)", [(a,) for a in refresh_asins])
+                cursor = db.execute("SELECT asin FROM refresh_requested ORDER BY asin")
             while True:
                 batch = [row[0] for row in cursor.fetchmany(args.batch_size)]
                 if not batch:

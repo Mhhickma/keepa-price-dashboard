@@ -173,7 +173,7 @@ class Requests(unittest.TestCase):
 
     def test_retry_budget_and_no_secret_in_error(self):
         session=Mock();session.get.side_effect=p.requests.ConnectionError('https://api.keepa.com/?key=private')
-        api=p.Keepa('private',time.monotonic()+1000,12,session)
+        api=p.Keepa('private',time.monotonic()+1000,12,session,refresh=True)
         with patch.object(p.time,'sleep'):
             products,error=api.fetch(['B000000001'])
         self.assertEqual(error,'paused_budget_or_time');self.assertEqual(session.get.call_count,1)
@@ -198,3 +198,25 @@ class Requests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+
+class ScanCostTests(unittest.TestCase):
+    def test_normal_scan_never_requests_offers(self):
+        session=Mock(); session.get.return_value.status_code=200
+        session.get.return_value.json.return_value={'products':[], 'tokensConsumed':1}
+        api=p.Keepa('test',time.monotonic()+1000,1,session)
+        api.fetch(['B000000001'])
+        self.assertNotIn('offers',session.get.call_args.kwargs['params'])
+        self.assertEqual(api.reserved,1)
+
+    def test_explicit_refresh_requests_offers(self):
+        session=Mock(); session.get.return_value.status_code=200
+        session.get.return_value.json.return_value={'products':[], 'tokensConsumed':6}
+        api=p.Keepa('test',time.monotonic()+1000,12,session,refresh=True)
+        api.fetch(['B000000001'])
+        self.assertEqual(session.get.call_args.kwargs['params']['offers'],20)
+        self.assertEqual(api.reserved,12)
+
+    def test_stored_videos_do_not_require_refresh(self):
+        value=product(); value.pop('offersSuccessful')
+        self.assertTrue(p.evaluate(value, [p.campaign(row())], NOW, NOW, 24)['merchant_video'])

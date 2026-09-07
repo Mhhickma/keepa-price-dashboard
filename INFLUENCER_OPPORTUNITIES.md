@@ -1,3 +1,8 @@
+## Scan cost and final refresh
+Normal scans use stored video metadata at 1 token per requested ASIN, default budget 100. Cached products are reused. No automatic video refresh occurs.
+
+After reviewing results, optionally run the workflow with `refresh_asins` set to an explicit comma-separated list of previously scanned ASINs. Only those ASINs are refreshed, even if their cache is fresh. Keep reset off. Reserve up to 12 tokens per ASIN per attempt for this final refresh. Leave the field blank for normal scanning.
+
 # Creator Connections video opportunities
 
 This feature runs inside the existing static Dashboard. Python scans run in GitHub Actions; the page reads generated JSON. No Keepa credential is sent to the browser.
@@ -7,7 +12,7 @@ This feature runs inside the existing static Dashboard. Python scans run in GitH
 1. Publish this branch through the normal Dashboard deployment.
 2. Update the existing Apps Script web app: add `uploadCreatorChunkResponse_` from `apps-script-creator-upload.js`, and add the `uploadCreatorChunk` case to its existing `doPost` router. **Preserve the deployed script's other handlers**, including sheet and publishing actions. Deploy a new version of the existing web app; merely updating this repository does not update Apps Script. Its existing `GITHUB_TOKEN` Script Property needs Contents write access to `Mhhickma/Dashboard`. No new Keepa secret is needed.
 3. Open Video Opportunities and upload CSVs. Wait for all parts to be confirmed before scanning. The upload is append-only; repeated campaign IDs are deduplicated. Failed uploads report how many parts were saved. Complete/retry the upload before running the scanner.
-4. Open the linked **Update Influencer Opportunities** workflow. Keep defaults: limit 100, batch size 10, token budget 1500, reset false. The workflow reads `secrets.KEEPA_API_KEY`.
+4. Open the linked **Update Influencer Opportunities** workflow. Keep defaults: limit 100, batch size 10, token budget 100, reset false. The workflow reads `secrets.KEEPA_API_KEY`.
 5. Resume by running that workflow again with the same limit and reset false. Raising the limit grows the cohort; the default never silently advances to another 100 ASINs. Reset explicitly discards the cache/cohort and may spend tokens again.
 
 No Creator Connections CSV was present in the repository during implementation. Tests use controlled fixtures, not live Keepa results.
@@ -27,7 +32,7 @@ The six hard rules are mandatory. Score never changes qualification. Additional 
 
 `monthlySold` is Amazon's bracketed bought-in-past-month metric, not exact unit sales. `monthlySoldHistory` is decoded as timestamp/value pairs. The 90-day average is the time-weighted step value over the entire preceding 90 days, requiring a known starting anchor and no invalid intervals. History is requested without a day cutoff to retain that anchor. Missing coverage, zero denominator or a monthly-sold update older than 30 days makes growth unavailable. The hard comparison is `current * 10 >= average * 11`, including the exact 10% boundary. BSR is diagnostic only: positive values mean the current primary rank is lower than the 30/90-day average. A known category-reference change suppresses these diagnostics.
 
-Product requests use `/product`, US domain 1, `history=1`, `stats=90`, `videos=1`, `offers=20`, `only-live-offers=1`. A successful offers refresh and an explicit video array are required for qualification. Seller, Merchant, Brand and Vendor identify merchant-side videos. Main alone does not. Influencer and community counts are separate. Video URLs deduplicate repeated entries. Missing fields never become zero. Keepa covers carousel videos and up to ten community videos; displayed counts are **Keepa-observed**, not a guaranteed exhaustive Amazon-wide total. This limitation also applies to products with fewer than five observed videos.
+Product requests use `/product`, US domain 1, `history=1`, `stats=90`, `videos=1`; explicit refresh additionally uses `offers=20`, `only-live-offers=1`. An explicit video array is required. Stored video metadata can qualify without a refresh; an explicitly failed refresh remains unavailable. Seller, Merchant, Brand and Vendor identify merchant-side videos. Main alone does not. Influencer and community counts are separate. Video URLs deduplicate repeated entries. Missing fields never become zero. Keepa covers carousel videos and up to ten community videos; displayed counts are **Keepa-observed**, not a guaranteed exhaustive Amazon-wide total. This limitation also applies to products with fewer than five observed videos.
 
 Price uses current Buy Box including shipping, then Amazon, then New price tracks; the chosen source is exported. Negative sentinel values become unavailable. Cache validity defaults to 24 hours. The browser hides a row when its cache or earliest campaign end expires, even before another scan publishes. Resume to recompute it.
 

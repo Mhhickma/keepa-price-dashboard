@@ -12,8 +12,12 @@ on:
         required: true
       token_budget:
         description: Maximum reserved tokens for this run including retries
-        default: '1500'
+        default: '100'
         required: true
+      refresh_asins:
+        description: Optional FINAL paid video refresh — paste previously scanned ASINs, comma separated. Leave blank for cheap scan.
+        default: ""
+        required: false
       reset:
         description: Explicitly discard prior cohort/cache and start again (can spend tokens again)
         type: boolean
@@ -29,6 +33,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
+      - name: Validate refresh selection
+        env:
+          REFRESH_ASINS: ${{ inputs.refresh_asins }}
+          RESET: ${{ inputs.reset }}
+        run: |
+          if [ -n "$REFRESH_ASINS" ] && [ "$RESET" = "true" ]; then
+            echo "A final refresh requires the existing checkpoint. Keep reset off."
+            exit 1
+          fi
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}
@@ -49,8 +62,9 @@ jobs:
           KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
           SCAN_LIMIT: ${{ inputs.limit }}
           BATCH_SIZE: ${{ inputs.batch_size }}
+          REFRESH_ASINS: ${{ inputs.refresh_asins }}
           TOKEN_BUDGET: ${{ inputs.token_budget }}
-        run: python influencer_pipeline.py --limit "$SCAN_LIMIT" --batch-size "$BATCH_SIZE" --token-budget "$TOKEN_BUDGET" --seconds 900
+        run: python influencer_pipeline.py --limit "$SCAN_LIMIT" --batch-size "$BATCH_SIZE" --token-budget "$TOKEN_BUDGET" --seconds 900 --refresh-asins "$REFRESH_ASINS"
       - name: Persist checkpoint even after scanner failure
         if: ${{ always() && steps.scan.outcome != 'skipped' }}
         uses: actions/upload-artifact@v4
