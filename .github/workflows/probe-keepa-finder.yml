@@ -1,0 +1,36 @@
+name: Probe Keepa Product Finder
+on:
+  workflow_dispatch:
+  push:
+    branches: [feature/creator-video-opportunities]
+    paths:
+      - 'keepa-finder-selection.json'
+      - 'keepa_finder_probe.py'
+      - '.github/workflows/probe-keepa-finder.yml'
+permissions:
+  contents: read
+concurrency:
+  group: keepa-finder-probe
+  cancel-in-progress: false
+jobs:
+  probe:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[run-keepa-finder]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Query one Finder page
+        env:
+          KEEPA_API_KEY: ${{ secrets.KEEPA_API_KEY }}
+        run: python keepa_finder_probe.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: keepa-finder-probe
+          path: finder-output/
+          if-no-files-found: warn
+          retention-days: 7

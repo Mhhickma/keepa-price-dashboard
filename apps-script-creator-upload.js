@@ -205,6 +205,9 @@ function creatorUploadResponse_(payload) {
 function doPost(e) {
   try {
     const params = e.parameter || {};
+    if (params.action === "uploadCreatorChunk") {
+      return uploadCreatorChunkResponse_(params);
+    }
     if (params.action === "uploadCreatorCsv") {
       return creatorUploadResponse_(uploadCreatorCsv_(params));
     }
@@ -218,6 +221,38 @@ function doPost(e) {
   } catch (error) {
     return creatorUploadResponse_({ ok: false, error: error.message });
   }
+}
+
+// Add this action to the deployed doPost router; preserve all existing actions.
+// Each request is bounded and saves its original CSV bytes without line merging.
+function uploadCreatorChunkResponse_(params) {
+  const requestId = String(params.requestId || "");
+  let result;
+  try {
+    if (params.replyOrigin !== "https://mhhickma.github.io") throw new Error("Unsupported dashboard origin.");
+    if (!/^[a-zA-Z0-9-]{20,150}\.csv$/.test(String(params.filename || ""))) throw new Error("Invalid upload filename.");
+    if (String(params.csvBase64 || "").length > 2800000) throw new Error("Upload part exceeds 2 MB.");
+    const bytes = Utilities.base64Decode(params.csvBase64);
+    if (bytes.length > 2097152) throw new Error("Upload part exceeds 2 MB.");
+    const text = Utilities.newBlob(bytes).getDataAsString("UTF-8");
+    const rows = Utilities.parseCsv(text.replace(/^\uFEFF/, ""));
+    if (rows.length < 2 || !rows[0].some(v => String(v).trim() === "ASIN List")) throw new Error("CSV requires ASIN List and campaign rows.");
+    if (rows.some(row => row.length !== rows[0].length)) throw new Error("Malformed CSV columns.");
+    const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+    if (!token) throw new Error("Missing GITHUB_TOKEN Script Property.");
+    const path = `data/creator-connections/${params.filename}`;
+    const response = UrlFetchApp.fetch(`https://api.github.com/repos/${CREATOR_CONNECTIONS_REPO}/contents/${path}`, {
+      method: "put", contentType: "application/json", muteHttpExceptions: true,
+      headers: {Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json"},
+      payload: JSON.stringify({message: "Add bounded Creator Connections CSV", content: params.csvBase64, branch: CREATOR_CONNECTIONS_BRANCH}),
+    });
+    if (response.getResponseCode() < 200 || response.getResponseCode() >= 300) throw new Error(`GitHub upload failed (${response.getResponseCode()}).`);
+    result = {ok: true, requestId, file: path};
+  } catch (error) {
+    result = {ok: false, requestId, error: error.message};
+  }
+  const safeJson = JSON.stringify(result).replace(/</g, "\\u003c");
+  return HtmlService.createHtmlOutput(`<script>window.top.postMessage(${safeJson},"https://mhhickma.github.io");</script>`);
 }
 
 function doGet(e) {
