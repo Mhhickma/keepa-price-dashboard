@@ -1751,6 +1751,13 @@ def creator_connection_file_commit_date(path):
 
 
 def creator_connection_file_urls():
+    # Both dashboards consume the same checkout of uploaded CSV parts.
+    shared = Path(CREATOR_CONNECTIONS_PATH)
+    if shared.is_dir():
+        files = [{"name": path.name, "local_path": path} for path in sorted(shared.glob("*.csv"), reverse=True)]
+        return files, {"files_available": len(files), "files_selected": len(files),
+                       "latest_csv_file": files[0]["name"] if files else "",
+                       "latest_csv_updated_at": "", "source": "shared_uploads"}
     if CREATOR_CONNECTIONS_MAX_FILES <= 0:
         return [], {
             "files_available": 0,
@@ -1814,9 +1821,13 @@ def find_creator_campaigns_for_asins(target_asins):
     for item in files:
         files_scanned += 1
         try:
-            with requests.get(item["download_url"], stream=True, timeout=180) as response:
-                response.raise_for_status()
-                reader = csv.DictReader(response.iter_lines(decode_unicode=True))
+            with (open(item["local_path"], encoding="utf-8-sig", newline="") if "local_path" in item
+                  else requests.get(item["download_url"], stream=True, timeout=180)) as response:
+                if "local_path" in item:
+                    reader = csv.DictReader(response)
+                else:
+                    response.raise_for_status()
+                    reader = csv.DictReader(response.iter_lines(decode_unicode=True))
                 for row in reader:
                     rows_scanned += 1
                     row_asins = set(ASIN_RE.findall(str(row.get("ASIN List", "")).upper()))
