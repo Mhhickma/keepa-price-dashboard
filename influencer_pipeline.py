@@ -59,8 +59,8 @@ def campaign(row):
         start=date(get("campaignstartdate", "startdate")), end=date(get("campaignenddate", "enddate")),
         budget=number(get("campaignbudget", "budget")),
         budget_remaining=number(get("budgetremaining", "remainingbudget", "campaignbudgetremaining")),
-        available_slots=number(get("availablecreatorslots", "availableslots", "creatorslotsavailable", "availablecreator slots")),
-        total_slots=number(get("totalcreatorslots", "totalslots", "creatorslots")),
+        available_slots=number(get("availablecreatorslots", "availableslots", "availableslot", "creatorslotsavailable", "availablecreator slots")),
+        total_slots=number(get("totalcreatorslots", "totalslots", "totalslot", "creatorslots")),
         recommended=str(get("recommended")).lower() in ("true", "yes", "1"),
         status=str(get("campaignstatus", "status")).strip().lower(),
     )
