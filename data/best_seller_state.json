@@ -1,5 +1,5 @@
 {
-  "cursor": 800,
+  "cursor": 925,
   "asins": {
     "B00006RVTS": {
       "firstSeenAt": "2026-08-07T11:54:55.646031+00:00",
@@ -7764,7 +7764,7 @@
     },
     "B079ZV4V3C": {
       "firstSeenAt": "2026-08-07T18:09:22.529300+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461122+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437600+00:00",
       "lastPrice": 9.59,
       "lastPriceDisplay": "$9.59",
       "lowestSeenPrice": 7.21,
@@ -7775,7 +7775,7 @@
     },
     "B07PR467S5": {
       "firstSeenAt": "2026-08-07T18:09:22.529336+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461145+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437659+00:00",
       "lastPrice": 8.94,
       "lastPriceDisplay": "$8.94",
       "lowestSeenPrice": 8.94,
@@ -7785,7 +7785,7 @@
     },
     "B07W4M599X": {
       "firstSeenAt": "2026-08-07T18:09:22.529365+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461167+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437698+00:00",
       "lastPrice": 6.99,
       "lastPriceDisplay": "$6.99",
       "lowestSeenPrice": 6.99,
@@ -7796,9 +7796,9 @@
     "B08L9SLJQ6": {},
     "B08V6JB9R7": {
       "firstSeenAt": "2026-08-07T18:09:22.529399+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461196+00:00",
-      "lastPrice": 57.27,
-      "lastPriceDisplay": "$57.27",
+      "lastCheckedAt": "2026-09-07T12:31:08.437729+00:00",
+      "lastPrice": 58.75,
+      "lastPriceDisplay": "$58.75",
       "lowestSeenPrice": 49.97,
       "highestSeenPrice": 59.0,
       "title": "Frigidaire FPPWFU01 PWF-1 Refrigerator Water Filter Replacement, 1 Count",
@@ -7806,7 +7806,7 @@
     },
     "B0964CHD65": {
       "firstSeenAt": "2026-08-07T18:09:22.529425+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461221+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437759+00:00",
       "lastPrice": 23.99,
       "lastPriceDisplay": "$23.99",
       "lowestSeenPrice": 23.99,
@@ -7817,7 +7817,7 @@
     },
     "B0BPLB81LX": {
       "firstSeenAt": "2026-08-07T18:09:22.529453+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461250+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437788+00:00",
       "lastPrice": 13.49,
       "lastPriceDisplay": "$13.49",
       "lowestSeenPrice": 13.48,
@@ -7828,7 +7828,7 @@
     "B0BQZFVJTB": {},
     "B0C8PR4W22": {
       "firstSeenAt": "2026-08-07T18:09:22.529490+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461282+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437840+00:00",
       "lastPrice": 249.95,
       "lastPriceDisplay": "$249.95",
       "lowestSeenPrice": 169.95,
@@ -7849,9 +7849,9 @@
     },
     "B0DGXBJ51X": {
       "firstSeenAt": "2026-08-07T18:09:22.529543+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461310+00:00",
-      "lastPrice": 6.98,
-      "lastPriceDisplay": "$6.98",
+      "lastCheckedAt": "2026-09-07T12:31:08.437880+00:00",
+      "lastPrice": 5.98,
+      "lastPriceDisplay": "$5.98",
       "lowestSeenPrice": 5.38,
       "highestSeenPrice": 6.98,
       "title": "FNTCASE for Galaxy A17/A16 5G Phone Case: Dual Layer Samsung A17 5G Cover",
@@ -7860,7 +7860,7 @@
     },
     "B0F32KMZ18": {
       "firstSeenAt": "2026-08-07T18:09:22.529568+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461333+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437914+00:00",
       "lastPrice": 9.99,
       "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 9.48,
@@ -7870,7 +7870,7 @@
     },
     "B004INIW1Y": {
       "firstSeenAt": "2026-08-07T18:09:22.529601+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461359+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.437947+00:00",
       "lastPrice": 11.97,
       "lastPriceDisplay": "$11.97",
       "lowestSeenPrice": 11.97,
@@ -7880,20 +7880,21 @@
     },
     "B00J074W7Q": {
       "firstSeenAt": "2026-08-07T18:09:22.529627+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461380+00:00",
-      "lastPrice": 31.98,
-      "lastPriceDisplay": "$31.98",
-      "lowestSeenPrice": 31.98,
+      "lastCheckedAt": "2026-09-07T12:31:08.437975+00:00",
+      "lastPrice": 27.53,
+      "lastPriceDisplay": "$27.53",
+      "lowestSeenPrice": 27.53,
       "highestSeenPrice": 31.98,
       "title": "Orgain Organic Vegan 21g Protein Powder, Vanilla Bean, 2.03 lb",
-      "image": "https://m.media-amazon.com/images/I/41fgw13XG0L._SL160_.jpg"
+      "image": "https://m.media-amazon.com/images/I/41fgw13XG0L._SL160_.jpg",
+      "dealSeenAt": "2026-09-07T12:31:08.437970+00:00"
     },
     "B00SFSU53G": {
       "firstSeenAt": "2026-08-07T18:09:22.529657+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461404+00:00",
-      "lastPrice": 37.99,
-      "lastPriceDisplay": "$37.99",
-      "lowestSeenPrice": 34.99,
+      "lastCheckedAt": "2026-09-07T12:31:08.438005+00:00",
+      "lastPrice": 34.19,
+      "lastPriceDisplay": "$34.19",
+      "lowestSeenPrice": 34.19,
       "highestSeenPrice": 37.99,
       "title": "Mounting Dream Full Motion TV Wall Mount for 32-70 Inch TVs up to 99lbs",
       "image": "https://m.media-amazon.com/images/I/41SA1lzas6L._SL160_.jpg",
@@ -7901,9 +7902,9 @@
     },
     "B019ZG3AZG": {
       "firstSeenAt": "2026-08-07T18:09:22.529684+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461428+00:00",
-      "lastPrice": 21.24,
-      "lastPriceDisplay": "$21.24",
+      "lastCheckedAt": "2026-09-07T12:31:08.438030+00:00",
+      "lastPrice": 24.99,
+      "lastPriceDisplay": "$24.99",
       "lowestSeenPrice": 21.24,
       "highestSeenPrice": 24.99,
       "title": "KastKing Superpower Braided Fishing Line,40LB,500+47 Yds,Blue,4X",
@@ -7912,9 +7913,9 @@
     },
     "B06X421WJ6": {
       "firstSeenAt": "2026-08-07T18:09:22.529713+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461453+00:00",
-      "lastPrice": 26.99,
-      "lastPriceDisplay": "$26.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.438059+00:00",
+      "lastPrice": 24.99,
+      "lastPriceDisplay": "$24.99",
       "lowestSeenPrice": 22.99,
       "highestSeenPrice": 27.99,
       "title": "Utopia Home Plastic Hangers 50 Pack \u2013 Space Saving Clothes Hanger White",
@@ -7923,7 +7924,7 @@
     },
     "B07CWHTQW8": {
       "firstSeenAt": "2026-08-07T18:09:22.529744+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461477+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438086+00:00",
       "lastPrice": 24.53,
       "lastPriceDisplay": "$24.53",
       "lowestSeenPrice": 24.53,
@@ -7934,7 +7935,7 @@
     },
     "B07WG5B464": {
       "firstSeenAt": "2026-08-07T18:09:22.529767+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461520+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438108+00:00",
       "lastPrice": 3.99,
       "lastPriceDisplay": "$3.99",
       "lowestSeenPrice": 3.99,
@@ -7944,17 +7945,17 @@
     },
     "B08C28MML2": {
       "firstSeenAt": "2026-08-07T18:09:22.529792+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461546+00:00",
-      "lastPrice": 35.99,
-      "lastPriceDisplay": "$35.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.438131+00:00",
+      "lastPrice": 43.99,
+      "lastPriceDisplay": "$43.99",
       "lowestSeenPrice": 35.19,
-      "highestSeenPrice": 35.99,
+      "highestSeenPrice": 43.99,
       "title": "BALENNZ Mens Athletic Shorts with Pockets Quick Dry Workout Shorts Men5AXL",
       "image": "https://m.media-amazon.com/images/I/31V4HEN0oWL._SL160_.jpg"
     },
     "B099JVC9HL": {
       "firstSeenAt": "2026-08-07T18:09:22.529820+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461568+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438153+00:00",
       "lastPrice": 12.99,
       "lastPriceDisplay": "$12.99",
       "lowestSeenPrice": 12.99,
@@ -7964,7 +7965,7 @@
     },
     "B0BJ6YM9JX": {
       "firstSeenAt": "2026-08-07T18:09:22.529845+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461587+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438175+00:00",
       "lastPrice": 9.99,
       "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 9.97,
@@ -7974,7 +7975,7 @@
     },
     "B0BW9X62JQ": {
       "firstSeenAt": "2026-08-07T18:09:22.529876+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461609+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438198+00:00",
       "lastPrice": 7.95,
       "lastPriceDisplay": "$7.95",
       "lowestSeenPrice": 7.95,
@@ -7985,7 +7986,7 @@
     },
     "B0DLJ6GCQZ": {
       "firstSeenAt": "2026-08-07T18:09:22.529910+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461633+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438243+00:00",
       "lastPrice": 19.69,
       "lastPriceDisplay": "$19.69",
       "lowestSeenPrice": 19.59,
@@ -7995,7 +7996,7 @@
     },
     "B0GQM8ZS8B": {
       "firstSeenAt": "2026-08-07T18:09:22.529937+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461658+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438265+00:00",
       "lastPrice": 35.99,
       "lastPriceDisplay": "$35.99",
       "lowestSeenPrice": 35.99,
@@ -8006,10 +8007,10 @@
     },
     "B0GW2DK37Q": {
       "firstSeenAt": "2026-08-07T18:09:22.529966+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461682+00:00",
-      "lastPrice": 39.99,
-      "lastPriceDisplay": "$39.99",
-      "lowestSeenPrice": 37.45,
+      "lastCheckedAt": "2026-09-07T12:31:08.438287+00:00",
+      "lastPrice": 35.98,
+      "lastPriceDisplay": "$35.98",
+      "lowestSeenPrice": 35.98,
       "highestSeenPrice": 44.95,
       "title": "Pok\u00e9mon TCG: First Partner Illustration Collection \u2014Series 2",
       "image": "https://m.media-amazon.com/images/I/51rJZpfZ8hL._SL160_.jpg",
@@ -8017,7 +8018,7 @@
     },
     "B00002N66H": {
       "firstSeenAt": "2026-08-07T18:09:22.529995+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461703+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438312+00:00",
       "lastPrice": 12.98,
       "lastPriceDisplay": "$12.98",
       "lowestSeenPrice": 12.98,
@@ -8027,7 +8028,7 @@
     },
     "B003CL3PTM": {
       "firstSeenAt": "2026-08-07T18:09:22.530022+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461724+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438333+00:00",
       "lastPrice": 23.99,
       "lastPriceDisplay": "$23.99",
       "lowestSeenPrice": 21.99,
@@ -8037,17 +8038,17 @@
     },
     "B005GZ89WU": {
       "firstSeenAt": "2026-08-07T18:09:22.530052+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461749+00:00",
-      "lastPrice": 43.98,
-      "lastPriceDisplay": "$43.98",
+      "lastCheckedAt": "2026-09-07T12:31:08.438357+00:00",
+      "lastPrice": 56.5,
+      "lastPriceDisplay": "$56.50",
       "lowestSeenPrice": 43.98,
-      "highestSeenPrice": 43.98,
+      "highestSeenPrice": 56.5,
       "title": "Filtrete 16x25x1 Air Filter, MERV 11, MPR 1000, Allergens & Pet Dander, 3-Month AC and Furnace Filters, Cleaner Air, Reliable Airflow, 4 HVAC Filters (Actual Size 15.68 x 24.68 x 0.81 in)",
       "image": "https://m.media-amazon.com/images/I/41E9dx4-EiL._SL160_.jpg"
     },
     "B00TPRG5D0": {
       "firstSeenAt": "2026-08-07T18:09:22.530080+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461770+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438378+00:00",
       "lastPrice": 6.96,
       "lastPriceDisplay": "$6.96",
       "lowestSeenPrice": 5.46,
@@ -8057,7 +8058,7 @@
     },
     "B01GP0XPYG": {
       "firstSeenAt": "2026-08-07T18:09:22.530107+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461792+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438399+00:00",
       "lastPrice": 2458.1,
       "lastPriceDisplay": "$2,458.10",
       "lowestSeenPrice": 2458.1,
@@ -8067,21 +8068,21 @@
     },
     "B0B2WLSY9D": {
       "firstSeenAt": "2026-08-07T18:09:22.530158+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461813+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438422+00:00",
       "lastPrice": 12.59,
       "lastPriceDisplay": "$12.59",
       "lowestSeenPrice": 9.98,
       "highestSeenPrice": 12.59,
-      "title": "[4 Pack] 20W USB C Charger Block Fast Charging Multiport Adapter",
+      "title": "[4 Pack] USB C Charger Block Fast Charging Multiport Adpater [PD 20W USB-C & QC 3.0 USB Port] for IP 16/15/14/13/12/11/X/8, i Pad, Sam Sung, Google, Galaxy & More",
       "image": "https://m.media-amazon.com/images/I/31oolg1T3iL._SL160_.jpg",
       "dealSeenAt": "2026-08-21T19:52:40.877371+00:00"
     },
     "B0C65JLFV4": {},
     "B0CJXSBBFC": {
       "firstSeenAt": "2026-08-07T18:09:22.530195+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461841+00:00",
-      "lastPrice": 38.99,
-      "lastPriceDisplay": "$38.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.438455+00:00",
+      "lastPrice": 37.99,
+      "lastPriceDisplay": "$37.99",
       "lowestSeenPrice": 32.48,
       "highestSeenPrice": 38.99,
       "title": "Primlect Toddler Nap Mat with Pillow, Thickened Extra Large Sleeping Bag",
@@ -8089,7 +8090,7 @@
     },
     "B0CLLTPW3H": {
       "firstSeenAt": "2026-08-07T18:09:22.530221+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461864+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438479+00:00",
       "lastPrice": 9.99,
       "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 9.98,
@@ -8099,7 +8100,7 @@
     },
     "B0D6NLT286": {
       "firstSeenAt": "2026-08-07T18:09:22.530245+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461885+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438501+00:00",
       "lastPrice": 29.95,
       "lastPriceDisplay": "$29.95",
       "lowestSeenPrice": 29.95,
@@ -8109,11 +8110,11 @@
     },
     "B0DXKC5G3H": {
       "firstSeenAt": "2026-08-07T18:09:22.530269+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461905+00:00",
-      "lastPrice": 14.49,
-      "lastPriceDisplay": "$14.49",
+      "lastCheckedAt": "2026-09-07T12:31:08.438523+00:00",
+      "lastPrice": 14.79,
+      "lastPriceDisplay": "$14.79",
       "lowestSeenPrice": 12.91,
-      "highestSeenPrice": 14.49,
+      "highestSeenPrice": 14.79,
       "title": "MIULEE 18x18 Throw Pillows Inserts 2 Pack, Decorative Pillows for Couch Bed",
       "image": "https://m.media-amazon.com/images/I/31T6ntELuOL._SL160_.jpg"
     },
@@ -8129,7 +8130,7 @@
     },
     "B0GD8WH6YP": {
       "firstSeenAt": "2026-08-07T18:09:22.530318+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461931+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438552+00:00",
       "lastPrice": 39.99,
       "lastPriceDisplay": "$39.99",
       "lowestSeenPrice": 39.99,
@@ -8139,7 +8140,7 @@
     },
     "B0GHTGPBRH": {
       "firstSeenAt": "2026-08-07T18:09:22.530342+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461952+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438573+00:00",
       "lastPrice": 199.0,
       "lastPriceDisplay": "$199.00",
       "lowestSeenPrice": 199.0,
@@ -8149,7 +8150,7 @@
     },
     "B00HVVVMM6": {
       "firstSeenAt": "2026-08-07T18:09:22.530374+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461973+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438596+00:00",
       "lastPrice": 19.98,
       "lastPriceDisplay": "$19.98",
       "lowestSeenPrice": 9.99,
@@ -8160,7 +8161,7 @@
     },
     "B00HZ0ION8": {
       "firstSeenAt": "2026-08-07T18:09:22.530406+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.461996+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438618+00:00",
       "lastPrice": 7.99,
       "lastPriceDisplay": "$7.99",
       "lowestSeenPrice": 7.98,
@@ -8170,7 +8171,7 @@
     },
     "B00V5DG6IQ": {
       "firstSeenAt": "2026-08-07T18:09:22.530434+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462017+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438639+00:00",
       "lastPrice": 12.97,
       "lastPriceDisplay": "$12.97",
       "lowestSeenPrice": 10.1,
@@ -8181,7 +8182,7 @@
     },
     "B01N68XF0O": {
       "firstSeenAt": "2026-08-07T18:09:22.530465+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462040+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438661+00:00",
       "lastPrice": 59.95,
       "lastPriceDisplay": "$59.95",
       "lowestSeenPrice": 59.95,
@@ -8191,17 +8192,17 @@
     },
     "B07LC4VGKR": {
       "firstSeenAt": "2026-08-07T18:09:22.530490+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462062+00:00",
-      "lastPrice": 8.99,
-      "lastPriceDisplay": "$8.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.438684+00:00",
+      "lastPrice": 10.0,
+      "lastPriceDisplay": "$10.00",
       "lowestSeenPrice": 8.99,
-      "highestSeenPrice": 9.99,
+      "highestSeenPrice": 10.0,
       "title": "Fit + Fresh Cool Coolers Slim, Reusable Ice Packs for Lunch Bags, Beach Bags, Coolers, and More, Set of 4, Multicolored",
       "image": "https://m.media-amazon.com/images/I/412NAWj54kL._SL160_.jpg"
     },
     "B07WHJW3FR": {
       "firstSeenAt": "2026-08-07T18:09:22.530517+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462085+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438709+00:00",
       "lastPrice": 16.14,
       "lastPriceDisplay": "$16.14",
       "lowestSeenPrice": 16.14,
@@ -8212,7 +8213,7 @@
     },
     "B08CCGY3WY": {
       "firstSeenAt": "2026-08-07T18:09:22.530543+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462105+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438731+00:00",
       "lastPrice": 14.99,
       "lastPriceDisplay": "$14.99",
       "lowestSeenPrice": 14.99,
@@ -8222,7 +8223,7 @@
     },
     "B094PF3DN3": {
       "firstSeenAt": "2026-08-07T18:09:22.530566+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462125+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438754+00:00",
       "lastPrice": 6.89,
       "lastPriceDisplay": "$6.89",
       "lowestSeenPrice": 6.89,
@@ -8232,7 +8233,7 @@
     },
     "B09DDD6YGJ": {
       "firstSeenAt": "2026-08-07T18:09:22.530593+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462147+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438777+00:00",
       "lastPrice": 10.97,
       "lastPriceDisplay": "$10.97",
       "lowestSeenPrice": 10.97,
@@ -8242,7 +8243,7 @@
     },
     "B0B4QZD77M": {
       "firstSeenAt": "2026-08-07T18:09:22.530617+00:00",
-      "lastCheckedAt": "2026-09-04T09:04:40.462168+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438799+00:00",
       "lastPrice": 5.89,
       "lastPriceDisplay": "$5.89",
       "lowestSeenPrice": 5.89,
@@ -8252,7 +8253,7 @@
     },
     "B0BV91165N": {
       "firstSeenAt": "2026-08-07T18:09:22.530643+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038777+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438822+00:00",
       "lastPrice": 13.99,
       "lastPriceDisplay": "$13.99",
       "lowestSeenPrice": 13.99,
@@ -8262,17 +8263,17 @@
     },
     "B0CJ6PKZJ6": {
       "firstSeenAt": "2026-08-07T18:09:22.530666+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038814+00:00",
-      "lastPrice": 28.99,
-      "lastPriceDisplay": "$28.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.438845+00:00",
+      "lastPrice": 29.99,
+      "lastPriceDisplay": "$29.99",
       "lowestSeenPrice": 25.99,
-      "highestSeenPrice": 28.99,
+      "highestSeenPrice": 29.99,
       "title": "54Pack Stress Balls, Squishy Squeeze Balls Bulk Fidget for Adults Squishy Balls Stress Relief Balls, Stress Balls for Adults, Party Favors, Goodie Bag Stuffers",
       "image": "https://m.media-amazon.com/images/I/512Hd9PlkEL._SL160_.jpg"
     },
     "B0DF9BGP8S": {
       "firstSeenAt": "2026-08-07T18:09:22.530691+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038865+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438868+00:00",
       "lastPrice": 6.99,
       "lastPriceDisplay": "$6.99",
       "lowestSeenPrice": 6.99,
@@ -8282,7 +8283,7 @@
     },
     "B0F3XGCKZL": {
       "firstSeenAt": "2026-08-07T18:09:22.530712+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038894+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438890+00:00",
       "lastPrice": 9.98,
       "lastPriceDisplay": "$9.98",
       "lowestSeenPrice": 9.98,
@@ -8292,7 +8293,7 @@
     },
     "B006QF3TW4": {
       "firstSeenAt": "2026-08-07T18:09:22.530737+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038929+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438914+00:00",
       "lastPrice": 14.99,
       "lastPriceDisplay": "$14.99",
       "lowestSeenPrice": 14.99,
@@ -8302,7 +8303,7 @@
     },
     "B07MY7XVB1": {
       "firstSeenAt": "2026-08-07T18:09:22.530770+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.038961+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438941+00:00",
       "lastPrice": 4.98,
       "lastPriceDisplay": "$4.98",
       "lowestSeenPrice": 4.98,
@@ -8323,7 +8324,7 @@
     },
     "B0BT1WL6KY": {
       "firstSeenAt": "2026-08-07T18:09:22.530825+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039036+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438975+00:00",
       "lastPrice": 12.0,
       "lastPriceDisplay": "$12.00",
       "lowestSeenPrice": 12.0,
@@ -8333,7 +8334,7 @@
     },
     "B0CGJG25PV": {
       "firstSeenAt": "2026-08-07T18:09:22.530851+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039063+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.438999+00:00",
       "lastPrice": 25.99,
       "lastPriceDisplay": "$25.99",
       "lowestSeenPrice": 25.99,
@@ -8343,7 +8344,7 @@
     },
     "B0CKZ33M2F": {
       "firstSeenAt": "2026-08-07T18:09:22.530876+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039092+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439024+00:00",
       "lastPrice": 48.59,
       "lastPriceDisplay": "$48.59",
       "lowestSeenPrice": 48.59,
@@ -8354,7 +8355,7 @@
     },
     "B0D1J6DKKH": {
       "firstSeenAt": "2026-08-24T19:09:20.428567+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039114+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439046+00:00",
       "lastPrice": 49.95,
       "lastPriceDisplay": "$49.95",
       "lowestSeenPrice": 49.95,
@@ -8364,7 +8365,7 @@
     },
     "B0D3WSCFJJ": {
       "firstSeenAt": "2026-08-07T18:09:22.530910+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039139+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439067+00:00",
       "lastPrice": 19.99,
       "lastPriceDisplay": "$19.99",
       "lowestSeenPrice": 19.99,
@@ -8374,7 +8375,7 @@
     },
     "B0D59ZRS4M": {
       "firstSeenAt": "2026-08-07T18:09:22.530932+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039160+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439089+00:00",
       "lastPrice": 7.99,
       "lastPriceDisplay": "$7.99",
       "lowestSeenPrice": 7.99,
@@ -8385,7 +8386,7 @@
     "B0DD7GGC35": {},
     "B0DJMKBYM7": {
       "firstSeenAt": "2026-08-07T18:09:22.530963+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039195+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439121+00:00",
       "lastPrice": 8.99,
       "lastPriceDisplay": "$8.99",
       "lowestSeenPrice": 7.95,
@@ -8396,20 +8397,20 @@
     },
     "B0DKJBRFJ2": {
       "firstSeenAt": "2026-08-07T18:09:22.530984+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039218+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439142+00:00",
       "lastPrice": 19.99,
       "lastPriceDisplay": "$19.99",
       "lowestSeenPrice": 12.99,
       "highestSeenPrice": 19.99,
-      "title": "ANRABESS Womens Sleeveless High Neck Tank Tops Fashion Summer Casual Basic Slim Fit Ribbed Racerback Top Shirt Clothes Orange Red XX-Large",
+      "title": "ANRABESS High Neck Ribbed Tank Tops for Women Sleeveless Summer Tops",
       "image": "https://m.media-amazon.com/images/I/41m1Sm66CoL._SL160_.jpg",
       "dealSeenAt": "2026-08-17T13:53:15.722968+00:00"
     },
     "B0FCYB8TGB": {
       "firstSeenAt": "2026-08-07T18:09:22.531015+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039243+00:00",
-      "lastPrice": 118.52,
-      "lastPriceDisplay": "$118.52",
+      "lastCheckedAt": "2026-09-07T12:31:08.439168+00:00",
+      "lastPrice": 114.98,
+      "lastPriceDisplay": "$114.98",
       "lowestSeenPrice": 114.79,
       "highestSeenPrice": 118.52,
       "title": "Antarctic Star Mini Fridge with Freezer, Rated 1.6 cu.ft, Small Upright Refrigerator with Removable Shelves, 7 Adjustable Thermostat, Low Noise for Bedroom/Apartment/Office,",
@@ -8417,18 +8418,18 @@
     },
     "B0GHY1YGPN": {
       "firstSeenAt": "2026-08-07T18:09:22.531042+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039269+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439189+00:00",
       "lastPrice": 32.98,
       "lastPriceDisplay": "$32.98",
       "lowestSeenPrice": 32.98,
       "highestSeenPrice": 32.99,
-      "title": "USB C Fast Wall Charger Block, 3Pack 60W USBC Charging Cubes, 5-Port PD+QC Power Adapter Multiport Brick Type C Box Plug for Phone 17/16/15/14/13/12/11/Pro Max/Plus, Pad Mini/Pro/S25/S24-White",
+      "title": "USB C Charger Block Fast Charging, 60W Phone Charger USBC Wall Plug Adapter",
       "image": "https://m.media-amazon.com/images/I/31iUQC25M+L._SL160_.jpg"
     },
     "B000P6FE1Y": {},
     "B000UJVDXY": {
       "firstSeenAt": "2026-08-07T18:09:22.531081+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039303+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439241+00:00",
       "lastPrice": 7.78,
       "lastPriceDisplay": "$7.78",
       "lowestSeenPrice": 7.78,
@@ -8439,17 +8440,17 @@
     },
     "B06ZY7BTWM": {
       "firstSeenAt": "2026-08-07T18:09:22.531109+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039330+00:00",
-      "lastPrice": 34.99,
-      "lastPriceDisplay": "$34.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.439266+00:00",
+      "lastPrice": 37.99,
+      "lastPriceDisplay": "$37.99",
       "lowestSeenPrice": 34.98,
-      "highestSeenPrice": 34.99,
+      "highestSeenPrice": 37.99,
       "title": "Bissell 2033 Featherweight Stick Lightweight Bagless Vacuum and Electric Broom with Crevice Tool for Hard Floors and Carpets, Blue",
       "image": "https://m.media-amazon.com/images/I/21ZmWMVuwpL._SL160_.jpg"
     },
     "B0752WWCTN": {
       "firstSeenAt": "2026-08-07T18:09:22.531159+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039355+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439290+00:00",
       "lastPrice": 14.97,
       "lastPriceDisplay": "$14.97",
       "lowestSeenPrice": 14.97,
@@ -8459,9 +8460,9 @@
     },
     "B07D4RN9NH": {
       "firstSeenAt": "2026-08-07T18:09:22.531191+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039380+00:00",
-      "lastPrice": 14.22,
-      "lastPriceDisplay": "$14.22",
+      "lastCheckedAt": "2026-09-07T12:31:08.439313+00:00",
+      "lastPrice": 14.29,
+      "lastPriceDisplay": "$14.29",
       "lowestSeenPrice": 14.13,
       "highestSeenPrice": 16.99,
       "title": "Crayola Twistables Colored Pencil Set (50ct), Cool Back to School Supplies for Kids, No Sharpen Colored Pencils for Girls & Boys, 4+ [Amazon Exclusive]",
@@ -8471,7 +8472,7 @@
     "B07FDM5D4Z": {},
     "B08MY13HYC": {
       "firstSeenAt": "2026-08-07T18:09:22.531222+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039410+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439343+00:00",
       "lastPrice": 27.99,
       "lastPriceDisplay": "$27.99",
       "lowestSeenPrice": 27.99,
@@ -8481,7 +8482,7 @@
     },
     "B08WPQ12XX": {
       "firstSeenAt": "2026-08-07T19:13:49.755729+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039431+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439363+00:00",
       "lastPrice": 29.94,
       "lastPriceDisplay": "$29.94",
       "lowestSeenPrice": 29.94,
@@ -8491,9 +8492,9 @@
     },
     "B0B7B6KLH3": {
       "firstSeenAt": "2026-08-07T19:13:49.755773+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039457+00:00",
-      "lastPrice": 9.96,
-      "lastPriceDisplay": "$9.96",
+      "lastCheckedAt": "2026-09-07T12:31:08.439387+00:00",
+      "lastPrice": 11.99,
+      "lastPriceDisplay": "$11.99",
       "lowestSeenPrice": 9.96,
       "highestSeenPrice": 11.99,
       "title": "\u3010Pack of 2\u3011 New Universal Remote for All Samsung TV Remote, Replacement Compatible for All Samsung Smart TV, LED, LCD, HDTV, 3D, Series TV",
@@ -8502,7 +8503,7 @@
     },
     "B0C1HG6XC8": {
       "firstSeenAt": "2026-08-07T19:13:49.755800+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039479+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439409+00:00",
       "lastPrice": 38.95,
       "lastPriceDisplay": "$38.95",
       "lowestSeenPrice": 38.0,
@@ -8512,7 +8513,7 @@
     },
     "B0CPKQVF79": {
       "firstSeenAt": "2026-08-07T19:13:49.755833+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039504+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439433+00:00",
       "lastPrice": 18.97,
       "lastPriceDisplay": "$18.97",
       "lowestSeenPrice": 18.94,
@@ -8522,17 +8523,18 @@
     },
     "B0DR56RWXP": {
       "firstSeenAt": "2026-08-07T19:13:49.755866+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039525+00:00",
-      "lastPrice": 9.99,
-      "lastPriceDisplay": "$9.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.439462+00:00",
+      "lastPrice": 7.99,
+      "lastPriceDisplay": "$7.99",
       "lowestSeenPrice": 7.99,
       "highestSeenPrice": 9.99,
       "title": "MIGIOL Baby Burp Cloths 100% Cotton Newborn Muslin Burp Cloths 10x20 inches Baby Essentials Blue & Green 5-Pack",
-      "image": "https://m.media-amazon.com/images/I/41rXW8PQO6L._SL160_.jpg"
+      "image": "https://m.media-amazon.com/images/I/41rXW8PQO6L._SL160_.jpg",
+      "dealSeenAt": "2026-09-07T12:31:08.439457+00:00"
     },
     "B0DYTQ5GYQ": {
       "firstSeenAt": "2026-08-07T19:13:49.755892+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039547+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439490+00:00",
       "lastPrice": 14.9,
       "lastPriceDisplay": "$14.90",
       "lowestSeenPrice": 12.9,
@@ -8553,10 +8555,10 @@
     },
     "B00006JNK2": {
       "firstSeenAt": "2026-08-07T19:13:49.755940+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039580+00:00",
-      "lastPrice": 9.99,
-      "lastPriceDisplay": "$9.99",
-      "lowestSeenPrice": 5.49,
+      "lastCheckedAt": "2026-09-07T12:31:08.439522+00:00",
+      "lastPrice": 5.29,
+      "lastPriceDisplay": "$5.29",
+      "lowestSeenPrice": 5.29,
       "highestSeenPrice": 9.99,
       "title": "EXPO Dry Erase Markers, Low Odor Ink, Black, Chisel Tip, 12 Count - Whiteboard, Calendar, Organization, Essential Supplies for Office, School, Classroom, Teachers",
       "image": "https://m.media-amazon.com/images/I/517Rmv0JKyL._SL160_.jpg",
@@ -8564,7 +8566,7 @@
     },
     "B000R4H2MI": {
       "firstSeenAt": "2026-08-07T19:13:49.755969+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039603+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439548+00:00",
       "lastPrice": 17.46,
       "lastPriceDisplay": "$17.46",
       "lowestSeenPrice": 17.46,
@@ -8574,7 +8576,7 @@
     },
     "B01N6BP63M": {
       "firstSeenAt": "2026-08-07T19:13:49.755994+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039628+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439575+00:00",
       "lastPrice": 11.02,
       "lastPriceDisplay": "$11.02",
       "lowestSeenPrice": 8.99,
@@ -8585,7 +8587,7 @@
     },
     "B07Z66MK6L": {
       "firstSeenAt": "2026-08-07T19:13:49.756017+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039650+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439599+00:00",
       "lastPrice": 7.99,
       "lastPriceDisplay": "$7.99",
       "lowestSeenPrice": 7.19,
@@ -8595,9 +8597,9 @@
     },
     "B0B6CLFY48": {
       "firstSeenAt": "2026-08-07T19:13:49.756039+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039674+00:00",
-      "lastPrice": 9.99,
-      "lastPriceDisplay": "$9.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.439620+00:00",
+      "lastPrice": 13.99,
+      "lastPriceDisplay": "$13.99",
       "lowestSeenPrice": 9.98,
       "highestSeenPrice": 13.99,
       "title": "UNA GELLA Short Almond Nail Tips 504PCS Short Fake Nails Soft Press Ons",
@@ -8606,7 +8608,7 @@
     },
     "B0BCK98LLG": {
       "firstSeenAt": "2026-08-07T19:13:49.756058+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039697+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439643+00:00",
       "lastPrice": 5.99,
       "lastPriceDisplay": "$5.99",
       "lowestSeenPrice": 5.99,
@@ -8616,7 +8618,7 @@
     },
     "B0BV2Y8HMW": {
       "firstSeenAt": "2026-08-07T19:13:49.756080+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039717+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439663+00:00",
       "lastPrice": 9.99,
       "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 9.99,
@@ -8626,7 +8628,7 @@
     },
     "B0BXF8W8BM": {
       "firstSeenAt": "2026-08-07T19:13:49.756102+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039740+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439687+00:00",
       "lastPrice": 22.55,
       "lastPriceDisplay": "$22.55",
       "lowestSeenPrice": 19.59,
@@ -8637,7 +8639,7 @@
     },
     "B0D3LGT8M3": {
       "firstSeenAt": "2026-08-07T19:13:49.756124+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039761+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439709+00:00",
       "lastPrice": 129.99,
       "lastPriceDisplay": "$129.99",
       "lowestSeenPrice": 127.99,
@@ -8648,7 +8650,7 @@
     "B0DLNKG2NM": {},
     "B0FH962GFM": {
       "firstSeenAt": "2026-08-07T19:13:49.756152+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039788+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439739+00:00",
       "lastPrice": 17.99,
       "lastPriceDisplay": "$17.99",
       "lowestSeenPrice": 16.19,
@@ -8658,7 +8660,7 @@
     },
     "B0G4NS8Z77": {
       "firstSeenAt": "2026-08-07T19:13:49.756175+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039808+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439758+00:00",
       "lastPrice": 6.99,
       "lastPriceDisplay": "$6.99",
       "lowestSeenPrice": 6.99,
@@ -8668,7 +8670,7 @@
     },
     "B0GWD3L5ZN": {
       "firstSeenAt": "2026-08-07T19:13:49.756197+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039854+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439782+00:00",
       "lastPrice": 29.98,
       "lastPriceDisplay": "$29.98",
       "lowestSeenPrice": 29.98,
@@ -8678,7 +8680,7 @@
     },
     "B0GWPVNXZM": {
       "firstSeenAt": "2026-08-07T19:13:49.756215+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039880+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439805+00:00",
       "lastPrice": 29.99,
       "lastPriceDisplay": "$29.99",
       "lowestSeenPrice": 26.99,
@@ -8689,7 +8691,7 @@
     },
     "B0006HXJFK": {
       "firstSeenAt": "2026-08-07T19:13:49.756253+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039905+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439829+00:00",
       "lastPrice": 12.99,
       "lastPriceDisplay": "$12.99",
       "lowestSeenPrice": 12.99,
@@ -8699,7 +8701,7 @@
     },
     "B003V04OIA": {
       "firstSeenAt": "2026-08-07T19:13:49.756274+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039929+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439854+00:00",
       "lastPrice": 5.28,
       "lastPriceDisplay": "$5.28",
       "lowestSeenPrice": 5.28,
@@ -8709,7 +8711,7 @@
     },
     "B01N34XW93": {
       "firstSeenAt": "2026-08-07T19:13:49.756295+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039951+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439876+00:00",
       "lastPrice": 19.99,
       "lastPriceDisplay": "$19.99",
       "lowestSeenPrice": 19.97,
@@ -8719,7 +8721,7 @@
     },
     "B0746RBK2M": {
       "firstSeenAt": "2026-08-07T19:13:49.756321+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039974+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439897+00:00",
       "lastPrice": 12.99,
       "lastPriceDisplay": "$12.99",
       "lowestSeenPrice": 9.99,
@@ -8730,7 +8732,7 @@
     },
     "B0777J8V5J": {
       "firstSeenAt": "2026-08-07T19:13:49.756352+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.039997+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439920+00:00",
       "lastPrice": 32.76,
       "lastPriceDisplay": "$32.76",
       "lowestSeenPrice": 32.76,
@@ -8740,7 +8742,7 @@
     },
     "B07CDN39DP": {
       "firstSeenAt": "2026-08-07T19:13:49.756374+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040021+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439945+00:00",
       "lastPrice": 11.93,
       "lastPriceDisplay": "$11.93",
       "lowestSeenPrice": 11.93,
@@ -8750,17 +8752,17 @@
     },
     "B07MY2L58J": {
       "firstSeenAt": "2026-08-07T19:13:49.756398+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040046+00:00",
-      "lastPrice": 57.73,
-      "lastPriceDisplay": "$57.73",
-      "lowestSeenPrice": 57.73,
+      "lastCheckedAt": "2026-09-07T12:31:08.439969+00:00",
+      "lastPrice": 57.68,
+      "lastPriceDisplay": "$57.68",
+      "lowestSeenPrice": 57.68,
       "highestSeenPrice": 61.05,
       "title": "Linenspa Memory Foam Mattress Topper, Twin XL Size - 3 Inch Gel Infused Memory Foam - Plush Feel - Cooling and Pressure Relieving - CertiPUR Certified - Dorm Room Essentials",
       "image": "https://m.media-amazon.com/images/I/41h0xY6jVQL._SL160_.jpg"
     },
     "B07XL8N5G2": {
       "firstSeenAt": "2026-08-07T19:13:49.756418+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040070+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.439994+00:00",
       "lastPrice": 9.99,
       "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 9.44,
@@ -8770,7 +8772,7 @@
     },
     "B09KX1LKGR": {
       "firstSeenAt": "2026-08-07T19:13:49.756439+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040091+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440015+00:00",
       "lastPrice": 14.99,
       "lastPriceDisplay": "$14.99",
       "lowestSeenPrice": 14.99,
@@ -8781,7 +8783,7 @@
     "B0CHGQW588": {},
     "B0D7VD58VG": {
       "firstSeenAt": "2026-08-07T19:13:49.756465+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040120+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440044+00:00",
       "lastPrice": 9.24,
       "lastPriceDisplay": "$9.24",
       "lowestSeenPrice": 7.28,
@@ -8792,9 +8794,9 @@
     },
     "B0DS4D4ZQN": {
       "firstSeenAt": "2026-08-07T19:13:49.756486+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040144+00:00",
-      "lastPrice": 8.29,
-      "lastPriceDisplay": "$8.29",
+      "lastCheckedAt": "2026-09-07T12:31:08.440065+00:00",
+      "lastPrice": 9.99,
+      "lastPriceDisplay": "$9.99",
       "lowestSeenPrice": 8.29,
       "highestSeenPrice": 9.99,
       "title": "Hibbent Upgraded 3 in 1 Bathroom Sink Drain Strainer, Pop Up Stopper",
@@ -8804,7 +8806,7 @@
     "B0G1YDLDWS": {},
     "B0H7WJ71KD": {
       "firstSeenAt": "2026-08-07T19:13:49.756514+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040172+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440093+00:00",
       "lastPrice": 49.97,
       "lastPriceDisplay": "$49.97",
       "lowestSeenPrice": 49.97,
@@ -8815,7 +8817,7 @@
     },
     "B00260X7F2": {
       "firstSeenAt": "2026-08-07T19:13:49.756540+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040196+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440117+00:00",
       "lastPrice": 2.74,
       "lastPriceDisplay": "$2.74",
       "lowestSeenPrice": 2.74,
@@ -8825,9 +8827,9 @@
     },
     "B0050A6APY": {
       "firstSeenAt": "2026-08-07T19:13:49.756561+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040219+00:00",
-      "lastPrice": 8.49,
-      "lastPriceDisplay": "$8.49",
+      "lastCheckedAt": "2026-09-07T12:31:08.440139+00:00",
+      "lastPrice": 7.99,
+      "lastPriceDisplay": "$7.99",
       "lowestSeenPrice": 6.11,
       "highestSeenPrice": 8.49,
       "title": "Ticonderoga Assorted Erasers, Neon Colors, 15 Count",
@@ -8835,7 +8837,7 @@
     },
     "B093CKHPKK": {
       "firstSeenAt": "2026-08-07T19:13:49.756581+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040243+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440164+00:00",
       "lastPrice": 29.69,
       "lastPriceDisplay": "$29.69",
       "lowestSeenPrice": 29.69,
@@ -8846,18 +8848,18 @@
     },
     "B098NSHBQK": {
       "firstSeenAt": "2026-08-07T19:13:49.756607+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040267+00:00",
-      "lastPrice": 9.98,
-      "lastPriceDisplay": "$9.98",
+      "lastCheckedAt": "2026-09-07T12:31:08.440187+00:00",
+      "lastPrice": 15.99,
+      "lastPriceDisplay": "$15.99",
       "lowestSeenPrice": 9.98,
-      "highestSeenPrice": 9.99,
+      "highestSeenPrice": 15.99,
       "title": "Ear and Nose Hair Trimmer Clipper - 2026 Professional Painless Eyebrow & Facial Hair Trimmer for Men Women,Battery-Operated Trimmer with IPX7 Waterproof,Dual Edge Blades for Easy Cleansing Black",
       "image": "https://m.media-amazon.com/images/I/41MS8RqD5SL._SL160_.jpg",
       "dealSeenAt": "2026-08-07T19:13:49.756604+00:00"
     },
     "B09HYYVB2F": {
       "firstSeenAt": "2026-08-07T19:13:49.756630+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040289+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440226+00:00",
       "lastPrice": 42.48,
       "lastPriceDisplay": "$42.48",
       "lowestSeenPrice": 42.48,
@@ -8867,7 +8869,7 @@
     },
     "B09SVK9YBB": {
       "firstSeenAt": "2026-08-07T19:13:49.756651+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040311+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440248+00:00",
       "lastPrice": 29.98,
       "lastPriceDisplay": "$29.98",
       "lowestSeenPrice": 29.98,
@@ -8878,7 +8880,7 @@
     "B0BMT115J6": {},
     "B0D3J71RM7": {
       "firstSeenAt": "2026-08-07T19:13:49.756681+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040342+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440279+00:00",
       "lastPrice": 99.0,
       "lastPriceDisplay": "$99.00",
       "lowestSeenPrice": 97.0,
@@ -8888,9 +8890,9 @@
     },
     "B0DLB6P986": {
       "firstSeenAt": "2026-08-07T19:13:49.756701+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040367+00:00",
-      "lastPrice": 21.99,
-      "lastPriceDisplay": "$21.99",
+      "lastCheckedAt": "2026-09-07T12:31:08.440305+00:00",
+      "lastPrice": 19.99,
+      "lastPriceDisplay": "$19.99",
       "lowestSeenPrice": 19.99,
       "highestSeenPrice": 21.99,
       "title": "FITRELL 3 Pairs Compression Socks for Women and Men 20-30mmHg - Support for Travel, Running, Nurse, Knee High, Black/Grey/Navy L/XL",
@@ -8898,7 +8900,7 @@
     },
     "B0DY4S3HP2": {
       "firstSeenAt": "2026-08-07T19:13:49.756722+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040392+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440329+00:00",
       "lastPrice": 26.99,
       "lastPriceDisplay": "$26.99",
       "lowestSeenPrice": 26.99,
@@ -8909,7 +8911,7 @@
     },
     "B0FJQCYDFT": {
       "firstSeenAt": "2026-08-07T19:13:49.756742+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040413+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440349+00:00",
       "lastPrice": 17.99,
       "lastPriceDisplay": "$17.99",
       "lowestSeenPrice": 17.99,
@@ -8919,7 +8921,7 @@
     },
     "B0FX33GJ5D": {
       "firstSeenAt": "2026-08-07T19:13:49.756762+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040437+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440373+00:00",
       "lastPrice": 89.98,
       "lastPriceDisplay": "$89.98",
       "lowestSeenPrice": 89.98,
@@ -8930,7 +8932,7 @@
     "B0H22T544C": {},
     "B0H525C38N": {
       "firstSeenAt": "2026-08-07T19:13:49.756791+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040466+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440402+00:00",
       "lastPrice": 379.0,
       "lastPriceDisplay": "$379.00",
       "lowestSeenPrice": 379.0,
@@ -8940,13 +8942,13 @@
     },
     "B000NVBVD6": {
       "firstSeenAt": "2026-08-07T19:13:49.756810+00:00",
-      "lastCheckedAt": "2026-09-04T13:31:40.040489+00:00",
+      "lastCheckedAt": "2026-09-07T12:31:08.440422+00:00",
       "lastPrice": 9.98,
       "lastPriceDisplay": "$9.98",
       "lowestSeenPrice": 7.87,
       "highestSeenPrice": 9.99,
       "title": "Stella & Chewy's Freeze-Dried Raw Chicken Meal Mixers- Dog Food Topper and Mixer - Made with 95% Cage-Free Chicken, Organs & Bone - Perfect for Picky Eaters - Grain-Free - 3.5oz",
-      "image": "https://m.media-amazon.com/images/I/51eH6T+ibEL._SL160_.jpg",
+      "image": "https://m.media-amazon.com/images/I/5100GYI5khL._SL160_.jpg",
       "dealSeenAt": "2026-08-08T18:56:04.758898+00:00"
     },
     "B005IHT880": {
@@ -26602,6 +26604,6 @@
     },
     "B0F24KMYYL": {}
   },
-  "lastRunAt": "2026-09-07T05:58:12.528568+00:00",
+  "lastRunAt": "2026-09-07T12:31:08.440426+00:00",
   "watchlistCount": 2800
 }
