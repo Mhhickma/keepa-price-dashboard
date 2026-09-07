@@ -1,4 +1,4 @@
-﻿const cardsEl = document.getElementById("cards");
+const cardsEl = document.getElementById("cards");
 const selectedCardsEl = document.getElementById("selectedCards");
 const selectedPostingSectionEl = document.getElementById("selectedPostingSection");
 const selectedPostingCountEl = document.getElementById("selectedPostingCount");
@@ -13,11 +13,6 @@ const asinAddStatus = document.getElementById("asinAddStatus");
 const asinBulkRemoveForm = document.getElementById("asinBulkRemoveForm");
 const asinBulkRemoveInput = document.getElementById("asinBulkRemoveInput");
 const asinBulkRemoveStatus = document.getElementById("asinBulkRemoveStatus");
-const creatorCsvUploadForm = document.getElementById("creatorCsvUploadForm");
-const creatorCsvFile = document.getElementById("creatorCsvFile");
-const creatorCsvFileName = document.getElementById("creatorCsvFileName");
-const creatorCsvUploadStatus = document.getElementById("creatorCsvUploadStatus");
-const creatorCsvUploadFrame = document.getElementById("creatorCsvUploadFrame");
 const dashboardMode = document.body.dataset.dashboardMode || "price";
 const dashboardDataUrl = document.body.dataset.dealsUrl || "data/deals.json";
 
@@ -43,8 +38,6 @@ let loadMoreSectionEl = null;
 let loadMoreButtonEl = null;
 let loadMoreSummaryEl = null;
 let loadMoreButtonListenerAttached = false;
-let creatorCsvUploadInProgress = false;
-let creatorCsvUploadFrameResolver = null;
 
 function base64EncodeBytes(bytes) {
   const chunkSize = 0x8000;
@@ -435,148 +428,6 @@ function initAsinBulkRemoveForm() {
       if (button) button.disabled = false;
     }
   });
-}
-
-function selectedCreatorCsvFiles() {
-  return [...(creatorCsvFile.files || [])];
-}
-
-function creatorCsvSelectionLabel(files) {
-  if (files.length === 0) return "Choose CSV files";
-  if (files.length === 1) return files[0].name;
-  return `${files.length} CSV files selected`;
-}
-
-async function mergeCreatorCsvFiles(files) {
-  const rows = [];
-  const seenRows = new Set();
-  let header = "";
-
-  for (const file of files) {
-    const text = await file.text();
-    const lines = text.replace(/^\uFEFF/, "").split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
-    if (lines.length === 0) continue;
-
-    if (!header) {
-      header = lines[0];
-      rows.push(header);
-    }
-
-    lines.slice(1).forEach((line) => {
-      if (!line || line === header || seenRows.has(line)) return;
-      seenRows.add(line);
-      rows.push(line);
-    });
-  }
-
-  if (!header || rows.length <= 1) {
-    throw new Error("No creator connection rows were found in the selected CSV files.");
-  }
-
-  return {
-    text: `${rows.join("\n")}\n`,
-    dataRowCount: rows.length - 1,
-  };
-}
-
-async function creatorCsvFileBase64(file) {
-  return base64EncodeBytes(new Uint8Array(await file.arrayBuffer()));
-}
-
-function postCreatorCsvUpload(fields, label) {
-  return new Promise((resolve, reject) => {
-    const postForm = document.createElement("form");
-    const timeoutId = setTimeout(() => {
-      creatorCsvUploadFrameResolver = null;
-      postForm.remove();
-      reject(new Error(`${label || "The creator CSV upload"} did not respond after 4 minutes.`));
-    }, 240000);
-
-    creatorCsvUploadFrameResolver = () => {
-      clearTimeout(timeoutId);
-      creatorCsvUploadFrameResolver = null;
-      postForm.remove();
-      resolve();
-    };
-
-    postForm.method = "post";
-    postForm.action = REMOVE_ASIN_WEB_APP_URL;
-    postForm.target = "creatorCsvUploadFrame";
-    postForm.hidden = true;
-
-    fields.forEach(([name, value]) => {
-      const input = document.createElement("textarea");
-      input.name = name;
-      input.value = value;
-      postForm.appendChild(input);
-    });
-
-    document.body.appendChild(postForm);
-    postForm.submit();
-  });
-}
-
-function initCreatorCsvUpload() {
-  if (!creatorCsvUploadForm || !creatorCsvFile) return;
-
-  creatorCsvFile.addEventListener("change", () => {
-    const files = selectedCreatorCsvFiles();
-    if (files.length === 0) {
-      creatorCsvFileName.textContent = "Choose CSV files";
-      creatorCsvUploadStatus.textContent = "No file selected.";
-      return;
-    }
-
-    creatorCsvFileName.textContent = creatorCsvSelectionLabel(files);
-    creatorCsvUploadStatus.textContent = `${files.length} file${files.length === 1 ? "" : "s"} ready to merge and upload.`;
-  });
-
-  creatorCsvUploadForm.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    const files = selectedCreatorCsvFiles();
-    if (files.length === 0) {
-      creatorCsvUploadStatus.textContent = "Choose one or more creator connection CSV files first.";
-      return;
-    }
-
-    const invalidFile = files.find((file) => !file.name.toLowerCase().endsWith(".csv"));
-    if (invalidFile) {
-      creatorCsvUploadStatus.textContent = `${invalidFile.name} is not a .csv file.`;
-      return;
-    }
-
-    try {
-      creatorCsvUploadInProgress = true;
-      for (let index = 0; index < files.length; index += 1) {
-        const file = files[index];
-        creatorCsvUploadStatus.textContent = `Uploading CSV ${index + 1} of ${files.length}: ${file.name}`;
-        await postCreatorCsvUpload([
-          ["action", "uploadCreatorCsv"],
-          ["filename", file.name],
-          ["csvBase64", await creatorCsvFileBase64(file)],
-          ["sourceFileCount", String(files.length)],
-          ["fileIndex", String(index)],
-          ["mergeMode", index === 0 ? "replace" : "append"],
-        ], `CSV ${index + 1} of ${files.length} (${file.name})`);
-      }
-
-      creatorCsvUploadStatus.textContent = `Uploaded and merged ${files.length} CSV file${files.length === 1 ? "" : "s"}. Future scans will use it after the repository commit finishes.`;
-      creatorCsvUploadForm.reset();
-      creatorCsvFileName.textContent = "Choose CSV files";
-      creatorCsvUploadInProgress = false;
-    } catch (error) {
-      creatorCsvUploadInProgress = false;
-      creatorCsvUploadStatus.textContent = `Could not upload creator CSV files: ${error.message}`;
-    }
-  });
-
-  if (creatorCsvUploadFrame) {
-    creatorCsvUploadFrame.addEventListener("load", () => {
-      if (creatorCsvUploadFrameResolver) {
-        creatorCsvUploadFrameResolver();
-      }
-    });
-  }
 }
 
 async function cleanSourceSheet() {
@@ -1241,5 +1092,5 @@ searchInput.addEventListener("input", () => applySearch());
 if (sortSelect) sortSelect.addEventListener("change", () => applySearch());
 initAsinAddForm();
 initAsinBulkRemoveForm();
-initCreatorCsvUpload();
+// Creator upload is handled by creator-upload.js.
 loadDeals();

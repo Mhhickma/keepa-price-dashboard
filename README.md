@@ -1,5 +1,9 @@
 # Keepa Price Dashboard
 
+## Creator Connections video opportunities
+
+The existing **Video Opportunities** page now supports strict campaign, commission, apparel, video and sales-growth qualification, with a resumable 100-ASIN test workflow. See [setup, data limitations and operating instructions](INFLUENCER_OPPORTUNITIES.md). The Apps Script upload action must be added to the existing deployed web app before using the new upload controller.
+
 A personal Amazon deal dashboard that scans ASINs with Keepa, keeps recent price drops active for 24 hours, and displays clickable deal cards in a static web page.
 
 ## What It Does
@@ -89,7 +93,7 @@ If the Google Apps Script request fails, the ASIN is queued locally instead. Onc
 
 ## Uploading Creator Connections CSV
 
-The dashboard upload box sends the selected CSV to the connected Google Apps Script web app as `action=uploadCreatorCsv`. Add the handler in `apps-script-creator-upload.js` to that script and set its `GITHUB_TOKEN` Script Property. The handler replaces `Mhhickma/influencer-prospects/creator-connections/latest.csv`, and future Keepa scans read that repository folder when applying Creator campaign data.
+The dashboard upload box streams CSVs into bounded parts and sends `action=uploadCreatorChunk` to the existing Google Apps Script web app. Its handler preserves the CSV bytes in `Mhhickma/Dashboard/data/creator-connections/` and confirms each GitHub save. Add the new action to the deployed script while preserving its other actions; see [the setup guide](INFLUENCER_OPPORTUNITIES.md).
 
 ## Publishing Deals To Publer
 

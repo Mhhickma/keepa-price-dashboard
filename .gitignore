@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+
+.influencer-state/
+.test-output/
