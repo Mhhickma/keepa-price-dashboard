@@ -1,0 +1,10 @@
+{
+  "rootCategory": ["✜7141123011", "✜13727921011", "✜10677469011", "✜18981045011", "✜18145289011", "✜283155", "✜5174", "✜133140011", "✜599858", "✜229534", "✜9013971011"],
+  "productType": ["0"],
+  "videoCount_gte": 1,
+  "videoCount_lte": 4,
+  "hasMainVideo": true,
+  "sort": [["current_SALES", "asc"], ["monthlySold", "desc"]],
+  "perPage": 100,
+  "page": 0
+}
