@@ -163,6 +163,14 @@ class Storage(unittest.TestCase):
 
 
 class Requests(unittest.TestCase):
+    def test_missing_token_telemetry_is_unavailable(self):
+        response=Mock(status_code=200);response.json.return_value={'products':[product()]}
+        session=Mock();session.get.return_value=response
+        api=p.Keepa('test',time.monotonic()+1000,100,session)
+        api.fetch(['B000000001'])
+        self.assertTrue(api.usage_unknown)
+        self.assertIsNone(api.balance)
+
     def test_retry_budget_and_no_secret_in_error(self):
         session=Mock();session.get.side_effect=p.requests.ConnectionError('https://api.keepa.com/?key=private')
         api=p.Keepa('private',time.monotonic()+1000,12,session)

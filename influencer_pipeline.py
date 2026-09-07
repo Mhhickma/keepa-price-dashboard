@@ -289,6 +289,7 @@ class Keepa:
         self.key, self.deadline, self.budget = key, deadline, budget
         self.session = session or requests.Session()
         self.consumed, self.reserved, self.balance, self.refill = 0, 0, None, None
+        self.usage_unknown = False
 
     def fetch(self, asins):
         for attempt in range(5):
@@ -307,6 +308,8 @@ class Keepa:
                 used = number(payload.get("tokensConsumed"))
                 if used is not None:
                     self.consumed += used
+                else:
+                    self.usage_unknown = True
                 self.balance = payload.get("tokensLeft", self.balance)
                 self.refill = payload.get("refillRate", self.refill)
                 if response.status_code == 200 and not payload.get("error") and isinstance(payload.get("products"), list):
@@ -316,7 +319,7 @@ class Keepa:
                 wait = max(number(response.headers.get("Retry-After")) or 0, (number(payload.get("refillIn")) or 0)/1000)
             except (requests.RequestException, ValueError, TypeError, AttributeError):
                 # Never stringify requests exceptions: they can include the API key URL.
-                pass
+                self.usage_unknown = True
             wait = max(wait, 2 ** (attempt + 1) + random.random())
             if time.monotonic() + wait + 65 >= self.deadline:
                 return None, "paused_backoff"
@@ -357,7 +360,7 @@ def export(db, output, args, api, phase):
     atomic_json(output/"failures.json", failures)
     status = dict(updated_at=datetime.now(UTC).isoformat(), phase=phase, pages=pages, counts=counts,
         selected=db.execute("SELECT COUNT(*) FROM selected").fetchone()[0], limit=args.limit, batch_size=args.batch_size,
-        tokens_consumed=api.consumed if api else None, tokens_reserved=api.reserved if api else 0,
+        tokens_consumed=api.consumed if api and not api.usage_unknown else None, tokens_reserved=api.reserved if api else 0,
         tokens_left=api.balance if api else None, refill_rate=api.refill if api else None,
         token_budget=args.token_budget, cache_hours=args.cache_hours, exported=len(rows),
         truncated=counts["evaluated"] > len(rows), failed=db.execute("SELECT COUNT(*) FROM failures").fetchone()[0])
@@ -429,7 +432,7 @@ def main(argv=None):
                             db.execute("""INSERT INTO failures VALUES(?,?,1,?) ON CONFLICT(asin) DO UPDATE SET
                               code=excluded.code,attempts=attempts+1,last_at=excluded.last_at""", (asin, error or "product_missing", time.time()))
                             phase = "completed_with_failures"
-                print(json.dumps({"batch_size": len(batch), "tokens_consumed": api.consumed, "tokens_left": api.balance}))
+                print(json.dumps({"batch_size": len(batch), "tokens_consumed": api.consumed if not api.usage_unknown else None, "tokens_left": api.balance}))
                 if error in {"http_401", "http_402", "http_403"}:
                     phase = error
                     break
