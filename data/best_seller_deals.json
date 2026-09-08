@@ -5,8 +5,8 @@
   "count": 29,
   "deal_count": 29,
   "totalProducts": 29,
-  "updatedAt": "2026-09-08T04:24:03.202699+00:00",
-  "updated_at": "2026-09-08T04:24:03.202709+00:00",
+  "updatedAt": "2026-09-08T09:10:17.569784+00:00",
+  "updated_at": "2026-09-08T09:10:17.569796+00:00",
   "deal_ttl_hours": 23,
   "creator_campaign_deal_count": 2,
   "creator_connections": {
@@ -16,6 +16,74 @@
     "path": "data/creator-connections"
   },
   "deals": [
+    {
+      "asin": "B09RZS3B83",
+      "title": "SOJOS Retro Aviator Sunglasses Women Men Trendy Rectangle Shades SJ2202C3",
+      "brand": "SOJOS",
+      "cat": "Clothing, Shoes & Jewelry",
+      "image": "https://m.media-amazon.com/images/I/31x4EN7AwAL._SL160_.jpg",
+      "image_candidates": [
+        "https://m.media-amazon.com/images/I/31x4EN7AwAL._SL160_.jpg"
+      ],
+      "current_price": 13.59,
+      "avg_7_price": 15.99,
+      "min_7_price": 13.59,
+      "avg_30_price": 15.99,
+      "drop_percent": 15,
+      "drop_30_percent": 0,
+      "price": "$13.59",
+      "price_amount": 13.59,
+      "currency": "USD",
+      "availability": "IN_STOCK",
+      "amazon_url": "https://www.amazon.com/dp/B09RZS3B83?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "link": "https://www.amazon.com/dp/B09RZS3B83?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "desc": "SOJOS",
+      "posted_at": "2026-08-24T23:36:55.165955+00:00",
+      "first_seen_at": "2026-08-24T23:36:55.165955+00:00",
+      "checked_at": "2026-09-08T09:10:17.543636+00:00",
+      "last_checked_at": "2026-09-08T09:10:17.543636+00:00",
+      "expires_at": "2026-09-09T08:10:17.543638+00:00",
+      "seen_at": "2026-08-24T23:36:55.165955+00:00",
+      "updated_at": "2026-09-08T09:10:17.543636+00:00",
+      "qualification_reasons": [
+        "saved_price_drop",
+        "amazon_savings_drop"
+      ]
+    },
+    {
+      "asin": "B0GDWTXGPV",
+      "title": "Forvencer Academic Planner 2026-2027, Calendar Jul 2026-Jun 2027, 8.5\"x11\"",
+      "brand": "Forvencer",
+      "cat": "Office Products",
+      "image": "https://m.media-amazon.com/images/I/41Z9x1OfgXL._SL160_.jpg",
+      "image_candidates": [
+        "https://m.media-amazon.com/images/I/41Z9x1OfgXL._SL160_.jpg"
+      ],
+      "current_price": 14.98,
+      "avg_7_price": 16.99,
+      "min_7_price": 14.98,
+      "avg_30_price": 16.99,
+      "drop_percent": 12,
+      "drop_30_percent": 0,
+      "price": "$14.98",
+      "price_amount": 14.98,
+      "currency": "USD",
+      "availability": "IN_STOCK_SCARCE",
+      "amazon_url": "https://www.amazon.com/dp/B0GDWTXGPV?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "link": "https://www.amazon.com/dp/B0GDWTXGPV?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
+      "desc": "Forvencer",
+      "posted_at": "2026-09-08T09:10:17.543072+00:00",
+      "first_seen_at": "2026-09-08T09:10:17.543072+00:00",
+      "checked_at": "2026-09-08T09:10:17.543072+00:00",
+      "last_checked_at": "2026-09-08T09:10:17.543072+00:00",
+      "expires_at": "2026-09-09T08:10:17.543074+00:00",
+      "seen_at": "2026-09-08T09:10:17.543072+00:00",
+      "updated_at": "2026-09-08T09:10:17.543072+00:00",
+      "qualification_reasons": [
+        "saved_price_drop",
+        "amazon_savings_drop"
+      ]
+    },
     {
       "asin": "B0H143578Z",
       "title": "Portable Baby Sound Machine & Essentials for Babies & Kids-Purple",
@@ -952,74 +1020,6 @@
       "expires_at": "2026-09-08T11:31:08.437877+00:00",
       "seen_at": "2026-08-11T00:08:55.084503+00:00",
       "updated_at": "2026-09-07T12:31:08.437874+00:00",
-      "qualification_reasons": [
-        "saved_price_drop",
-        "amazon_savings_drop"
-      ]
-    },
-    {
-      "asin": "B00QIT9NDW",
-      "title": "Lysol All Purpose Cleaner Spray, Disinfectant, Lemon, 32oz",
-      "brand": "Lysol",
-      "cat": "Health & Household",
-      "image": "https://m.media-amazon.com/images/I/417FJNuwwdL._SL160_.jpg",
-      "image_candidates": [
-        "https://m.media-amazon.com/images/I/417FJNuwwdL._SL160_.jpg"
-      ],
-      "current_price": 3.84,
-      "avg_7_price": 4.27,
-      "min_7_price": 3.84,
-      "avg_30_price": 4.27,
-      "drop_percent": 10,
-      "drop_30_percent": 0,
-      "price": "$3.84",
-      "price_amount": 3.84,
-      "currency": "USD",
-      "availability": "IN_STOCK",
-      "amazon_url": "https://www.amazon.com/dp/B00QIT9NDW?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "link": "https://www.amazon.com/dp/B00QIT9NDW?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "desc": "Lysol",
-      "posted_at": "2026-08-08T17:43:38.032678+00:00",
-      "first_seen_at": "2026-08-08T17:43:38.032678+00:00",
-      "checked_at": "2026-09-07T05:58:12.528538+00:00",
-      "last_checked_at": "2026-09-07T05:58:12.528538+00:00",
-      "expires_at": "2026-09-08T04:58:12.528539+00:00",
-      "seen_at": "2026-08-08T17:43:38.032678+00:00",
-      "updated_at": "2026-09-07T05:58:12.528538+00:00",
-      "qualification_reasons": [
-        "saved_price_drop",
-        "amazon_savings_drop"
-      ]
-    },
-    {
-      "asin": "B07TDN9MKC",
-      "title": "Philips Avent Soothie Baby Pacifier for 0-3 Months, BPA-Free, 4-Pack, Green",
-      "brand": "Philips Avent",
-      "cat": "Baby Products",
-      "image": "https://m.media-amazon.com/images/I/41iTGY7NSwL._SL160_.jpg",
-      "image_candidates": [
-        "https://m.media-amazon.com/images/I/41iTGY7NSwL._SL160_.jpg"
-      ],
-      "current_price": 9.51,
-      "avg_7_price": 11.86,
-      "min_7_price": 9.51,
-      "avg_30_price": 11.86,
-      "drop_percent": 20,
-      "drop_30_percent": 0,
-      "price": "$9.51",
-      "price_amount": 9.51,
-      "currency": "USD",
-      "availability": "IN_STOCK",
-      "amazon_url": "https://www.amazon.com/dp/B07TDN9MKC?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "link": "https://www.amazon.com/dp/B07TDN9MKC?tag=simplewoodsho-20&linkCode=ogi&th=1&psc=1",
-      "desc": "Philips Avent",
-      "posted_at": "2026-09-07T05:58:12.526839+00:00",
-      "first_seen_at": "2026-09-07T05:58:12.526839+00:00",
-      "checked_at": "2026-09-07T05:58:12.526839+00:00",
-      "last_checked_at": "2026-09-07T05:58:12.526839+00:00",
-      "expires_at": "2026-09-08T04:58:12.526840+00:00",
-      "seen_at": "2026-09-07T05:58:12.526839+00:00",
-      "updated_at": "2026-09-07T05:58:12.526839+00:00",
       "qualification_reasons": [
         "saved_price_drop",
         "amazon_savings_drop"
